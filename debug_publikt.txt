@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html  lang="sv" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.publikt.se/" />
+<link rel="shortlink" href="https://www.publikt.se/" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta property="fb:app_id" content="858358084290269" />
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  // Add a place to store the slot name variable.
+  googletag.slots = googletag.slots || {};
+
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+      '//securepubads.g.doubleclick.net/tag/js/gpt.js';
+
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    gads.src = src;
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    
+  })();
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+  
+  googletag.slots["pub_square_8"] = googletag.defineSlot("//389866631/PUB_Square_8", [[200, 66], [200, 150], [200, 200], [200, 300], [200, 400]], "js-dfp-tag-pub_square_8")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+  
+  googletag.slots["pub_square_7"] = googletag.defineSlot("//389866631/PUB_Square_7", [[200, 66], [200, 150], [200, 200], [200, 300], [200, 400]], "js-dfp-tag-pub_square_7")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+  
+  googletag.slots["pub_square_6"] = googletag.defineSlot("//389866631/PUB_Square_6", [[200, 66], [200, 150], [200, 200], [200, 300], [200, 400]], "js-dfp-tag-pub_square_6")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+  
+  googletag.slots["pub_square_5"] = googletag.defineSlot("//389866631/PUB_Square_5", [[200, 66], [200, 150], [200, 200], [200, 300], [200, 400]], "js-dfp-tag-pub_square_5")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+  
+  googletag.slots["pub_square_4"] = googletag.defineSlot("//389866631/PUB_Square_4", [[200, 66], [200, 150], [200, 200], [200, 300], [200, 400]], "js-dfp-tag-pub_square_4")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+  
+  googletag.slots["pub_square_3"] = googletag.defineSlot("//389866631/PUB_Square_3", [[200, 66], [200, 150], [200, 200], [200, 300], [200, 400]], "js-dfp-tag-pub_square_3")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+  
+  googletag.slots["pub_square_2"] = googletag.defineSlot("//389866631/PUB_Square_2", [[200, 66], [200, 150], [200, 200], [200, 300], [200, 400]], "js-dfp-tag-pub_square_2")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [[320, 320], [320, 356]])
+              .addSize([360, 0], [[360, 720], [360, 360], [360, 400]])
+            .build();
+  
+  googletag.slots["pub_square_1"] = googletag.defineSlot("//389866631/PUB_Square_1", [[360, 720], [360, 360], [360, 400], [320, 320], [320, 356]], "js-dfp-tag-pub_square_1")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+  });
+
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [[320, 50], [320, 160], [320, 320]])
+              .addSize([500, 0], [468, 120])
+              .addSize([1200, 0], [[728, 120], [728, 90]])
+            .build();
+  
+  googletag.slots["pub_panorama"] = googletag.defineSlot("//389866631/PUB_Panorama", [[728, 90], [728, 120], [468, 120], [320, 50], [320, 160], [320, 320]], "js-dfp-tag-pub_panorama")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+  });
+
+</script>
+<script type="text/javascript">
+googletag.cmd.push(function() {
+
+      googletag.pubads().enableAsyncRendering();
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.pubads().disableInitialLoad();
+    
+  googletag.enableServices();
+});
+
+</script>
+<link rel="icon" href="/themes/custom/publikt/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Sidan hittades inte | Publikt</title>
+    <link rel="stylesheet" media="all" href="/sites/publikt/files/css/css_foVa-7UOku9_ic31IKpaOuxCLloCdvaxVELH5FSQzTs.css?delta=0&amp;language=sv&amp;theme=publikt&amp;include=eJxlzUEKwzAMRNELGftIRYrlJsSyhGTX9PYtISSFbmbxZvFRpHs30FQMmKbYHhQMnl9aPWUbCjXeEkfTgXXzlXLwt3fihOAUXhtNT8dGljzqSQ-8CouwSqPWPUzCIsY_5598AJnePds" />
+<link rel="stylesheet" media="all" href="/sites/publikt/files/css/css_JVc5uWugdO2zhZ_YbprWK6OenS-CkueinSLakRdDkn0.css?delta=1&amp;language=sv&amp;theme=publikt&amp;include=eJxlzUEKwzAMRNELGftIRYrlJsSyhGTX9PYtISSFbmbxZvFRpHs30FQMmKbYHhQMnl9aPWUbCjXeEkfTgXXzlXLwt3fihOAUXhtNT8dGljzqSQ-8CouwSqPWPUzCIsY_5598AJnePds" />
+
+    
+  </head>
+  <body class="path-fordjupning has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Hoppa till huvudinnehåll
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <script src="https://kit.fontawesome.com/8a63a95824.js"></script>
+
+<header id="navbar" role="banner">
+  <button type="button" class="navbar-toggle glyphicon glyphicon-menu-hamburger hidden-sm hidden-md hidden-lg hidden-print" data-toggle="collapse" data-target="#navbar-collapse"></button>
+  <button type="button" class="search-toggle navbar-toggle glyphicon glyphicon-search hidden-sm hidden-md hidden-lg hidden-print" data-toggle="collapse" data-target="#search-form"></button>
+
+  <div class="navbar-header">
+    <div class="container">
+      <div class="logo">
+        <a href="/">
+          <img src="/themes/custom/publikt/logo.png" alt="Publikt" class="img-responsive" />
+        </a>
+
+        <span class="published-by">
+          GES UT AV <a href="https://st.org" target="_blank">FACKFÖRBUNDET ST</a>
+        </span>
+      </div>
+
+      <div class="menu navbar-collapse collapse" id="navbar-collapse">
+        <nav role="navigation">
+          <ul class="menu menu--main nav navbar-nav">
+                                                        <li class="nyheter">
+                  <a href="/nyhet" >
+                    Nyheter
+                  </a>
+                </li>
+                                                                      
+                <li class="fördjupning dropdown">
+                                      <a href="/fordjupning" class="dropdown-toggle is-active" data-toggle="dropdown">
+                      <span class="hidden-xs">+ </span>Fördjupning
+                    </a>
+                  
+                  <ul class="dropdown-menu">
+                                          <li>
+                        <a href="/fordjupning/reportage">
+                          - Reportage
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/fordjupning/pa-djupet" class="is-active">
+                          - På djupet
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/fordjupning/intervjuer">
+                          - Intervjuer
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/fordjupning/kort-om">
+                          - Kort om
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/fordjupning/sa-gick-det">
+                          - Så gick det
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/fordjupning/min-fritid">
+                          - Min fritid
+                        </a>
+                      </li>
+                                      </ul>
+                </li>
+                                                                                    
+                <li class="på jobbet dropdown">
+                                      <a href="/pa-jobbet" class="dropdown-toggle" data-toggle="dropdown">
+                      <span class="hidden-xs">+ </span>På jobbet
+                    </a>
+                  
+                  <ul class="dropdown-menu">
+                                          <li>
+                        <a href="/pa-jobbet/rad-om-jobbet">
+                          - Råd om jobbet
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/pa-jobbet/pa-mitt-jobb">
+                          - På mitt jobb
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/pa-jobbet/sa-gjorde-vi">
+                          - Så gjorde vi
+                        </a>
+                      </li>
+                                      </ul>
+                </li>
+                                                                                    
+                <li class="kultur dropdown">
+                                      <a href="/kultur" class="dropdown-toggle" data-toggle="dropdown">
+                      <span class="hidden-xs">+ </span>Kultur
+                    </a>
+                  
+                  <ul class="dropdown-menu">
+                                          <li>
+                        <a href="/kultur/kulturartiklar">
+                          - Kulturartiklar
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/kultur/robert-nyberg">
+                          - Robert Nyberg
+                        </a>
+                      </li>
+                                      </ul>
+                </li>
+                                                                                    
+                <li class="åsikter dropdown">
+                                      <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                      <span class="hidden-xs">+ </span>Åsikter
+                    </a>
+                  
+                  <ul class="dropdown-menu">
+                                          <li>
+                        <a href="/ledare">
+                          - Ledare
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/debatt">
+                          - Debatt
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/kronika">
+                          - Krönikor
+                        </a>
+                      </li>
+                                      </ul>
+                </li>
+                                                                                                      <li class="site-switch">
+                    <span class="seperator hidden-xs">|</span>
+                    <a href="https://chef.publikt.se">Publikt Chef</a>
+                  </li>
+
+                  <li class="search hidden-xs">
+                    <i class="glyphicon glyphicon-search" data-toggle="collapse" data-target="#search-form"></i>
+                  </li>
+                
+                <li class="extra dropdown">
+                                      <i class="glyphicon glyphicon-menu-hamburger dropdown-toggle hidden-xs" data-toggle="dropdown"></i>
+                  
+                  <ul class="dropdown-menu">
+                                          <li>
+                        <a href="/info/om-publikt-13343">
+                          - Om Publikt
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/info/redaktionen-13345">
+                          - Kontakt
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/info/publikts-distribution-19065">
+                          - Distribution
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/info/jobba-pa-publikt-21532">
+                          - Jobba för Publikt
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://publikt.ocast.com/">
+                          - Annonsera
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/tipsa-oss/">
+                          - Tipsa Publikt
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/personuppgiftshantering">
+                          - Personuppgiftshantering
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="/cookies">
+                          - Cookies
+                        </a>
+                      </li>
+                                      </ul>
+                </li>
+                                                </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar-search collapse" id="search-form">
+    <div class="container">
+      <form action="/sok" method="GET">
+        <input type="text" class="form-control" placeholder="Sök på www.publikt.se" name="sokord" />
+        <i class="glyphicon glyphicon-search"></i>
+        <button class="btn btn-primary hidden" type="submit"></button>
+      </form>
+    </div>
+  </div>
+
+  <div class="navbar-latest-news">
+    <div class="container">
+      <div class="views-element-container form-group">  
+      <!--googleoff: all-->
+  
+  <div class="view view-article-latest-news view-id-article_latest_news view-display-id-default js-view-dom-id-7f71973f537d4852b7b3def42c7429b7df6c261718c9fdb1bfae8fb7bfae4939">
+    
+        
+
+    
+            
+          <div class="view-content">
+        
+
+<div id="views-bootstrap-article-latest-news-default" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="" data-wrap="1">
+
+        <ol class="carousel-indicators">
+                              <li class="active" data-target="#views-bootstrap-article-latest-news-default" data-slide-to="0"></li>
+                                      <li class="" data-target="#views-bootstrap-article-latest-news-default" data-slide-to="1"></li>
+                                      <li class="" data-target="#views-bootstrap-article-latest-news-default" data-slide-to="2"></li>
+                  </ol>
+  
+    <div class="carousel-inner" role="listbox">
+                                <div  class="item row active">
+            <div class="col-md-12">
+                
+                  <div class="carousel-caption">
+                          <h3><span class="entry">Arbetsmarknad</span> <a href="/nyhet/jobb-pa-distans-kan-oka-inkludering-27521">Jobb på distans kan öka inkludering</a> <span class="date">2025-12-08 </span></h3>
+                                  </div>
+                      </div>
+              </div>
+                                      <div  class="item row">
+            <div class="col-md-12">
+                
+                  <div class="carousel-caption">
+                          <h3><span class="entry">Statsförvaltning</span> <a href="/nyhet/effektivisering-frigjorde-resurser-27520">Effektivisering frigjorde resurser</a> <span class="date">2025-12-08 </span></h3>
+                                  </div>
+                      </div>
+              </div>
+                                      <div  class="item row">
+            <div class="col-md-12">
+                
+                  <div class="carousel-caption">
+                          <h3><span class="entry">Migrationsverket</span> <a href="/nyhet/arbetsgivaren-lyssnade-inte-pa-fackets-varningar-27511">”Arbetsgivaren lyssnade inte på fackets varningar”</a> <span class="date">2025-12-09 </span></h3>
+                                  </div>
+                      </div>
+              </div>
+            </div>
+
+    </div>
+
+      </div>
+    
+                      </div>
+
+      <!--googleon: all-->
+  
+</div>
+
+    </div>
+  </div>
+</header>
+
+  <div role="main" class="main-container container js-quickedit-main-content">
+    <div class="row">
+
+                              <div class="highlighted col-xs-12">
+              <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+          </div>
+              
+                  <section class="main-section col-sm-12 col-md-8">
+
+                          <a id="main-content"></a>
+            <div class="region region-content">
+    <section id="block-publikt-slugpanorama" class="block block-publikt-custom block-slug-panorama clearfix">
+  
+    
+
+  <div class="block-content">
+          <p id="slug-panorama">Annons:</p>
+      </div>
+</section>
+
+<section id="block-dfptagpub-panorama" class="block block-dfp block-dfp-ad86f9b902-ff7f-4b81-8f14-a4c35e422da5 clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_panorama" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_panorama');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+  Den valda sidan kunde inte hittas.
+
+  </div>
+
+              </section>
+
+                               <aside class="col-sm-12 col-md-4" role="complementary">
+              <div class="region region-sidebar">
+    <section id="block-dfptagpub-square-1" class="block block-dfp block-dfp-ad9bb233bb-1821-4ec3-882e-959d316cce01 clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_1" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_1');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+<section class="views-element-container block block-views block-views-blockarticle-most-read-block-most-read clearfix" id="block-views-block-article-most-read-block-most-read">
+  
+      <h2 class="block-title">MEST LÄSTA</h2>
+    
+
+  <div class="block-content">
+          <div class="form-group">  
+      <!--googleoff: all-->
+  
+  <div class="view view-article-most-read view-id-article_most_read view-display-id-block_most_read js-view-dom-id-e65fca7a521423dae142fa26c1875a4aa28be2becfa5e6dc2db6ab5e0f4ae8c7">
+    
+        
+
+    
+          <div class="view-header">
+        <div class="bar">
+  <span>Mest lästa</span>
+</div>
+      </div>
+            
+          <div class="view-content">
+        <div class="item-list">
+  
+  <ol>
+
+          <li><div class="views-field views-field-title"><span class="field-content"><a href="/nyhet/skatteverket-flyttar-jobb-fran-skovde-och-karlskrona-27512" hreflang="sv">Skatteverket flyttar jobb från Skövde och Karlskrona</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a href="/nyhet/effektivisering-frigjorde-resurser-27520" hreflang="sv">Effektivisering frigjorde resurser</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a href="/nyhet/anstalld-kan-forlora-jobbet-pa-grund-av-skulder-27504" hreflang="sv">Anställd kan förlora jobbet på grund av skulder</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a href="/nyhet/anstallda-vittnar-om-tystnadskultur-pa-museet-27515" hreflang="sv">Anställda vittnar om tystnadskultur på museet</a></span></div></li>
+          <li><div class="views-field views-field-title"><span class="field-content"><a href="/nyhet/jobb-pa-distans-kan-oka-inkludering-27521" hreflang="sv">Jobb på distans kan öka inkludering</a></span></div></li>
+    
+  </ol>
+
+</div>
+
+      </div>
+    
+                      </div>
+
+      <!--googleon: all-->
+  
+</div>
+
+      </div>
+</section>
+
+<section class="views-element-container block block-views block-views-blockcatalog-latest-block-1 clearfix" id="block-views-block-catalog-latest-block-1">
+  
+    
+
+  <div class="block-content">
+          <div class="form-group">  
+  
+  <div class="view view-catalog-latest view-id-catalog_latest view-display-id-block_1 js-view-dom-id-9310b5896c890dca3bb37427fbe877d0a90231771d7f91a6bdb301b2ed3027fb">
+    
+        
+
+    
+            
+          <div class="view-content">
+            <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="bar">
+  <a href="/utgava/nr-6-2025">Senaste numret</a>
+</div></span></div><div class="views-field views-field-field-media-image"><div class="field-content"><a href="/utgava/nr-6-2025">  <img loading="lazy" src="/sites/publikt/files/styles/150x0/public/2025-11/Etta%20nr%206-2026.png?itok=EvbWIizt" width="150" height="195" alt="" class="img-responsive" />
+
+
+</a></div></div><div class="views-field views-field-name"><span class="field-content"><a href="/utgava/nr-6-2025">Artiklar i <span>Nr 6 2025</span></a></span></div></div>
+
+      </div>
+    
+                      </div>
+
+  
+</div>
+
+      </div>
+</section>
+
+<section class="views-element-container block block-views block-views-blockarticle-teasers-block-sidebar clearfix" id="block-views-block-article-teasers-block-sidebar">
+  
+    
+
+  <div class="block-content">
+          <div class="form-group">  
+      <!--googleoff: all-->
+  
+  <div class="view view-article-teasers view-id-article_teasers view-display-id-block_sidebar js-view-dom-id-ea3429da59768702c121ff86e3c8f098fd988c165d71eb23efed747ae43220e9">
+    
+        
+
+    
+            
+          <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li><article class="article teaser clearfix category-info">
+  
+      <div class="image top col-xs-12">
+      <a href="/nyhetsbrev">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/360x0/public/2021-07/phone%20%281%29.jpg?itok=3W0r8Jvn 1x" media="all and (min-width: 1200px)" type="image/jpeg" width="360" height="189"/>
+              <source srcset="/sites/publikt/files/styles/293x0/public/2021-07/phone%20%281%29.jpg?itok=x_Izwkj7 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/jpeg" width="293" height="154"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2021-07/phone%20%281%29.jpg?itok=Xf7UGLWU 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/jpeg" width="724" height="380"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2021-07/phone%20%281%29.jpg?itok=7-b3eJVy 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/jpeg" width="450" height="236"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2021-07/phone%20%281%29.jpg?itok=3W0r8Jvn 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/jpeg" width="360" height="189"/>
+                  <img width="724" height="380" src="/sites/publikt/files/2021-07/phone%20%281%29.jpg" alt="" loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+              </div>
+
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/nyhetsbrev" rel="bookmark">Anmäl dig till Publikts nyhetsbrev</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">NYHETSBREV: ANMÄLAN</span><span class="date">2021-04-27</span>  </div>
+
+  <div class="preamble">
+    <p>Publikts nyhetsbrev ger dig aktuella nyheter från Publikt direkt till din inkorg.</p>
+  </div>
+
+  
+  </article>
+</li>
+          <li><article class="webform teaser clearfix">
+  <h2>
+    <a href="/tipsa-publikt" rel="bookmark">Tipsa Publikt</a>
+  </h2>
+
+  <div class="content">
+    
+  </div>
+</article>
+</li>
+          <li><article class="article teaser clearfix category-reportage">
+  
+      <div class="image top col-xs-12">
+      <a href="/fordjupning/reportage/anstallda-kritiska-till-planer-pa-fjarrstyrda-farjor-27421">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Reportage-6-2025_topp%2Bpuff%2Blista.png?itok=RIkPJFsg 1x" media="all and (min-width: 1200px)" type="image/png" width="360" height="240"/>
+              <source srcset="/sites/publikt/files/styles/293x0/public/2025-10/Reportage-6-2025_topp%2Bpuff%2Blista.png?itok=48KC4YXb 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/png" width="293" height="195"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Reportage-6-2025_topp%2Bpuff%2Blista.png?itok=AXqDqSI1 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2025-10/Reportage-6-2025_topp%2Bpuff%2Blista.png?itok=g37-TJY4 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/png" width="450" height="300"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Reportage-6-2025_topp%2Bpuff%2Blista.png?itok=RIkPJFsg 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/png" width="360" height="240"/>
+                  <img width="1200" height="800" src="/sites/publikt/files/2025-10/Reportage-6-2025_topp%2Bpuff%2Blista.png" alt="Färjemaskinisten Henrik Sjödahl arbetar på Trafik­verkets färjerederi. Nu är han på väg upp till bryggan på Pluto på Ekeröleden. Men rederiet förbereder för fjärrstyrning av färjor, och i Solna har en simulatoranläggning byggts för att testa nya autonoma eller ”smarta” färjor." loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+              </div>
+
+              <div class="caption">
+          Färjemaskinisten Henrik Sjödahl arbetar på Trafik­verkets färjerederi. Nu är han på väg upp till bryggan på Pluto på Ekeröleden. Men rederiet förbereder för fjärrstyrning av färjor, och i Solna har en simulatoranläggning byggts för att testa nya autonoma eller ”smarta” färjor.
+        </div>
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/fordjupning/reportage/anstallda-kritiska-till-planer-pa-fjarrstyrda-farjor-27421" rel="bookmark">Anställda kritiska till planer på fjärrstyrda färjor</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">REPORTAGE: TRAFIKVERKET</span><span class="date">2025-10-24</span>  </div>
+
+  <div class="preamble">
+    <p>Färjemaskinisten Henrik Sjödahl älskar ljudet, lukten och rytmen ombord. Men nu planerar Trafikverkets färjerederi för att införa fjärrstyrda färjor – ett miljardprojekt som mötts av protester. Fack och anställda varnar för säkerhetsrisker och arbetsmiljöproblem när jobben flyttar från sjön till ett kontor i Solna.</p>
+  </div>
+
+  
+  </article>
+</li>
+          <li><article class="article teaser clearfix category-sa gjorde vi">
+  
+      <div class="image top col-xs-12">
+      <a href="/pa-jobbet/sa-gjorde-vi/medarbetare-satter-varde-pa-satsning-pa-kunskapsutbyte-27443">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/S%C3%A5-gjorde-vi-6-2025_topp%2Bpuff%2Blista.png?itok=fSRaas2c 1x" media="all and (min-width: 1200px)" type="image/png" width="360" height="240"/>
+              <source srcset="/sites/publikt/files/styles/293x0/public/2025-10/S%C3%A5-gjorde-vi-6-2025_topp%2Bpuff%2Blista.png?itok=zs69kNVP 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/png" width="293" height="195"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/S%C3%A5-gjorde-vi-6-2025_topp%2Bpuff%2Blista.png?itok=P3KdcFoP 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2025-10/S%C3%A5-gjorde-vi-6-2025_topp%2Bpuff%2Blista.png?itok=XJZC4h9F 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/png" width="450" height="300"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/S%C3%A5-gjorde-vi-6-2025_topp%2Bpuff%2Blista.png?itok=fSRaas2c 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/png" width="360" height="240"/>
+                  <img width="1200" height="800" src="/sites/publikt/files/2025-10/S%C3%A5-gjorde-vi-6-2025_topp%2Bpuff%2Blista.png" alt="Det är positivt att arbetsgivaren uppmuntrar till kompetens­utveckling, tycker Lennart Lindkvist, fastighetsansvarig på Energimyndig­heten, och Petra Lindblom Haddad, STs avdelnings­ordförande." loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+              </div>
+
+              <div class="caption">
+          Det är positivt att arbetsgivaren uppmuntrar till kompetens­utveckling, tycker Lennart Lindkvist, fastighetsansvarig på Energimyndig­heten, och Petra Lindblom Haddad, STs avdelnings­ordförande.
+        </div>
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/pa-jobbet/sa-gjorde-vi/medarbetare-satter-varde-pa-satsning-pa-kunskapsutbyte-27443" rel="bookmark">Medarbetare sätter värde på satsning på kunskapsutbyte</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">SÅ GJORDE VI: ENERGIMYNDIGHETEN</span><span class="date">2025-11-03</span>  </div>
+
+  <div class="preamble">
+    <p>Kompetensveckan är Energimyndighetens egen kunskapsloppis. En gång om året delar medarbetarna erfarenheter och lärdomar i seminarier och workshoppar. ”En förmån”, säger ST-medlemmen Lennart Lindkvist.</p>
+  </div>
+
+  
+  </article>
+</li>
+          <li><article class="article teaser clearfix category-kort om">
+  
+      <div class="image top col-xs-12">
+      <a href="/fordjupning/kort-om/fackets-rattshjalp-kan-ge-stod-i-domstol-27448">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Kort-om-6-2025_topp%2Bpuff%2Blist.png?itok=xAKkb7WB 1x" media="all and (min-width: 1200px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/617x0/public/2025-10/Kort-om-6-2025_topp%2Bpuff%2Blist.png?itok=DY3CPDwO 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/png" width="617" height="411"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Kort-om-6-2025_topp%2Bpuff%2Blist.png?itok=xAKkb7WB 1x" media="all and (min-width: 768px) and (max-width: 991px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Kort-om-6-2025_topp%2Bpuff%2Blist.png?itok=xAKkb7WB 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2025-10/Kort-om-6-2025_topp%2Bpuff%2Blist.png?itok=byvNs91O 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/png" width="450" height="300"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Kort-om-6-2025_topp%2Bpuff%2Blist.png?itok=ovr9zlhW 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/png" width="360" height="240"/>
+                  <img width="1200" height="800" src="/sites/publikt/files/2025-10/Kort-om-6-2025_topp%2Bpuff%2Blist.png" alt="" loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+                  <div class="copy">
+            Bild: Getty Images
+          </div>
+              </div>
+
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/fordjupning/kort-om/fackets-rattshjalp-kan-ge-stod-i-domstol-27448" rel="bookmark">Fackets rättshjälp kan ge stöd i domstol</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">KORT OM: RÄTTSHJÄLP</span><span class="date">2025-11-03</span>  </div>
+
+  <div class="preamble">
+    <p>När en anställd och en arbetsgivare inte kommer överens kan en domstolsprocess ibland vara den enda vägen framåt. Medlemmar i ST kan då beviljas rättshjälp av sitt fackförbund.</p>
+  </div>
+
+  
+  </article>
+</li>
+          <li><article class="article teaser clearfix category-sa gick det">
+  
+      <div class="image top col-xs-12">
+      <a href="/fordjupning/sa-gick-det/uppskattat-stod-till-handlaggare-forsvann-27444">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/S%C3%A5-gick-det-6-2025_uppslag-enkel_topp.png?itok=10YV0veR 1x" media="all and (min-width: 1200px)" type="image/png" width="360" height="240"/>
+              <source srcset="/sites/publikt/files/styles/293x0/public/2025-10/S%C3%A5-gick-det-6-2025_uppslag-enkel_topp.png?itok=vRKUla-a 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/png" width="293" height="195"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/S%C3%A5-gick-det-6-2025_uppslag-enkel_topp.png?itok=2DxF5Anr 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2025-10/S%C3%A5-gick-det-6-2025_uppslag-enkel_topp.png?itok=qITH8_Tb 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/png" width="450" height="300"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/S%C3%A5-gick-det-6-2025_uppslag-enkel_topp.png?itok=10YV0veR 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/png" width="360" height="240"/>
+                  <img width="1200" height="800" src="/sites/publikt/files/2025-10/S%C3%A5-gick-det-6-2025_uppslag-enkel_topp.png" alt="Ur Publikt nummer 3 2023. " loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+              </div>
+
+              <div class="caption">
+          Ur Publikt nummer 3 2023. 
+        </div>
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/fordjupning/sa-gick-det/uppskattat-stod-till-handlaggare-forsvann-27444" rel="bookmark">Uppskattat stöd till handläggare försvann</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">SÅ GICK DET: LÄNSSTYRELSEN I VÄSTRA GÖTALANDS LÄN</span><span class="date">2025-11-03</span>  </div>
+
+  <div class="preamble">
+    <p>2022&nbsp;anställde Länsstyrelsen i Västra Götalands län en handfull handläggare som skulle stötta vid vakanser eller tillfälliga uppdrag. Men nu är handläggarstödet borttaget. ”Det är tråkigt att det inte blev som vi hoppats”, säger STs sektionsordförande Martin Dahl.</p>
+  </div>
+
+  
+  </article>
+</li>
+          <li><article class="article teaser clearfix category-pa mitt jobb">
+  
+      <div class="image top col-xs-12">
+      <a href="/pa-jobbet/pa-mitt-jobb/han-foljer-det-svenska-fisket-27447">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Hej-medlem-6-2025_topp%2Bpuff%2Blista.png?itok=O3_v39IW 1x" media="all and (min-width: 1200px)" type="image/png" width="360" height="240"/>
+              <source srcset="/sites/publikt/files/styles/293x0/public/2025-10/Hej-medlem-6-2025_topp%2Bpuff%2Blista.png?itok=ITj7Suxg 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/png" width="293" height="195"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Hej-medlem-6-2025_topp%2Bpuff%2Blista.png?itok=BIk1hppn 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2025-10/Hej-medlem-6-2025_topp%2Bpuff%2Blista.png?itok=oQV-8gkn 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/png" width="450" height="300"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Hej-medlem-6-2025_topp%2Bpuff%2Blista.png?itok=O3_v39IW 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/png" width="360" height="240"/>
+                  <img width="1200" height="800" src="/sites/publikt/files/2025-10/Hej-medlem-6-2025_topp%2Bpuff%2Blista.png" alt="På frågan ”Vad kan du inte vara utan på jobbet?” svarar Johan Ottander: ”Ska jag välja en fysisk sak får det bli mina glasögon. Men jag behöver även mina kollegor och Sjöbasis, Kustbevakningens system som vi använder för sjöövervakning.”" loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+              </div>
+
+              <div class="caption">
+          På frågan ”Vad kan du inte vara utan på jobbet?” svarar Johan Ottander: ”Ska jag välja en fysisk sak får det bli mina glasögon. Men jag behöver även mina kollegor och Sjöbasis, Kustbevakningens system som vi använder för sjöövervakning.”
+        </div>
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/pa-jobbet/pa-mitt-jobb/han-foljer-det-svenska-fisket-27447" rel="bookmark">Han följer det svenska fisket</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">PÅ MITT JOBB</span><span class="date">2025-11-03</span>  </div>
+
+  <div class="preamble">
+    <p>I sitt arbete med fiskeövervakning på Havs- och vattenmyndigheten bevakar Johan Ottander att de som fiskar i svenska vatten följer lagar och regler. Det är en säsongsbetonad verksamhet, och just nu är det siklöjefisket i Bottenviken som han håller koll på.</p>
+  </div>
+
+  
+  </article>
+</li>
+          <li><article class="article teaser clearfix category-min fritid">
+  
+      <div class="image top col-xs-12">
+      <a href="/fordjupning/min-fritid/hon-tavlar-sverige-27451">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Min-fritid-6-2025_topp%2Bpuff%2Blista.png?itok=vwQ0b8s_ 1x" media="all and (min-width: 1200px)" type="image/png" width="360" height="240"/>
+              <source srcset="/sites/publikt/files/styles/293x0/public/2025-10/Min-fritid-6-2025_topp%2Bpuff%2Blista.png?itok=moTqKQ_u 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/png" width="293" height="195"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Min-fritid-6-2025_topp%2Bpuff%2Blista.png?itok=zgk6RfLO 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/png" width="750" height="500"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2025-10/Min-fritid-6-2025_topp%2Bpuff%2Blista.png?itok=kwiNW4R4 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/png" width="450" height="300"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Min-fritid-6-2025_topp%2Bpuff%2Blista.png?itok=vwQ0b8s_ 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/png" width="360" height="240"/>
+                  <img width="1200" height="800" src="/sites/publikt/files/2025-10/Min-fritid-6-2025_topp%2Bpuff%2Blista.png" alt="”Den bästa känslan i diskus är när jag är i form och vet att jag kommer att kasta långt”, säger ST-medlemmen Mathilda Eriksson, som i år kom trea i Finnkampen." loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+              </div>
+
+              <div class="caption">
+          ”Den bästa känslan i diskus är när jag är i form och vet att jag kommer att kasta långt”, säger ST-medlemmen Mathilda Eriksson, som i år kom trea i Finnkampen.
+        </div>
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/fordjupning/min-fritid/hon-tavlar-sverige-27451" rel="bookmark">Hon tävlar för Sverige</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">MIN FRITID</span><span class="date">2025-11-03</span>  </div>
+
+  <div class="preamble">
+    <p>Hon kom trea i diskus i Finnkampen, men till vardags arbetar ST-medlemmen Mathilda Eriksson heltid som flygledare på Arlanda. Oftast tränar hon sex dagar i veckan.</p>
+  </div>
+
+  
+  </article>
+</li>
+          <li><article class="article teaser clearfix category-robert nyberg">
+  
+      <div class="image top col-xs-12">
+      <a href="/kultur/robert-nyberg/signalfel-27452">
+        
+<div class="image-wrapper top">
+    
+  
+            <div class="row">
+    
+    <div class="item col-xs-12">
+      <div class="img">
+        
+          <picture>
+                  <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Nyberg-5-2026_topp%2Blista.png?itok=qVjAfHsx 1x" media="all and (min-width: 1200px)" type="image/png" width="750" height="601"/>
+              <source srcset="/sites/publikt/files/styles/617x0/public/2025-10/Nyberg-5-2026_topp%2Blista.png?itok=Cc7adTGA 1x" media="all and (min-width: 992px) and (max-width: 1199px)" type="image/png" width="617" height="495"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Nyberg-5-2026_topp%2Blista.png?itok=qVjAfHsx 1x" media="all and (min-width: 768px) and (max-width: 991px)" type="image/png" width="750" height="601"/>
+              <source srcset="/sites/publikt/files/styles/750x0/public/2025-10/Nyberg-5-2026_topp%2Blista.png?itok=qVjAfHsx 1x" media="all and (min-width: 481px) and (max-width: 767px)" type="image/png" width="750" height="601"/>
+              <source srcset="/sites/publikt/files/styles/450x0/public/2025-10/Nyberg-5-2026_topp%2Blista.png?itok=WsY1gwjo 1x" media="all and (min-width: 380px) and (max-width: 480px)" type="image/png" width="450" height="361"/>
+              <source srcset="/sites/publikt/files/styles/360x0/public/2025-10/Nyberg-5-2026_topp%2Blista.png?itok=gJZi9dAW 1x" media="(min-width: 0px) and (max-width: 379px)" type="image/png" width="360" height="289"/>
+                  <img width="1200" height="962" src="/sites/publikt/files/2025-10/Nyberg-5-2026_topp%2Blista.png" alt="" loading="lazy" class="img-responsive" />
+
+  </picture>
+
+
+        
+                  <div class="copy">
+            Bild: Robert Nyberg
+          </div>
+              </div>
+
+          </div>
+
+          </div>
+      </div>
+
+      </a>
+    </div>
+  
+  <h2>
+    <a href="/kultur/robert-nyberg/signalfel-27452" rel="bookmark">Signalfel</a>
+  </h2>
+
+  <div class="meta">
+    <span class="entryword">ROBERT NYBERG: SATIR</span><span class="date">2025-11-03</span>  </div>
+
+  <div class="preamble">
+    
+  </div>
+
+  
+  </article>
+</li>
+    
+  </ul>
+
+</div>
+
+      </div>
+    
+                      </div>
+
+      <!--googleon: all-->
+  
+</div>
+
+      </div>
+</section>
+
+<section id="block-publikt-slugcolumnbottom" class="block block-publikt-custom block-slug-column-bottom clearfix">
+  
+    
+
+  <div class="block-content">
+          <p id="slug-column-bottom">Annonser:</p>
+      </div>
+</section>
+
+<section id="block-dfptagpub-square-2" class="block block-dfp block-dfp-ad057a76d0-95ab-401e-894a-b2a1113b51d3 clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_2" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_2');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+<section id="block-dfptagpub-square-3" class="block block-dfp block-dfp-ad3f0603ec-f1f3-4acc-b750-8f34a8bb6436 clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_3" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_3');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+<section id="block-dfptagpub-square-4" class="block block-dfp block-dfp-ad210dca0b-928b-4362-b189-e3254ea819fb clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_4" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_4');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+<section id="block-dfptagpub-square-5" class="block block-dfp block-dfp-adb243aafc-cd76-43b8-b9bd-7fe9c5c68de8 clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_5" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_5');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+<section id="block-dfptagpub-square-6" class="block block-dfp block-dfp-adecd259ca-c603-4dc8-a52f-3d9e804cd973 clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_6" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_6');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+<section id="block-dfptagpub-square-7" class="block block-dfp block-dfp-ad2bd6e504-7907-4109-b917-2b441765a0ac clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_7" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_7');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+<section id="block-dfptagpub-square-8" class="block block-dfp block-dfp-ad9da7316a-aa1d-4aee-914b-75e6c06d26a4 clearfix">
+  
+    
+
+  <div class="block-content">
+          <div id="js-dfp-tag-pub_square_8" class="dfp-tag">
+        <script type="text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-pub_square_8');
+            });
+    
+    </script>
+</div>
+
+      </div>
+</section>
+
+
+  </div>
+
+          </aside>
+                  </div>
+  </div>
+
+<footer class="footer" role="contentinfo">
+  <div class="info">
+    <div class="container">
+      <ul class="info col-xs-12 col-md-9">
+        <li class="first"><strong>Publikt</strong></li>
+        <li>Box 5044</li>
+        <li>102 41 Stockholm</li>
+        <li>Tel 0771-555 444</li>
+        <li>Ansvarig utgivare: Alexander Armiento</li>
+        <li class="last rss"></li>
+      </ul>
+
+      <div class="socials col-xs-12 col-md-3">
+        <span>Följ oss:</span>
+        <a href="https://www.facebook.com/TidningenPublikt" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/tidnpublikt" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/tidningenpublikt/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/tidningen-publikt/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <div class="container">
+      Detta material är skyddat enligt lagen om upphovsrätt. Eftertryck eller annan kopiering är förbjuden. Citera oss gärna men ange källan.
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"sv"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxlzOEKwyAMBOAXEvNIYma2CmpCElv69h1jWwv9cxzfwSGzm2sWwF9LopTqqB7-BMLCK-lFnLl5lSBZ8-sNi0HRKbnFU-IcMrFVW6gE282pA2ajsFbaDD4ZO5fZvpTO_wd34UHDLWyET9Z-GW9yAElvUCw","theme":"publikt","theme_token":null},"ajaxTrustedUrl":[],"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"2821975fd95a3458f45b78d0cb454c9e369a72da120a9461cf5e4ae106e3f8de"}}</script>
+<script src="/sites/publikt/files/js/js_559osA50Zg2u5CgbU9nN0iOjEX70-BZIcQA2XLrLCvk.js?scope=footer&amp;delta=0&amp;language=sv&amp;theme=publikt&amp;include=eJxlyUEKgDAMBdELBXqkYiWFgM0PSWiv70otuBveNCAj_bDSnqrmXEUl6aViMEz2TRK4Uoym8Ir6-YlhUNYMWtw6fGzzJzf3ETPy"></script>
+
+  </body>
+</html>

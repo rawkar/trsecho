@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="sv" class="sv-no-js sv-template-tom">
+<head>
+   <meta charset="UTF-8">
+   <script nonce="252275a1-d4e5-11f0-a800-5d5a3e1b09c5">(function(c){c.add('sv-js');c.remove('sv-no-js');})(document.documentElement.classList)</script>
+   <title>Felsida 404 | SKR Webbfamilj | SKR</title>
+   <meta name="robots" content="noindex, nofollow">
+   <link rel="preload" href="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/js/jquery-social.js" as="script">
+   <link rel="preload" href="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/envision/envision.js" as="script">
+   <link rel="preload" href="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/js/utils.js" as="script">
+   <link rel="preload" href="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/js/portlets-social.js" as="script">
+               <meta name="fdse-keywords" content="">
+                     <meta name="content-type" content="">
+                     <meta name="lpWorkArea" content="">
+                        <meta name="lpShowInfoResponsible" content="Ja">
+                        <meta name="keywords" content="">
+                     <meta name="DC.modified" content="7 oktober 2025">
+                     <meta name="description" content="">
+         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+   <meta name="dcterms.identifier" content="https://extra.skr.se">
+   <meta name="dcterms.language" content="sv">
+   <meta name="dcterms.format" content="text/html">
+   <meta name="dcterms.type" content="text">
+   <link rel="stylesheet" type="text/css" href="/2.319bc251170f399ba0921f3/1765176647426/sitevision-responsive-grids.css">
+   
+      <link rel="stylesheet" type="text/css" href="/2.319bc251170f399ba0921f3/auto/1765255119401/SiteVision.css">
+      <link rel="stylesheet" type="text/css" href="/2.319bc251170f399ba0921f3/3369/8180/print/SiteVision.css">
+   <link rel="stylesheet" type="text/css" href="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/css/portlets-social.css">
+   <link rel="stylesheet" type="text/css" href="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/envision/envision.css">
+
+      <link rel="stylesheet" type="text/css" href="/2.319bc251170f399ba0921f3/91.319bc251170f399ba092326/1765176919230/0/sv-template-asset.css">
+         <link rel="stylesheet" type="text/css" href="/webapp-resource/4.319bc251170f399ba09225e/360.4eeedb00198e5b61f835a25d/1756821276805/webapp-assets.css">
+      <script nonce="252275a1-d4e5-11f0-a800-5d5a3e1b09c5">!function(t,e){t=t||"docReady",e=e||window;var n=[],o=!1,c=!1;function d(){if(!o){o=!0;for(var t=0;t<n.length;t++)try{n[t].fn.call(window,n[t].ctx)}catch(t){console&&console.error(t)}n=[]}}function a(){"complete"===document.readyState&&d()}e[t]=function(t,e){if("function"!=typeof t)throw new TypeError("callback for docReady(fn) must be a function");o?setTimeout(function(){t(e)},1):(n.push({fn:t,ctx:e}),"complete"===document.readyState?setTimeout(d,1):c||(document.addEventListener?(document.addEventListener("DOMContentLoaded",d,!1),window.addEventListener("load",d,!1)):(document.attachEvent("onreadystatechange",a),window.attachEvent("onload",d)),c=!0))}}("svDocReady",window);</script>
+   <script>(function(html){html.className += ' lp-js'})(document.documentElement);</script>
+   <meta name="referrer" content="no-referrer">
+   
+
+
+
+
+
+
+
+                                                                                          
+                                          
+   
+         <meta property="og:image" content="https://extra.skr.se/images/18.eb74a4a17f44902bceca10f/1647931268930/skr-logotyp-fallback.jpg" />
+
+               <meta property="og:image:width" content="1200" />
+      
+               <meta property="og:image:height" content="630" />
+         
+                                    
+   
+                           
+         <meta property="og:title" content="Sidan kunde inte hittas (404)" />
+   
+<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="https://extra.skr.se/omportalen/felsida404.8.html" />
+   
+
+
+
+
+
+
+   
+   <style>
+  .lp-subscription2__queue-manager { display: none !important; }
+</style>
+   
+   <script nonce="252275a1-d4e5-11f0-a800-5d5a3e1b09c5">
+      window.sv = window.sv || {};
+      sv.UNSAFE_MAY_CHANGE_AT_ANY_GIVEN_TIME_webAppExternals = {};
+      sv.PageContext = {
+      pageId: '4.319bc251170f399ba09225e',
+      siteId: '2.319bc251170f399ba0921f3',
+      userIdentityId: '',
+      userIdentityReadTimeout: 0,
+      userLocale: 'sv',
+      dev: false,
+      csrfToken: '',
+      html5: true,
+      useServerSideEvents: false,
+      nodeIsReadOnly: false
+      };
+   </script>
+      <script nonce="252275a1-d4e5-11f0-a800-5d5a3e1b09c5">!function(){"use strict";var t,n={},e={},i={};function r(t){return n[t]=n[t]||{instances:[],modules:{},bundle:{}},n[t]}document.querySelector("html").classList.add("js");var s={registerBootstrapData:function(t,n,i,r,s){var a,o=e[t];o||(o=e[t]={}),(a=o[i])||(a=o[i]={}),a[n]={subComponents:r,options:s}},registerInitialState:function(t,n){i[t]=n},registerApp:function(n){var e=n.applicationId,i=r(e);if(t){var s={};s[e]=i,s[e].instances=[n],t.start(s)}else i.instances.push(n)},registerModule:function(t){r(t.applicationId).modules[t.path]=t},registerBundle:function(t){r(t.applicationId).bundle=t.bundle},getRegistry:function(){return n},setAppStarter:function(n){t=n},getBootstrapData:function(t){return e[t]},getInitialState:function(t){return i[t]}};window.AppRegistry=s}();</script>
+</head>
+<body class=" sv-responsive sv-theme-skr-nytt-tema env-m-around--0">
+<div id="svid10_319bc251170f399ba092643" class="sv-layout"><div class="sv-custom-module sv-limepark-webapp-redirector sv-skip-spacer sv-template-portlet
+" id="svid12_71b542201784abfbf7a92ca5"><div id="Vidarebefodran"><!-- Vidarebefodran --></div>
+<script nonce="252275a1-d4e5-11f0-a800-5d5a3e1b09c5">AppRegistry.registerApp({applicationId:'limepark.webapp-redirector|2.1.0',htmlElementId:'svid12_71b542201784abfbf7a92ca5',route:'/',portletId:'12.71b542201784abfbf7a92ca5',locale:'sv',defaultLocale:'en',webAppId:'limepark.webapp-redirector',webAppVersion:'2.1.0',webAppAopId:'360.71b542201784abfbf7a90a52',webAppImportTime:'1617692110798',requiredLibs:{},childComponentStateExtractionStrategy:'BY_ID'});</script></div>
+<div class="sv-custom-module sv-limepark-subwebs sv-template-portlet
+" id="svid12_4f76e11319319a5c0f86478a"><div id="Underwebbar"><!-- Underwebbar --></div>
+<script nonce="252275a1-d4e5-11f0-a800-5d5a3e1b09c5">AppRegistry.registerApp({applicationId:'limepark.subwebs|1.2.2',htmlElementId:'svid12_4f76e11319319a5c0f86478a',route:'/',portletId:'12.4f76e11319319a5c0f86478a',locale:'sv',defaultLocale:'en',webAppId:'limepark.subwebs',webAppVersion:'1.2.2',webAppAopId:'360.4eeedb00198e5b61f835a25d',webAppImportTime:'1756821276805',requiredLibs:{}});</script></div>
+<div id="svid94_319bc251170f399ba09252b"><main class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid10_319bc251170f399ba09267b"><div class="sv-layout sv-skip-spacer sv-template-portlet
+" id="svid30_319bc251170f399ba0929f6"><div id="Innehallsankare"><!-- Innehållsankare --></div><div class="sv-html-portlet sv-portlet sv-skip-spacer sv-template-portlet
+" id="svid12_319bc251170f399ba09296d"><div id="InnehallsankareHTML"><!-- Innehållsankare - HTML --></div><div id="sidans-innehall" class="lp-content-anchor"></div></div>
+</div>
+<div id="svid94_319bc251170f399ba0922b4" class="pagecontent sv-layout"><div id="Mittenspalt"><!-- Mittenspalt --></div><div class="sv-vertical sv-layout lp-login-404 sv-skip-spacer" id="svid10_319bc251170f399ba0923e8"><div class="sv-text-portlet sv-use-margins sv-skip-spacer" id="svid12_319bc251170f399ba092666"><div id="Rubrik"><!-- Rubrik --></div><div class="sv-text-portlet-content"><h1 class="heading" id="h-Sidankundeintehittas404">Sidan kunde inte hittas (404)<br></h1></div></div>
+<div class="sv-text-portlet sv-use-margins" id="svid12_319bc251170f399ba09229a"><div id="Innehall"><!-- Innehåll --></div><div class="sv-text-portlet-content"><p class="normal">Den sida du söker går inte att nå - den kan vara borttagen eller flyttad. Kontrollera att du har skrivit in rätt adress i din webbläsare.</p><h2 class="subheading" id="h-Gavidare">Gå vidare:</h2></div></div>
+<div class="sv-custom-module sv-marketplace-sitevision-button c29120"  id="svid12_40a28c9019993bbae1c6d995"><div id="Knapp"><!-- Knapp --></div><div class="env-flex  env-flex--row"><a class="env-button env-button--primary" href="https://skr.se">SKR:s webbplats</a></div></div>
+<div class="sv-linked-portlet sv-jcrmenu-portlet sv-portlet c26919"  id="svid12_70c3d424173b4900fc5402af"><div id="Webbplatslista"><!-- Webbplatslista --></div>   
+      <ul class="lp-portal-site-list">
+                        	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/framtidenssocialtjanst.74978.html" class="lp-portal-site-list__item__link">Framtidens socialtjänst</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://heltid.nu/heltid.57791.html" class="lp-portal-site-list__item__link">Heltid</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://innovationsguiden.se/innovationsguiden.60637.html" class="lp-portal-site-list__item__link">Innovationsguiden</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://kompetensforsorjningskola.se/kompetensforsorjningskola.54887.html" class="lp-portal-site-list__item__link">Kompetensförsörjning skola</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://kunskapsstyrningvard.se/kunskapsstyrningvard.44259.html" class="lp-portal-site-list__item__link">Kunskapsstyrning vård</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://patientenkat.se/nationellpatientenkat.44334.html" class="lp-portal-site-list__item__link">Nationell patientenkät</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/offentligsakermat.32844.html" class="lp-portal-site-list__item__link">Offentlig säker mat</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/offentligafastigheter.58164.html" class="lp-portal-site-list__item__link">Offentliga fastigheter</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/primarvardskvalitet.32919.html" class="lp-portal-site-list__item__link">Primärvårdskvalitet</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://rka.nu/radetforframjandeavkommunalaanalyser.44588.html" class="lp-portal-site-list__item__link">Rådet för främjande av kommunala analyser</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/rattsjukskrivning.32861.html" class="lp-portal-site-list__item__link">Rätt sjukskrivning</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://salarinternational.se/salar.67955.html" class="lp-portal-site-list__item__link">SALAR</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://sfti.se/sfti.44442.html" class="lp-portal-site-list__item__link">SFTI</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://skhi.se/skhi.44681.html" class="lp-portal-site-list__item__link">SKHI</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/skolansstyrning.68923.html" class="lp-portal-site-list__item__link">Skolans styrning</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://vagentilljobben.se/vagentilljobben.55129.html" class="lp-portal-site-list__item__link">Vägen till jobben</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/valfardsteknik.64112.html" class="lp-portal-site-list__item__link">Välfärdsteknik</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/vantetiderivarden.46246.html" class="lp-portal-site-list__item__link">Väntetider i vården</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://extra.skr.se/webbhandboken.43674.html" class="lp-portal-site-list__item__link">Webbhandboken</a>
+         	</li>
+                                 	        		            
+            <li class="lp-portal-site-list__item">
+            	<a href="https://yrkesresan.se/yrkesresan.69217.html" class="lp-portal-site-list__item__link">Yrkesresan</a>
+         	</li>
+                     </ul>
+   </div>
+<div class="sv-text-portlet sv-use-margins" id="svid12_319bc251170f399ba0927af"><div id="Text"><!-- Text --></div><div class="sv-text-portlet-content"><h2 class="subheading" id="h-Rapporteratrasiglank">Rapportera trasig länk</h2></div></div>
+<div class="sv-form-portlet sv-portlet" id="svid12_319bc251170f399ba0927a8"><div id="Epostformular"><!-- E-postformulär --></div>
+
+
+
+   
+<form novalidate="novalidate" id="form_319bc251170f399ba0927a8" action="/omportalen/felsida404.8.html?sv.url=12.319bc251170f399ba0927a8&amp;state=create#svid12_319bc251170f399ba0927a8"  method="post" class="env-m-around--0" data-sv-user-consent data-sv-single-click>
+<div class="sv-defaultFormTheme">
+   <label class="env-d--none" aria-hidden="true" for="mailname_id_319bc251170f399ba0927a8">Mail name e-mail:</label>
+<input class="env-d--none" aria-hidden="true" id="mailname_id_319bc251170f399ba0927a8" name="mail_name_319bc251170f399ba0927a8" autocomplete="off" type="text" value="">
+
+
+
+ 
+<div class="sv-formFieldRow">
+        
+         
+   
+      <div class="sv-formField sv-formField--cols-12 c29093"  id="field_120_319bc251170f399ba092ad5_container">
+         
+         
+         
+           
+
+
+
+
+
+
+
+
+
+      
+<div>
+   
+      
+
+   <div class="sv-field-title-container">
+               <label class="normal" for="field_120_319bc251170f399ba092ad5">Adress  </label>         </div>
+   
+</div>
+<div  >
+
+
+
+
+<input class="sv-form-textfield normal"
+    title="" type="url" value="" id="field_120_319bc251170f399ba092ad5" name="url"   maxlength=4000
+               autocomplete="url"
+      >
+
+
+
+
+</div>
+
+
+      </div>
+           
+            </div>
+      <div class="sv-formFieldRow">
+         
+   
+      <div class="sv-formField sv-formField--cols-12 c29093"  id="field_120_319bc251170f399ba092ad4_container">
+         
+         
+         
+           
+
+
+
+
+
+
+
+
+
+      
+<div>
+   
+      
+
+   <div class="sv-field-title-container">
+               <label class="normal" for="field_120_319bc251170f399ba092ad4">Länken fanns på  </label>         </div>
+   
+</div>
+<div  >
+
+
+
+
+<input class="sv-form-textfield normal"
+    title="" type="text" value="" id="field_120_319bc251170f399ba092ad4" name="field_120_319bc251170f399ba092ad4"   maxlength=4000
+            >
+
+
+
+
+</div>
+
+
+      </div>
+   </div>
+
+               <div class="sv-formFieldRow">
+         <div class="sv-formField c29093" >
+            <div class="sv-form-consent">
+               <input id="consent_319bc251170f399ba0927a8" name="consent" type="checkbox" value="consent" data-sv-form-consent-checkbox>
+
+               
+                              
+               <label for="consent_319bc251170f399ba0927a8" class="normal">Jag samtycker till att SKR lagrar och hanterar mina uppgifter.<span class="c29088"> *</span></label>
+
+                                 <div class="normal">
+                                                                                                                                                                  <p>Läs mer på <a href="https://skr.se/dataskydd" target="_blank">https://skr.se/dataskydd</a></p>
+                                                               </div>
+                           </div>
+
+                     </div>
+      </div>
+   
+   <div class="sv-formFieldRow">
+      <div class="sv-formField c29093" >
+         <input class="normal" type="submit" value="Skicka">
+      </div>
+   </div>
+
+</div>
+</form>
+
+   
+   <script nonce="252275a1-d4e5-11f0-a800-5d5a3e1b09c5">
+svDocReady(function() {
+   var counter = 0;
+   var selector = '#svid' + '12.319bc251170f399ba0927a8'.replace('.', '_') + ' form';
+   $svjq(selector).one('keypress', function() {
+      var checkInterval = setInterval(function() {
+         $svjq.post('/4.319bc251170f399ba09225e/12.319bc251170f399ba0927a8.html?state=keepAlive&amp;sv.contenttype=text/html;charset=UTF-8');
+         if (++counter === 12) {
+            window.clearInterval(checkInterval);
+         }
+      }, 900000); // 15 minutes
+   });
+});
+</script></div>
+<div class="sv-html-portlet sv-portlet" id="svid12_319bc251170f399ba0927b3"><div id="HTMLAutomatisktadressfalt"><!-- HTML - Automatiskt adressfält --></div><script>
+(function () {
+   var urlField = document.querySelector('.sv-form-portlet [name="url"]');
+   if (urlField) {
+      urlField.value = location.href;
+   }
+})();
+</script></div>
+</div>
+</div></main>
+</div></div>
+
+
+
+
+<script src="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/js/jquery-social.js"></script>
+<script src="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/envision/envision.js"></script>
+<script src="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/js/utils.js"></script>
+<script src="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/js/portlets-social.js"></script>
+
+<script src="/2.319bc251170f399ba0921f3/91.319bc251170f399ba092326/1765176919233/BODY/0/sv-template-asset.js"></script>
+<script src="/webapp-resource/4.319bc251170f399ba09225e/360.4eeedb00198e5b61f835a25d/1756821276805/webapp-assets.js"></script>
+<script src="/webapp-resource/4.319bc251170f399ba09225e/360.71b542201784abfbf7a90a52/1617692110798/webapp-assets.js"></script>
+<script src="/sitevision/system-resource/4b84b5d66b91eb41d209f96e8630d0d15a65d000b501866d81219d808c20e989/webapps/webapp_sdk-legacy.js"></script>
+</body>
+</html>

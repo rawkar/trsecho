@@ -1,0 +1,281 @@
+# TRS Omvärldsbevakning - Configuration
+
+# App Settings
+app:
+  name: "TRS Omvärldsbevakning"
+  version: "2.0.0"
+  log_level: "INFO"
+  max_articles_total: 30
+  max_articles_per_category: 10
+  deduplication_threshold: 0.85  # 85% similarity
+  history_file: "data/history.json"
+  min_relevance_score: 0.15 # Slightly increased to filter noise
+  max_article_age_days: 2 # Strict 48h limit
+  min_content_length: 300 # Minimum characters for body text
+
+# Filtering & Blocklist
+blocklist:
+  titles:
+    - "quiz"
+    - "testa dig själv"
+    - "hockey"
+    - "fotboll"
+    - "sport"
+    - "match"
+    - "a-lag"
+    - "gå direkt till"
+    - "till innehåll"
+    - "mina sidor"
+    - "logga in"
+    - "bli medlem"
+    - "integritet"
+    - "cookies"
+    - "kakor"
+    - "tillgänglighet"
+    - "minoritetsspråk"
+    - "prenumerera"
+    - "annons"
+    - "sponsrad"
+    - "reklam"
+    - "om webbplatsen"
+    - "hitta hit"
+    - "kontakta oss"
+    - "nyhetsbrev"
+    - "pressmeddelande"
+    - "pressmaterial"
+    - "hoppa till"
+    - "sociala medier"
+  
+  urls:
+    - "/medlem/"
+    - "/logga-in/"
+    - "/mina-sidor/"
+    - "/om-oss/"
+    - "/om-ptk/"
+    - "/om-forbundet/"
+    - "/kontakt/"
+    - "/integritet/"
+    - "/cookies/"
+    - "/tillganglighet/"
+    - "mailto:"
+    - "/verksamhet/"
+    - "/styrning/"
+    - "/fakturering/"
+
+# Email Settings
+# Email Settings
+email:
+  enabled: true
+  # SMTP-inställningar för att SKICKA e-post
+  smtp:
+    # Office 365: smtp.office365.com:587
+    # Gmail: smtp.gmail.com:587
+    server: "smtp.gmail.com"
+    port: 587
+    use_tls: true
+
+    # Dina inloggningsuppgifter
+    username: "rawazkarim@gmail.com"
+    password: "ctfh hbxm xvvy xgpf"  # OBS: Använd app-lösenord för Gmail
+
+    # Avsändaradress och namn
+    from_email: "rawazkarim@gmail.com"
+    from_name: "TRS Omvärldsbevakning"
+  
+  primary_recipient: "rawaz.karim@trs.se"
+
+  # IMAP for Google Alerts / Newsletters
+  imap_enabled: false
+  imap_server: "imap.gmail.com" # Updated to Gmail default since user is using Gmail
+  imap_port: 993
+  imap_user: "rawazkarim@gmail.com"
+  imap_password: "gcxh bglo ilje kgul" # Reusing app password
+  imap_folder: "Inbox"
+
+# Schedule
+schedule:
+  send_time: "08:00"
+  days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+
+# Search Agent Settings
+search_agent:
+  enabled: true
+  search_engine: "google_news_rss"  # Options: google_news_rss, bing_api (future), google_custom_search (future)
+  max_search_results: 5
+  
+  # Queries to run daily
+  queries:
+    - '"trygghetsråd" OR "omställningsstöd"'
+    - '"Svensk Scenkonst" OR "Teateralliansen" OR "Dansalliansen" OR "Musikalliansen"'
+    - '"kollektivavtal" AND ("kultur" OR "scenkonst" OR "ideell")'
+    - '"PTK" AND "omställning"'
+    - '"arbetsgivaralliansen" AND "nyheter"'
+    - '"uppsägning" AND ("teater" OR "orkester" OR "kultur")'
+    - '"civilsamhället omställning"'
+    - '"scenkonst arbetsmarknad"'
+    - '"omställningsstudiestöd"'
+    - '"Omstella" OR "Scen & Film"'
+
+# Categories & Keywords
+# Order matters! First match wins.
+categories:
+  - name: "Omställning"
+    icon: "🔄"
+    keywords:
+      - "omställning"
+      - "omställningsstöd"
+      - "omställningsavtal"
+      - "uppsägning"
+      - "arbetsbrist"
+      - "trygghetsråd"
+      - "karriärväxling"
+      - "avgångsersättning"
+      - "AGE"
+      - "TRS"
+      - "TRR"
+      - "TSL"
+      - "Omstella"
+      - "Nysteget"
+
+  - name: "Arbetsmarknad"
+    icon: "🏛️"
+    keywords:
+      - "arbetsmarknad"
+      - "arbetslöshet"
+      - "sysselsättning"
+      - "arbetsförmedling"
+      - "a-kassa"
+      - "rekrytering"
+      - "anställning"
+      - "lågkonjunktur"
+      - "jobb"
+      - "yrkesbarometer"
+
+  - name: "Scenkonst"
+    icon: "🎭"
+    keywords:
+      - "scenkonst"
+      - "teater"
+      - "dans"
+      - "musik"
+      - "orkester"
+      - "opera"
+      - "balett"
+      - "konstnär"
+      - "skådespelare"
+      - "musiker"
+      - "dansare"
+      - "kulturrådet"
+      - "konstnärsnämnden"
+      - "teateralliansen"
+      - "dansalliansen"
+      - "musikalliansen"
+      - "svensk scenkonst"
+      - "dramatik"
+      - "föreställning"
+
+  - name: "Kollektivavtal"
+    icon: "📜"
+    keywords:
+      - "kollektivavtal"
+      - "avtalsrörelse"
+      - "förhandling"
+      - "partssamverkan"
+      - "fackförbund"
+      - "PTK"
+      - "LO"
+      - "TCO"
+      - "huvudavtal"
+      - "lönerevision"
+
+  - name: "Civilsamhälle"
+    icon: "🤝"
+    keywords:
+      - "civilsamhälle"
+      - "ideell"
+      - "idéburen"
+      - "förening"
+      - "stiftelse"
+      - "folkrörelse"
+      - "arbetsgivaralliansen"
+      - "fremia"
+      - "kooperativ"
+
+  - name: "Kompetensutveckling"
+    icon: "📚"
+    keywords:
+      - "kompetensutveckling"
+      - "utbildning"
+      - "kompetens"
+      - "studier"
+      - "lärande"
+      - "omställningsstudiestöd"
+      - "yrkeshögskola"
+      - "vidareutbildning"
+      - "CSN"
+
+# Sources
+sources:
+  rss:
+    - url: "https://arbetet.se/feed/"
+      name: "Arbetet"
+    - url: "https://www.kollega.se/rss.xml"
+      name: "Kollega"
+    - url: "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284"
+      name: "Regeringen"
+    - url: "https://scensverige.se/feed/"
+      name: "Scensverige"
+    - url: "https://nodsverige.se/feed/"
+      name: "NOD"
+    - url: "https://www.dagenssamhalle.se/rss.xml"
+      name: "Dagens Samhälle"
+
+  scrape:
+    - url: "https://www.arbetsgivaralliansen.se/nyheter/"
+      name: "Arbetsgivaralliansen"
+    - url: "https://www.ptk.se/nyheter-och-press/nyheter/"
+      name: "PTK Nyheter"
+    - url: "https://www.ptk.se/nyheter-och-press/press/"
+      name: "PTK Press"
+    - url: "https://via.tt.se/pressrum/3236174/trr"
+      name: "TRR"
+    - url: "https://www.omstella.se/sv/om-oss/nyheter/"
+      name: "Omstella"
+    - url: "https://www.musikalliansen.se/nyheterna"
+      name: "Musikalliansen"
+    - url: "https://www.svenskscenkonst.se/aktuellt/nyheter/"
+      name: "Svensk Scenkonst"
+    - url: "https://www.mynewsdesk.com/se/svenskscenkonst"
+      name: "Svensk Scenkonst Mynewsdesk"
+    - url: "https://www.konstnarsnamnden.se/nyheter/"
+      name: "Konstnärsnämnden"
+    - url: "https://www.mynewsdesk.com/se/konstnarsnamnden"
+      name: "Konstnärsnämnden Mynewsdesk"
+    - url: "https://www.kulturradet.se/nyheter"
+      name: "Kulturrådet"
+    - url: "https://www.kulturradet.se/om-oss/media/nyhetsarkiv/"
+      name: "Kulturrådet Arkiv"
+    - url: "https://www.publikt.se/nyhet"
+      name: "Publikt"
+    - url: "https://www.musikerforbundet.se/#aktuellt"
+      name: "Musikerförbundet"
+    - url: "https://www.fremia.se/nyheter/"
+      name: "Fremia"
+    - url: "https://www.svensktnaringsliv.se/pressrum/"
+      name: "Svenskt Näringsliv"
+    - url: "https://skr.se/skr/tjanster/press/nyheter.452.html"
+      name: "SKR"
+    - url: "https://www.av.se/nyheter/"
+      name: "Arbetsmiljöverket"
+    - url: "https://socialforum.se/alla-artiklar/"
+      name: "Socialforum"
+    - url: "https://www.arbetsvarlden.se/"
+      name: "Arbetsvärlden"
+    - url: "https://www.tn.se/"
+      name: "TN (Svenskt Näringsliv)"
+    - url: "https://www.famna.org/aktuellt/"
+      name: "Famna"
+    - url: "https://nysta.nu/aktuellt/"
+      name: "Nysta"
+    - url: "https://www.lo.se/start/nyheter"
+      name: "LO Nyheter"

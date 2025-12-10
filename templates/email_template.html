@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TRS Omvärldsbevakning</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .header { background-color: #0056b3; color: #fff; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .date { font-size: 14px; margin-top: 5px; opacity: 0.9; }
+        .stats { background-color: #e9ecef; padding: 10px; text-align: center; font-size: 14px; margin-bottom: 20px; border-radius: 4px; }
+        .category-header { font-size: 18px; font-weight: bold; color: #0056b3; margin-top: 25px; margin-bottom: 10px; border-bottom: 2px solid #0056b3; padding-bottom: 5px; }
+        .article { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee; }
+        .article:last-child { border-bottom: none; }
+        .article-meta { font-size: 12px; color: #666; margin-bottom: 5px; }
+        .content-type { display: inline-block; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: bold; margin-right: 5px; }
+        .type-article { background-color: #e2e3e5; color: #383d41; }
+        .type-video { background-color: #f8d7da; color: #721c24; }
+        .type-pdf { background-color: #d4edda; color: #155724; }
+        .type-press_release { background-color: #cce5ff; color: #004085; }
+        .article-title { font-size: 16px; margin: 0 0 5px 0; }
+        .article-title a { color: #0056b3; text-decoration: none; }
+        .article-title a:hover { text-decoration: underline; }
+        .article-summary { font-size: 14px; color: #444; margin-bottom: 8px; }
+        .read-more { font-size: 13px; color: #0056b3; text-decoration: none; font-weight: bold; }
+        .footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; font-size: 12px; color: #777; }
+        .report-section { background-color: #f8f9fa; padding: 15px; margin-top: 30px; border-radius: 5px; border: 1px solid #ddd; font-size: 13px; }
+        .report-header { font-weight: bold; margin-bottom: 10px; color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TRS Omvärldsbevakning</h1>
+            <div class="date">{{ date_str }}</div>
+        </div>
+        
+        <div class="stats">
+            📊 {{ total_articles }} artiklar från {{ total_sources }} källor i {{ total_categories }} kategorier
+        </div>
+        
+        {% for category, articles in categorized_articles.items() %}
+            {% if articles %}
+                <div class="category-header">
+                    {{ category_icons.get(category, '📁') }} {{ category }}
+                </div>
+                
+                {% for article in articles %}
+                <div class="article">
+                    <div class="article-meta">
+                        {% if article.content_type == 'video' %}
+                            <span class="content-type type-video">🎬 VIDEO</span>
+                        {% elif article.content_type == 'pdf' %}
+                            <span class="content-type type-pdf">📑 PDF</span>
+                        {% elif article.content_type == 'press_release' %}
+                            <span class="content-type type-press_release">📋 PRESS</span>
+                        {% else %}
+                            <span class="content-type type-article">📄 ARTIKEL</span>
+                        {% endif %}
+                        | Källa: {{ article.source }}
+                    </div>
+                    <h3 class="article-title">
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                    </h3>
+                    <div class="article-summary">
+                        {{ article.summary }}
+                    </div>
+                    <a href="{{ article.url }}" class="read-more">Läs mer →</a>
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+        
+        {% if search_report %}
+        <div class="report-section">
+            <div class="report-header">📊 SÖKRAPPORT</div>
+            <pre style="white-space: pre-wrap; font-family: monospace;">{{ search_report }}</pre>
+        </div>
+        {% endif %}
+        
+        <div class="footer">
+            <p>Detta är ett automatiskt utskick från Trygghetsrådet TRS.</p>
+            <p>Har du frågor eller synpunkter? Kontakta kommunikationsavdelningen.</p>
+        </div>
+    </div>
+</body>
+</html>

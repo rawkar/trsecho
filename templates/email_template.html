@@ -58,7 +58,11 @@
                         {% else %}
                             <span class="content-type type-article">📄 ARTIKEL</span>
                         {% endif %}
-                        | Källa: {{ article.source }}
+                        | <strong>{{ article.organization|default(article.source) }}</strong>
+                        {% if article.domain and article.domain != article.organization %}
+                        | {{ article.domain }}
+                        {% endif %}
+                        | ⏱️ {{ article.estimated_read_time }} min
                     </div>
                     <h3 class="article-title">
                         <a href="{{ article.url }}">{{ article.title }}</a>

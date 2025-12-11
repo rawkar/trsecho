@@ -50,13 +50,16 @@ def main():
     parser = argparse.ArgumentParser(description="TRS Omvärldsbevakning - Intelligent Media Monitoring")
     parser.add_argument('--preview', action='store_true', help="Run in preview mode (no email sent)")
     parser.add_argument('--test', action='store_true', help="Run in test mode (output to terminal)")
+    parser.add_argument('--debug', action='store_true', help="Enable debug logging")
     parser.add_argument('--source', choices=['rss', 'scrape', 'search', 'email', 'all'], default='all', help="Limit to specific source type")
     
     args = parser.parse_args()
     
     # Load config
     config = load_config()
-    setup_logging(config['app'].get('log_level', 'INFO'))
+    
+    log_level = 'DEBUG' if args.debug else config['app'].get('log_level', 'INFO')
+    setup_logging(log_level)
     
     logging.info(f"Starting TRS Omvärldsbevakning v{config['app']['version']}")
     logging.info(f"Mode: {'Preview' if args.preview else 'Test' if args.test else 'Production'}")

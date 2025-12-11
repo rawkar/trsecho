@@ -105,16 +105,78 @@ search_agent:
   
   # Queries to run daily
   queries:
-    - '"trygghetsråd" OR "omställningsstöd"'
-    - '"Svensk Scenkonst" OR "Teateralliansen" OR "Dansalliansen" OR "Musikalliansen"'
-    - '"kollektivavtal" AND ("kultur" OR "scenkonst" OR "ideell")'
-    - '"PTK" AND "omställning"'
-    - '"arbetsgivaralliansen" AND "nyheter"'
-    - '"uppsägning" AND ("teater" OR "orkester" OR "kultur")'
-    - '"civilsamhället omställning"'
-    - '"scenkonst arbetsmarknad"'
-    - '"omställningsstudiestöd"'
-    - '"Omstella" OR "Scen & Film"'
+    # KÄRNORGANISATIONER
+    - "Trygghetsrådet TRS"
+    - "TRS omställning"
+    - "Arbetsgivaralliansen"
+    - "Svensk Scenkonst"
+    - "PTK omställning"
+    - "Teateralliansen"
+    - "Dansalliansen"
+    - "Musikalliansen"
+    - "TRR omställning"
+    - "Omstella"
+    
+    # SCENKONST
+    - "scenkonst"
+    - "teater anställning"
+    - "orkester nedläggning"
+    - "opera personal"
+    - "balett karriär"
+    - "symfoniorkester"
+    - "stadsteater varsel"
+    - "regionteater"
+    - "Dramaten personal"
+    - "Kungliga Operan anställda"
+    
+    # YRKESGRUPPER
+    - "skådespelare frilans"
+    - "dansare karriär"
+    - "musiker anställning"
+    - "scenkonstnär"
+    - "frilansare kultur"
+    - "frilansande skådespelare"
+    
+    # CIVILSAMHÄLLE
+    - "ideell sektor arbetsgivare"
+    - "civilsamhället anställda"
+    - "idéburen verksamhet"
+    - "folkrörelse personal"
+    - "folkhögskola anställda"
+    - "Fremia"
+    
+    # OMSTÄLLNING
+    - "omställning kultur"
+    - "omställningsstöd"
+    - "karriärväxling"
+    - "uppsägning teater"
+    - "arbetsbrist kultur"
+    - "varsel scenkonst"
+    
+    # KOMPETENSUTVECKLING
+    - "omställningsstudiestöd"
+    - "kompetensutveckling anställda"
+    - "livslångt lärande"
+    - "vidareutbildning yrkesverksam"
+    
+    # KOLLEKTIVAVTAL
+    - "kollektivavtal kultur"
+    - "Teaterförbundet"
+    - "Musikerförbundet"
+    - "SYMF"
+    - "trygghetsöverenskommelsen"
+    
+    # KULTURPOLITIK
+    - "kulturpolitik"
+    - "Kulturrådet bidrag"
+    - "Konstnärsnämnden"
+    - "kulturanslag"
+    - "kultursektorn ekonomi"
+    
+    # ARBETSMARKNAD
+    - "kulturarbetare anställning"
+    - "konstnärer arbetsmarknad"
+    - "tidsbegränsad anställning kultur"
 
 # Categories & Keywords
 # Order matters! First match wins.
@@ -263,7 +325,7 @@ sources:
       name: "Fremia"
     - url: "https://www.svensktnaringsliv.se/pressrum/"
       name: "Svenskt Näringsliv"
-    - url: "https://skr.se/skr/tjanster/press/nyheter.452.html"
+    - url: "https://skr.se/pressrum.1431.html"
       name: "SKR"
     - url: "https://www.av.se/nyheter/"
       name: "Arbetsmiljöverket"
@@ -275,7 +337,5 @@ sources:
       name: "TN (Svenskt Näringsliv)"
     - url: "https://www.famna.org/aktuellt/"
       name: "Famna"
-    - url: "https://nysta.nu/aktuellt/"
-      name: "Nysta"
     - url: "https://www.lo.se/start/nyheter"
       name: "LO Nyheter"

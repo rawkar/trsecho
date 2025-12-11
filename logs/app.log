@@ -9978,3 +9978,1333 @@ ad timeout=5)
 2025-12-10 10:27:58,343 - src.emailer - INFO - Preview saved to data/preview.html
 2025-12-10 10:27:59,470 - src.emailer - INFO - Email sent successfully to rawaz.karim@trs.se
 2025-12-10 10:27:59,473 - root - INFO - Run completed successfully.
+2025-12-10 15:00:59,839 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-10 15:00:59,839 - root - INFO - Mode: Production
+2025-12-10 15:00:59,840 - root - INFO - Checking source health...
+2025-12-10 15:01:05,989 - src.source_validator - WARNING - RSS Source unhealthy: Socialforum (https://www.socialforum.se/article/feed/)
+2025-12-10 15:01:25,773 - root - INFO - Starting RSS collection...
+2025-12-10 15:01:25,773 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-10 15:01:25,924 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-10 15:01:26,012 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-10 15:01:26,132 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-10 15:01:26,238 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-10 15:01:27,545 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-10 15:01:27,634 - src.collector - INFO - Fetching RSS feed: Socialforum (https://www.socialforum.se/article/feed/)
+2025-12-10 15:01:28,839 - src.collector - WARNING - Error parsing feed Socialforum: <unknown>:269:5: mismatched tag
+2025-12-10 15:01:28,840 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-10 15:01:28,840 - root - INFO - Starting Web Scraping...
+2025-12-10 15:01:28,841 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-10 15:01:33,444 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-10 15:01:45,215 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-10 15:01:57,362 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-10 15:01:57,987 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-10 15:02:04,157 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-10 15:02:12,359 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-10 15:02:18,621 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-10 15:02:34,564 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-10 15:02:42,610 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-10 15:02:47,973 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-10 15:03:52,353 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-10 15:04:42,324 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-10 15:05:15,571 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-10 15:06:37,839 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-10 15:06:39,211 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-10 15:07:15,270 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-10 15:07:19,266 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-10 15:07:21,026 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-10 15:07:22,833 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-10 15:07:25,092 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-10 15:07:26,757 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-10 15:07:28,431 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-10 15:07:51,629 - src.scraper - WARNING - Timeout/Connection error deep scraping https://skr.se/omskr/handlingarochbeslut.8073.html (1/3)
+2025-12-10 15:08:05,377 - src.scraper - WARNING - Timeout/Connection error deep scraping https://skr.se/kommunerochregioner/kommunerlista.8288.html (1/3)
+2025-12-10 15:08:12,234 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-10 15:13:31,927 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-10 15:13:52,476 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-10 15:14:56,986 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-10 15:15:10,932 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-10 15:15:26,186 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-10 15:15:26,932 - src.scraper - INFO - Collected 16 valid articles from web scraping.
+2025-12-10 15:15:26,938 - root - INFO - Checking Email (Google Alerts)...
+2025-12-10 15:15:26,939 - root - INFO - Starting Intelligent Search Agent...
+2025-12-10 15:15:26,939 - src.search_agent - INFO - Agent: Starting active search...
+2025-12-10 15:15:26,939 - src.search_agent - INFO - Agent: Searching for '"trygghetsråd" OR "omställningsstöd"'...
+2025-12-10 15:15:27,212 - src.search_agent - INFO - Agent: Searching for '"Svensk Scenkonst" OR "Teateralliansen" OR "Dansalliansen" OR "Musikalliansen"'...
+2025-12-10 15:15:27,504 - src.search_agent - INFO - Agent: Searching for '"kollektivavtal" AND ("kultur" OR "scenkonst" OR "ideell")'...
+2025-12-10 15:15:27,779 - src.search_agent - INFO - Agent: Searching for '"PTK" AND "omställning"'...
+2025-12-10 15:15:28,072 - src.search_agent - INFO - Agent: Searching for '"arbetsgivaralliansen" AND "nyheter"'...
+2025-12-10 15:15:28,540 - src.search_agent - INFO - Agent: Searching for '"uppsägning" AND ("teater" OR "orkester" OR "kultur")'...
+2025-12-10 15:15:28,802 - src.search_agent - INFO - Agent: Searching for '"civilsamhället omställning"'...
+2025-12-10 15:15:29,099 - src.search_agent - INFO - Agent: Searching for '"scenkonst arbetsmarknad"'...
+2025-12-10 15:15:29,356 - src.search_agent - INFO - Agent: Searching for '"omställningsstudiestöd"'...
+2025-12-10 15:15:29,543 - src.search_agent - INFO - Agent: Searching for '"Omstella" OR "Scen & Film"'...
+2025-12-10 15:15:29,767 - src.search_agent - INFO - Agent: Found 0 articles via active search.
+2025-12-10 15:15:29,768 - root - INFO - Collected 72 raw articles. Processing...
+2025-12-10 15:15:29,769 - src.deduplicator - INFO - Filtered out 33 articles older than 2 days
+2025-12-10 15:15:29,881 - src.deduplicator - INFO - Deduplication: Reduced 72 to 36 articles.
+2025-12-10 15:15:29,881 - src.categorizer - INFO - Skipping low relevance article: Övertid utan extra lön på SJ och VR – nu rasar personalen (Score: 0.0)
+2025-12-10 15:15:29,882 - src.categorizer - INFO - Skipping low relevance article: 100 jobb försvinner i Karlskrona när barnkullarna minskar – mest barnskötare (Score: 0.0)
+2025-12-10 15:15:29,882 - src.categorizer - INFO - Skipping low relevance article: Trots nollvision i tolv år – allvarliga olyckorna minskar inte: ”Inte nöjda” (Score: 0.0)
+2025-12-10 15:15:29,883 - src.categorizer - INFO - Skipping low relevance article: Jag trodde att vården och omsorgen välkomnade välutbildad personal (Score: 0.0)
+2025-12-10 15:15:29,884 - src.categorizer - INFO - Skipping low relevance article: Pepparkaka – 700 år av kryddiga former (Score: 0.0)
+2025-12-10 15:15:29,884 - src.categorizer - INFO - Skipping low relevance article: Räkna med CLO (Score: 0.0)
+2025-12-10 15:15:29,885 - src.categorizer - INFO - Skipping low relevance article: Meryem, 56, är arbetslös: ”Som ett öppet fängelse” (Score: 0.0)
+2025-12-10 15:15:29,885 - src.categorizer - INFO - Skipping low relevance article: Därför vägrar arbetsgivarna förhandla om kortare arbetstid (Score: 0.0)
+2025-12-10 15:15:29,885 - src.categorizer - INFO - Skipping low relevance article: Arbetsförmedlingens resebidrag för att söka jobb – inte för alla (Score: 0.0)
+2025-12-10 15:15:29,886 - src.categorizer - INFO - Skipping low relevance article: Nyfikenhet har en gräns – vi behöver prata mer om inkludering på jobbet (Score: 0.0)
+2025-12-10 15:15:29,886 - src.categorizer - INFO - Skipping low relevance article: Petra Brylander: Hot, medalj och makt bakom ridån (Score: 0.0)
+2025-12-10 15:15:29,887 - src.categorizer - INFO - Skipping low relevance article: Skolstriden i Göteborg trappas upp – nedläggningsbeslut överklagas (Score: 0.0)
+2025-12-10 15:15:29,888 - src.categorizer - INFO - Skipping low relevance article: Kommunstyrelsens ordförande petad från listan (Score: 0.0)
+2025-12-10 15:15:29,888 - src.categorizer - INFO - Skipping low relevance article: Så påverkas kommunerna av slopad myndighetssatsning (Score: 0.0)
+2025-12-10 15:15:29,889 - src.categorizer - INFO - Skipping low relevance article: Region Stockholm fortsatt i stabsläge efter Telias problem (Score: 0.0)
+2025-12-10 15:15:29,889 - src.categorizer - INFO - Skipping low relevance article: S om kritiken: ”Det är mindre tjafs nu” (Score: 0.0)
+2025-12-10 15:15:29,890 - src.categorizer - INFO - Skipping low relevance article: Debattsvepet: ”Äldre kommer snart dö ifrån sina villor” (Score: 0.0)
+2025-12-10 15:15:29,890 - src.categorizer - INFO - Skipping low relevance article: Larm om sämre insyn när S och M delar på makten – ”Har blivit arroganta” (Score: 0.0)
+2025-12-10 15:15:29,891 - src.categorizer - INFO - Skipping low relevance article: Vad hände sen? Det dramatiska året för vårdens it-system (Score: 0.0)
+2025-12-10 15:15:29,891 - src.categorizer - INFO - Skipping low relevance article: ”Energimyndigheten bör dra tillbaka sitt förslag” (Score: 0.0)
+2025-12-10 15:15:29,892 - src.categorizer - INFO - Skipping low relevance article: Region Stockholms säkerhetschef indragen i dataintrångsärende (Score: 0.0)
+2025-12-10 15:15:29,892 - src.categorizer - INFO - Skipping low relevance article: Kurser och aktiviteter (Score: 0.0)
+2025-12-10 15:15:29,893 - src.categorizer - INFO - Skipping low relevance article: Konstnärsnämnden Logga (Score: 0.0)
+2025-12-10 15:15:29,893 - src.categorizer - INFO - Skipping low relevance article: Internationella program och residens (Score: 0.0)
+2025-12-10 15:15:29,894 - src.categorizer - INFO - Skipping low relevance article: IASPIS – Internationella programmet för bild och form (Score: 0.0)
+2025-12-10 15:15:29,894 - src.categorizer - INFO - Skipping low relevance article: IASPIS publika program (Score: 0.0)
+2025-12-10 15:15:29,894 - src.categorizer - INFO - Skipping low relevance article: IASPIS aktuella publika program (Score: 0.0)
+2025-12-10 15:15:29,895 - src.categorizer - INFO - Skipping low relevance article: Sveriges kommuner och regioner (Score: 0.0)
+2025-12-10 15:15:29,895 - src.categorizer - INFO - Skipping low relevance article: Evenemangskalender (Score: 0.0)
+2025-12-10 15:15:29,895 - src.categorizer - INFO - Skipping low relevance article: Ledare: Byråkratin hämmar läkemedelsindustrin (Score: 0.0)
+2025-12-10 15:15:29,895 - src.categorizer - INFO - Skipping low relevance article: Här är årets AI-svensk (Score: 0.0)
+2025-12-10 15:15:29,896 - src.categorizer - INFO - Skipping low relevance article: Debatt: Makthavare, glöm inte bort Nobels insikt (Score: 0.0)
+2025-12-10 15:15:29,896 - src.categorizer - INFO - Skipping low relevance article: Minskad miljöbyråkrati ska spara miljarder (Score: 0.0)
+2025-12-10 15:15:29,897 - src.categorizer - INFO - Skipping low relevance article: Utbyggd tunnelbana hotas av miljardsmäll efter nya miljöregler (Score: 0.0)
+2025-12-10 15:15:29,897 - root - INFO - Generating output...
+2025-12-10 15:15:29,916 - src.emailer - INFO - Preview saved to data/preview.html
+2025-12-10 15:15:35,907 - src.emailer - INFO - Email sent successfully to rawaz.karim@trs.se
+2025-12-10 15:15:35,908 - root - INFO - Run completed successfully.
+2025-12-11 09:44:00,948 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-11 09:44:00,950 - root - INFO - Mode: Production
+2025-12-11 09:44:00,950 - root - INFO - Checking source health...
+2025-12-11 09:44:15,625 - root - INFO - Starting RSS collection...
+2025-12-11 09:44:15,625 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-11 09:44:15,731 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-11 09:44:15,787 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-11 09:44:15,924 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-11 09:44:16,079 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-11 09:44:17,721 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-11 09:44:17,796 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-11 09:44:17,796 - root - INFO - Starting Web Scraping...
+2025-12-11 09:44:17,797 - src.scraper - INFO - Starting parallel scraping for 23 sites...
+2025-12-11 09:44:17,799 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-11 09:44:17,800 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-11 09:44:17,800 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-11 09:44:17,801 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-11 09:44:17,803 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-11 09:44:18,962 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-11 09:44:24,901 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-11 09:44:26,609 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-11 09:44:30,505 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-11 09:44:30,617 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-11 09:44:30,640 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-11 09:44:31,497 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-11 09:44:34,988 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-11 09:44:42,249 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-11 09:44:55,612 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-11 09:44:56,121 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-11 09:45:16,142 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 09:45:18,055 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-11 09:45:27,758 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-11 09:45:29,027 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-11 09:45:29,048 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-11 09:45:29,534 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-11 09:45:34,787 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-11 09:45:38,606 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-11 09:49:36,632 - root - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "C:\Users\rawaz.karim\OneDrive - Trygghetsrådet TRS\Arbetsmapp\Web Dev\Kod\Rawaz Karim kommunikation\TRS Echo\trs-omvarldsbevakning\main.py", line 78, in main
+    articles.extend(scrape_web(config))
+                    ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\rawaz.karim\OneDrive - Trygghetsrådet TRS\Arbetsmapp\Web Dev\Kod\Rawaz Karim kommunikation\TRS Echo\trs-omvarldsbevakning\src\scraper.py", line 290, in scrape_web
+    for future in concurrent.futures.as_completed(future_to_site, timeout=120): # Total scraping timeout 2 min
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rawaz.karim\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 239, in as_completed
+    raise TimeoutError(
+            '%d (of %d) futures unfinished' % (
+            len(pending), total_futures))
+TimeoutError: 1 (of 23) futures unfinished
+2025-12-11 09:54:24,402 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-11 09:54:24,403 - root - INFO - Mode: Production
+2025-12-11 09:54:24,403 - root - INFO - Checking source health...
+2025-12-11 09:54:41,853 - root - INFO - Starting RSS collection...
+2025-12-11 09:54:41,854 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-11 09:54:41,964 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-11 09:54:42,025 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-11 09:54:42,156 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-11 09:54:42,292 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-11 09:54:43,343 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-11 09:54:43,424 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-11 09:54:43,425 - root - INFO - Starting Web Scraping...
+2025-12-11 09:54:43,425 - src.scraper - INFO - Starting parallel scraping for 23 sites...
+2025-12-11 09:54:43,428 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-11 09:54:43,429 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-11 09:54:43,430 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-11 09:54:43,432 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-11 09:54:43,432 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-11 09:54:45,204 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-11 09:54:51,452 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-11 09:54:53,612 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-11 09:54:58,106 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-11 09:54:58,156 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-11 09:54:58,261 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-11 09:54:59,135 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-11 09:55:04,225 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-11 09:55:11,600 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-11 09:55:30,000 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-11 09:55:30,511 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-11 09:55:43,130 - src.scraper - WARNING - ⏱️ Konstnärsnämnden: Timeout after 45s - aborting
+2025-12-11 09:55:43,153 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-11 09:55:43,268 - src.scraper - WARNING - ⏱️ Kulturrådet: Timeout after 45s - aborting
+2025-12-11 09:55:43,269 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-11 09:55:44,139 - src.scraper - WARNING - ⏱️ Kulturrådet Arkiv: Timeout after 45s - aborting
+2025-12-11 09:55:44,140 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-11 09:55:53,989 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 09:55:56,233 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-11 09:55:56,494 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-11 09:55:56,605 - src.scraper - WARNING - ⏱️ Musikerförbundet: Timeout after 45s - aborting
+2025-12-11 09:55:56,606 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-11 09:55:59,600 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-11 09:56:28,281 - src.scraper - WARNING - ⏱️ Arbetsmiljöverket: Timeout after 45s - aborting
+2025-12-11 09:56:28,282 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 09:56:28,282 - src.scraper - INFO - 📊 SCRAPING REPORT (Total: 104.9s)
+2025-12-11 09:56:28,282 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 09:56:28,283 - src.scraper - INFO - ✅ Success: 23 sites
+2025-12-11 09:56:28,283 - src.scraper - INFO - ❌ Failed:  0 sites
+2025-12-11 09:56:28,283 - src.scraper - INFO - ⏱️ Timeout: 0 sites
+2025-12-11 09:56:28,283 - src.scraper - INFO - ────────────────────────────────────────────────────────────
+2025-12-11 09:56:28,283 - src.scraper - INFO - ✅ Arbetsmiljöverket: 0 arts
+2025-12-11 09:56:28,284 - src.scraper - INFO - ✅ Socialforum: 0 arts
+2025-12-11 09:56:28,284 - src.scraper - INFO - ✅ Arbetsvärlden: 0 arts
+2025-12-11 09:56:28,284 - src.scraper - INFO - ✅ Kulturrådet: 0 arts
+2025-12-11 09:56:28,284 - src.scraper - INFO - ✅ Konstnärsnämnden: 0 arts
+2025-12-11 09:56:28,284 - src.scraper - INFO - ✅ Svenskt Näringsliv: 0 arts
+2025-12-11 09:56:28,284 - src.scraper - INFO - ✅ SKR: 1 arts
+2025-12-11 09:56:28,285 - src.scraper - INFO - ✅ PTK Press: 0 arts
+2025-12-11 09:56:28,285 - src.scraper - INFO - ✅ Svensk Scenkonst: 0 arts
+2025-12-11 09:56:28,285 - src.scraper - INFO - ✅ Arbetsgivaralliansen: 0 arts
+2025-12-11 09:56:28,285 - src.scraper - INFO - ✅ Fremia: 0 arts
+2025-12-11 09:56:28,285 - src.scraper - INFO - ✅ LO Nyheter: 0 arts
+2025-12-11 09:56:28,286 - src.scraper - INFO - ✅ Musikalliansen: 0 arts
+2025-12-11 09:56:28,286 - src.scraper - INFO - ✅ Svensk Scenkonst Mynewsdesk: 0 arts
+2025-12-11 09:56:28,286 - src.scraper - INFO - ✅ Famna: 0 arts
+2025-12-11 09:56:28,287 - src.scraper - INFO - ✅ Kulturrådet Arkiv: 0 arts
+2025-12-11 09:56:28,287 - src.scraper - INFO - ✅ PTK Nyheter: 0 arts
+2025-12-11 09:56:28,288 - src.scraper - INFO - ✅ Konstnärsnämnden Mynewsdesk: 0 arts
+2025-12-11 09:56:28,288 - src.scraper - INFO - ✅ TRR: 0 arts
+2025-12-11 09:56:28,288 - src.scraper - INFO - ✅ Musikerförbundet: 0 arts
+2025-12-11 09:56:28,288 - src.scraper - INFO - ✅ TN (Svenskt Näringsliv): 5 arts
+2025-12-11 09:56:28,289 - src.scraper - INFO - ✅ Omstella: 0 arts
+2025-12-11 09:56:28,289 - src.scraper - INFO - ✅ Publikt: 0 arts
+2025-12-11 09:56:28,289 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 09:56:28,290 - src.scraper - INFO - Collected 6 valid articles from web scraping.
+2025-12-11 09:56:28,290 - root - INFO - Checking Email (Google Alerts)...
+2025-12-11 09:56:28,291 - root - INFO - Starting Intelligent Search Agent...
+2025-12-11 09:56:28,291 - src.search_agent - INFO - Agent: Starting active search via Google News RSS...
+2025-12-11 09:56:28,291 - src.search_agent - INFO - Agent: Searching Google News for 'trygghetsråd'...
+2025-12-11 09:56:28,665 - src.search_agent - INFO - Agent: Found 0 new results for 'trygghetsråd'
+2025-12-11 09:56:28,665 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstöd'...
+2025-12-11 09:56:29,257 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstöd'
+2025-12-11 09:56:29,259 - src.search_agent - INFO - Agent: Searching Google News for 'Svensk Scenkonst'...
+2025-12-11 09:56:29,796 - src.search_agent - INFO - Agent: Found 0 new results for 'Svensk Scenkonst'
+2025-12-11 09:56:29,796 - src.search_agent - INFO - Agent: Searching Google News for 'Teateralliansen'...
+2025-12-11 09:56:30,051 - src.search_agent - INFO - Agent: Found 0 new results for 'Teateralliansen'
+2025-12-11 09:56:30,052 - src.search_agent - INFO - Agent: Searching Google News for 'Dansalliansen'...
+2025-12-11 09:56:30,318 - src.search_agent - INFO - Agent: Found 0 new results for 'Dansalliansen'
+2025-12-11 09:56:30,318 - src.search_agent - INFO - Agent: Searching Google News for 'Musikalliansen'...
+2025-12-11 09:56:30,605 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikalliansen'
+2025-12-11 09:56:30,606 - src.search_agent - INFO - Agent: Searching Google News for 'PTK omställning'...
+2025-12-11 09:56:30,914 - src.search_agent - INFO - Agent: Found 0 new results for 'PTK omställning'
+2025-12-11 09:56:30,914 - src.search_agent - INFO - Agent: Searching Google News for 'Arbetsgivaralliansen'...
+2025-12-11 09:56:31,274 - src.search_agent - INFO - Agent: Found 0 new results for 'Arbetsgivaralliansen'
+2025-12-11 09:56:31,274 - src.search_agent - INFO - Agent: Searching Google News for 'kollektivavtal kultur'...
+2025-12-11 09:56:31,590 - src.search_agent - INFO - Agent: Found 0 new results for 'kollektivavtal kultur'
+2025-12-11 09:56:31,590 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonst'...
+2025-12-11 09:56:32,023 - src.search_agent - INFO - Agent: Found 1 new results for 'scenkonst'
+2025-12-11 09:56:32,023 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstudiestöd'...
+2025-12-11 09:56:32,447 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstudiestöd'
+2025-12-11 09:56:32,448 - src.search_agent - INFO - Agent: Searching Google News for 'civilsamhället arbetsmarknad'...
+2025-12-11 09:56:32,802 - src.search_agent - INFO - Agent: Found 0 new results for 'civilsamhället arbetsmarknad'
+2025-12-11 09:56:32,802 - src.search_agent - INFO - Agent: Searching Google News for 'TRR omställning'...
+2025-12-11 09:56:33,083 - src.search_agent - INFO - Agent: Found 0 new results for 'TRR omställning'
+2025-12-11 09:56:33,083 - src.search_agent - INFO - Agent: Searching Google News for 'ideell sektor arbetsgivare'...
+2025-12-11 09:56:33,404 - src.search_agent - INFO - Agent: Found 0 new results for 'ideell sektor arbetsgivare'
+2025-12-11 09:56:33,405 - src.search_agent - INFO - Agent: Found 1 unique articles via active search.
+2025-12-11 09:56:33,405 - root - ERROR - An unexpected error occurred:
+Traceback (most recent call last):
+  File "C:\Users\rawaz.karim\OneDrive - Trygghetsrådet TRS\Arbetsmapp\Web Dev\Kod\Rawaz Karim kommunikation\TRS Echo\trs-omvarldsbevakning\main.py", line 86, in main
+    articles.extend(run_search_agent(config))
+                    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\rawaz.karim\OneDrive - Trygghetsrådet TRS\Arbetsmapp\Web Dev\Kod\Rawaz Karim kommunikation\TRS Echo\trs-omvarldsbevakning\src\search_agent.py", line 167, in run_search_agent
+    article = Article(
+        title=result['title'],
+    ...<7 lines>...
+        found_via=result['found_via']
+    )
+TypeError: Article.__init__() got an unexpected keyword argument 'relevant'
+2025-12-11 10:04:37,122 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-11 10:04:37,123 - root - INFO - Mode: Production
+2025-12-11 10:04:37,123 - root - INFO - Checking source health...
+2025-12-11 10:04:54,108 - root - INFO - Starting RSS collection...
+2025-12-11 10:04:54,109 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-11 10:04:54,226 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-11 10:04:54,282 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-11 10:04:54,416 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-11 10:04:54,521 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-11 10:04:55,589 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-11 10:04:55,662 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-11 10:04:55,662 - root - INFO - Starting Web Scraping...
+2025-12-11 10:04:55,662 - src.scraper - INFO - Starting parallel scraping for 23 sites...
+2025-12-11 10:04:55,666 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-11 10:04:55,667 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-11 10:04:55,668 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-11 10:04:55,669 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-11 10:04:55,669 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-11 10:04:56,965 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-11 10:05:02,809 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-11 10:05:04,665 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-11 10:05:08,854 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-11 10:05:08,914 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-11 10:05:08,984 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-11 10:05:09,871 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-11 10:05:13,174 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-11 10:05:20,747 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-11 10:05:35,934 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-11 10:05:36,518 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-11 10:05:53,859 - src.scraper - WARNING - ⏱️ Konstnärsnämnden: Timeout after 45s - aborting
+2025-12-11 10:05:53,860 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-11 10:05:53,997 - src.scraper - WARNING - ⏱️ Kulturrådet: Timeout after 45s - aborting
+2025-12-11 10:05:53,998 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-11 10:05:54,217 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-11 10:06:01,261 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 10:06:03,069 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-11 10:06:03,319 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-11 10:06:05,756 - src.scraper - WARNING - ⏱️ Musikerförbundet: Timeout after 45s - aborting
+2025-12-11 10:06:05,757 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-11 10:06:06,779 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-11 10:06:39,012 - src.scraper - WARNING - ⏱️ Arbetsmiljöverket: Timeout after 45s - aborting
+2025-12-11 10:06:39,014 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 10:06:39,014 - src.scraper - INFO - 📊 SCRAPING REPORT (Total: 103.4s)
+2025-12-11 10:06:39,014 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 10:06:39,015 - src.scraper - INFO - ✅ Success: 23 sites
+2025-12-11 10:06:39,015 - src.scraper - INFO - ❌ Failed:  0 sites
+2025-12-11 10:06:39,015 - src.scraper - INFO - ⏱️ Timeout: 0 sites
+2025-12-11 10:06:39,015 - src.scraper - INFO - ────────────────────────────────────────────────────────────
+2025-12-11 10:06:39,016 - src.scraper - INFO - ✅ Konstnärsnämnden: 0 arts
+2025-12-11 10:06:39,016 - src.scraper - INFO - ✅ Arbetsvärlden: 0 arts
+2025-12-11 10:06:39,016 - src.scraper - INFO - ✅ Svenskt Näringsliv: 0 arts
+2025-12-11 10:06:39,016 - src.scraper - INFO - ✅ Kulturrådet: 0 arts
+2025-12-11 10:06:39,017 - src.scraper - INFO - ✅ Arbetsmiljöverket: 0 arts
+2025-12-11 10:06:39,017 - src.scraper - INFO - ✅ Publikt: 0 arts
+2025-12-11 10:06:39,017 - src.scraper - INFO - ✅ PTK Press: 0 arts
+2025-12-11 10:06:39,017 - src.scraper - INFO - ✅ SKR: 1 arts
+2025-12-11 10:06:39,017 - src.scraper - INFO - ✅ Arbetsgivaralliansen: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Kulturrådet Arkiv: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Musikerförbundet: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Socialforum: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Famna: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ TN (Svenskt Näringsliv): 5 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ TRR: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Konstnärsnämnden Mynewsdesk: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ PTK Nyheter: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ LO Nyheter: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Svensk Scenkonst: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Fremia: 0 arts
+2025-12-11 10:06:39,018 - src.scraper - INFO - ✅ Omstella: 0 arts
+2025-12-11 10:06:39,019 - src.scraper - INFO - ✅ Svensk Scenkonst Mynewsdesk: 0 arts
+2025-12-11 10:06:39,019 - src.scraper - INFO - ✅ Musikalliansen: 0 arts
+2025-12-11 10:06:39,019 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 10:06:39,020 - src.scraper - INFO - Collected 6 valid articles from web scraping.
+2025-12-11 10:06:39,020 - root - INFO - Checking Email (Google Alerts)...
+2025-12-11 10:06:39,020 - root - INFO - Starting Intelligent Search Agent...
+2025-12-11 10:06:39,020 - src.search_agent - INFO - Agent: Starting active search via Google News RSS...
+2025-12-11 10:06:39,021 - src.search_agent - INFO - Agent: Searching Google News for 'trygghetsråd'...
+2025-12-11 10:06:39,272 - src.search_agent - INFO - Agent: Found 0 new results for 'trygghetsråd'
+2025-12-11 10:06:39,272 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstöd'...
+2025-12-11 10:06:39,717 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstöd'
+2025-12-11 10:06:39,717 - src.search_agent - INFO - Agent: Searching Google News for 'Svensk Scenkonst'...
+2025-12-11 10:06:40,158 - src.search_agent - INFO - Agent: Found 0 new results for 'Svensk Scenkonst'
+2025-12-11 10:06:40,159 - src.search_agent - INFO - Agent: Searching Google News for 'Teateralliansen'...
+2025-12-11 10:06:40,478 - src.search_agent - INFO - Agent: Found 0 new results for 'Teateralliansen'
+2025-12-11 10:06:40,478 - src.search_agent - INFO - Agent: Searching Google News for 'Dansalliansen'...
+2025-12-11 10:06:40,763 - src.search_agent - INFO - Agent: Found 0 new results for 'Dansalliansen'
+2025-12-11 10:06:40,763 - src.search_agent - INFO - Agent: Searching Google News for 'Musikalliansen'...
+2025-12-11 10:06:40,965 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikalliansen'
+2025-12-11 10:06:40,966 - src.search_agent - INFO - Agent: Searching Google News for 'PTK omställning'...
+2025-12-11 10:06:41,326 - src.search_agent - INFO - Agent: Found 0 new results for 'PTK omställning'
+2025-12-11 10:06:41,326 - src.search_agent - INFO - Agent: Searching Google News for 'Arbetsgivaralliansen'...
+2025-12-11 10:06:41,582 - src.search_agent - INFO - Agent: Found 0 new results for 'Arbetsgivaralliansen'
+2025-12-11 10:06:41,583 - src.search_agent - INFO - Agent: Searching Google News for 'kollektivavtal kultur'...
+2025-12-11 10:06:41,865 - src.search_agent - INFO - Agent: Found 0 new results for 'kollektivavtal kultur'
+2025-12-11 10:06:41,866 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonst'...
+2025-12-11 10:06:42,338 - src.search_agent - INFO - Agent: Found 1 new results for 'scenkonst'
+2025-12-11 10:06:42,338 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstudiestöd'...
+2025-12-11 10:06:42,752 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstudiestöd'
+2025-12-11 10:06:42,753 - src.search_agent - INFO - Agent: Searching Google News for 'civilsamhället arbetsmarknad'...
+2025-12-11 10:06:43,108 - src.search_agent - INFO - Agent: Found 0 new results for 'civilsamhället arbetsmarknad'
+2025-12-11 10:06:43,109 - src.search_agent - INFO - Agent: Searching Google News for 'TRR omställning'...
+2025-12-11 10:06:43,433 - src.search_agent - INFO - Agent: Found 0 new results for 'TRR omställning'
+2025-12-11 10:06:43,434 - src.search_agent - INFO - Agent: Searching Google News for 'ideell sektor arbetsgivare'...
+2025-12-11 10:06:43,700 - src.search_agent - INFO - Agent: Found 0 new results for 'ideell sektor arbetsgivare'
+2025-12-11 10:06:43,700 - src.search_agent - INFO - Agent: Found 1 unique articles via active search.
+2025-12-11 10:06:43,700 - root - INFO - Collected 63 raw articles. Processing...
+2025-12-11 10:06:43,702 - src.deduplicator - INFO - Filtered out 34 articles older than 2 days
+2025-12-11 10:06:43,741 - src.deduplicator - INFO - Deduplication: Reduced 63 to 29 articles.
+2025-12-11 10:06:43,744 - src.categorizer - INFO - Skipping low relevance article: Effektivitetspengarna: Vinnare och förlorare bland regionerna (Score: 0.00 < 0.15)
+2025-12-11 10:06:43,744 - src.categorizer - INFO - Skipping low relevance article: Sveriges kommuner och regioner (Score: 0.00 < 0.15)
+2025-12-11 10:06:43,745 - root - INFO - Generating output...
+2025-12-11 10:06:43,758 - src.emailer - INFO - Preview saved to data/preview.html
+2025-12-11 10:06:45,211 - src.emailer - INFO - Email sent successfully to rawaz.karim@trs.se
+2025-12-11 10:06:45,212 - root - INFO - Run completed successfully.
+2025-12-11 13:10:43,036 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-11 13:10:43,037 - root - INFO - Mode: Production
+2025-12-11 13:10:43,037 - root - INFO - Checking source health...
+2025-12-11 13:10:59,575 - root - INFO - Starting RSS collection...
+2025-12-11 13:10:59,575 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-11 13:10:59,696 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-11 13:10:59,765 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-11 13:10:59,898 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-11 13:11:00,009 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-11 13:11:01,666 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-11 13:11:01,740 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-11 13:11:01,740 - root - INFO - Starting Web Scraping...
+2025-12-11 13:11:01,741 - src.scraper - INFO - Starting parallel scraping for 23 sites...
+2025-12-11 13:11:01,745 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-11 13:11:01,746 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-11 13:11:01,748 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-11 13:11:01,750 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-11 13:11:01,750 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-11 13:11:03,122 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-11 13:11:09,112 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-11 13:11:10,910 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-11 13:11:14,693 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-11 13:11:14,791 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-11 13:11:14,923 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-11 13:11:15,882 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-11 13:11:19,390 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-11 13:11:27,771 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-11 13:11:42,353 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-11 13:11:42,854 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-11 13:11:47,063 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-11 13:11:58,237 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-11 13:11:59,925 - src.scraper - WARNING - ⏱️ Kulturrådet: Timeout after 45s - aborting
+2025-12-11 13:11:59,926 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-11 13:12:00,894 - src.scraper - WARNING - ⏱️ Kulturrådet Arkiv: Timeout after 45s - aborting
+2025-12-11 13:12:00,895 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-11 13:12:01,482 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 13:12:03,149 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 13:12:06,014 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-11 13:12:12,776 - src.scraper - WARNING - ⏱️ Musikerförbundet: Timeout after 45s - aborting
+2025-12-11 13:12:12,777 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-11 13:12:13,072 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-11 13:12:43,241 - src.scraper - WARNING - ⏱️ Arbetsmiljöverket: Timeout after 45s - aborting
+2025-12-11 13:12:43,243 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 13:12:43,244 - src.scraper - INFO - 📊 SCRAPING REPORT (Total: 101.5s)
+2025-12-11 13:12:43,244 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 13:12:43,244 - src.scraper - INFO - ✅ Success: 23 sites
+2025-12-11 13:12:43,245 - src.scraper - INFO - ❌ Failed:  0 sites
+2025-12-11 13:12:43,245 - src.scraper - INFO - ⏱️ Timeout: 0 sites
+2025-12-11 13:12:43,245 - src.scraper - INFO - ────────────────────────────────────────────────────────────
+2025-12-11 13:12:43,245 - src.scraper - INFO - ✅ Svensk Scenkonst Mynewsdesk: 0 arts
+2025-12-11 13:12:43,246 - src.scraper - INFO - ✅ Svensk Scenkonst: 0 arts
+2025-12-11 13:12:43,246 - src.scraper - INFO - ✅ Musikalliansen: 0 arts
+2025-12-11 13:12:43,246 - src.scraper - INFO - ✅ Konstnärsnämnden Mynewsdesk: 0 arts
+2025-12-11 13:12:43,247 - src.scraper - INFO - ✅ Famna: 0 arts
+2025-12-11 13:12:43,248 - src.scraper - INFO - ✅ Omstella: 0 arts
+2025-12-11 13:12:43,248 - src.scraper - INFO - ✅ Musikerförbundet: 0 arts
+2025-12-11 13:12:43,248 - src.scraper - INFO - ✅ SKR: 1 arts
+2025-12-11 13:12:43,249 - src.scraper - INFO - ✅ Kulturrådet Arkiv: 0 arts
+2025-12-11 13:12:43,249 - src.scraper - INFO - ✅ TRR: 0 arts
+2025-12-11 13:12:43,249 - src.scraper - INFO - ✅ Socialforum: 0 arts
+2025-12-11 13:12:43,250 - src.scraper - INFO - ✅ LO Nyheter: 0 arts
+2025-12-11 13:12:43,250 - src.scraper - INFO - ✅ Kulturrådet: 0 arts
+2025-12-11 13:12:43,250 - src.scraper - INFO - ✅ PTK Nyheter: 0 arts
+2025-12-11 13:12:43,250 - src.scraper - INFO - ✅ Publikt: 0 arts
+2025-12-11 13:12:43,250 - src.scraper - INFO - ✅ Arbetsvärlden: 0 arts
+2025-12-11 13:12:43,250 - src.scraper - INFO - ✅ Arbetsmiljöverket: 0 arts
+2025-12-11 13:12:43,251 - src.scraper - INFO - ✅ Svenskt Näringsliv: 0 arts
+2025-12-11 13:12:43,251 - src.scraper - INFO - ✅ PTK Press: 0 arts
+2025-12-11 13:12:43,251 - src.scraper - INFO - ✅ Konstnärsnämnden: 4 arts
+2025-12-11 13:12:43,251 - src.scraper - INFO - ✅ Fremia: 0 arts
+2025-12-11 13:12:43,251 - src.scraper - INFO - ✅ TN (Svenskt Näringsliv): 5 arts
+2025-12-11 13:12:43,251 - src.scraper - INFO - ✅ Arbetsgivaralliansen: 0 arts
+2025-12-11 13:12:43,251 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 13:12:43,252 - src.scraper - INFO - Collected 10 valid articles from web scraping.
+2025-12-11 13:12:43,252 - root - INFO - Checking Email (Google Alerts)...
+2025-12-11 13:12:43,252 - root - INFO - Starting Intelligent Search Agent...
+2025-12-11 13:12:43,252 - src.search_agent - INFO - Agent: Starting active search via Google News RSS...
+2025-12-11 13:12:43,252 - src.search_agent - INFO - Agent: Searching Google News for 'Trygghetsrådet TRS'...
+2025-12-11 13:12:43,578 - src.search_agent - INFO - Agent: Found 0 new results for 'Trygghetsrådet TRS'
+2025-12-11 13:12:43,579 - src.search_agent - INFO - Agent: Searching Google News for 'TRS omställning'...
+2025-12-11 13:12:43,845 - src.search_agent - INFO - Agent: Found 0 new results for 'TRS omställning'
+2025-12-11 13:12:43,845 - src.search_agent - INFO - Agent: Searching Google News for 'Arbetsgivaralliansen'...
+2025-12-11 13:12:44,270 - src.search_agent - INFO - Agent: Found 0 new results for 'Arbetsgivaralliansen'
+2025-12-11 13:12:44,270 - src.search_agent - INFO - Agent: Searching Google News for 'Svensk Scenkonst'...
+2025-12-11 13:12:44,803 - src.search_agent - INFO - Agent: Found 0 new results for 'Svensk Scenkonst'
+2025-12-11 13:12:44,803 - src.search_agent - INFO - Agent: Searching Google News for 'PTK omställning'...
+2025-12-11 13:12:45,151 - src.search_agent - INFO - Agent: Found 0 new results for 'PTK omställning'
+2025-12-11 13:12:45,151 - src.search_agent - INFO - Agent: Searching Google News for 'Teateralliansen'...
+2025-12-11 13:12:45,393 - src.search_agent - INFO - Agent: Found 0 new results for 'Teateralliansen'
+2025-12-11 13:12:45,394 - src.search_agent - INFO - Agent: Searching Google News for 'Dansalliansen'...
+2025-12-11 13:12:45,655 - src.search_agent - INFO - Agent: Found 0 new results for 'Dansalliansen'
+2025-12-11 13:12:45,656 - src.search_agent - INFO - Agent: Searching Google News for 'Musikalliansen'...
+2025-12-11 13:12:46,037 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikalliansen'
+2025-12-11 13:12:46,037 - src.search_agent - INFO - Agent: Searching Google News for 'TRR omställning'...
+2025-12-11 13:12:46,347 - src.search_agent - INFO - Agent: Found 0 new results for 'TRR omställning'
+2025-12-11 13:12:46,348 - src.search_agent - INFO - Agent: Searching Google News for 'Omstella'...
+2025-12-11 13:12:46,602 - src.search_agent - INFO - Agent: Found 0 new results for 'Omstella'
+2025-12-11 13:12:46,603 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonst'...
+2025-12-11 13:12:47,204 - src.search_agent - INFO - Agent: Found 2 new results for 'scenkonst'
+2025-12-11 13:12:47,205 - src.search_agent - INFO - Agent: Searching Google News for 'teater anställning'...
+2025-12-11 13:12:47,589 - src.search_agent - INFO - Agent: Found 0 new results for 'teater anställning'
+2025-12-11 13:12:47,589 - src.search_agent - INFO - Agent: Searching Google News for 'orkester nedläggning'...
+2025-12-11 13:12:47,978 - src.search_agent - INFO - Agent: Found 0 new results for 'orkester nedläggning'
+2025-12-11 13:12:47,979 - src.search_agent - INFO - Agent: Searching Google News for 'opera personal'...
+2025-12-11 13:12:48,422 - src.search_agent - INFO - Agent: Found 0 new results for 'opera personal'
+2025-12-11 13:12:48,423 - src.search_agent - INFO - Agent: Searching Google News for 'balett karriär'...
+2025-12-11 13:12:48,861 - src.search_agent - INFO - Agent: Found 0 new results for 'balett karriär'
+2025-12-11 13:12:48,862 - src.search_agent - INFO - Agent: Searching Google News for 'symfoniorkester'...
+2025-12-11 13:12:51,919 - src.search_agent - INFO - Agent: Found 2 new results for 'symfoniorkester'
+2025-12-11 13:12:51,920 - src.search_agent - INFO - Agent: Searching Google News for 'stadsteater varsel'...
+2025-12-11 13:12:55,992 - src.search_agent - INFO - Agent: Found 0 new results for 'stadsteater varsel'
+2025-12-11 13:12:55,993 - src.search_agent - INFO - Agent: Searching Google News for 'regionteater'...
+2025-12-11 13:12:56,591 - src.search_agent - INFO - Agent: Found 0 new results for 'regionteater'
+2025-12-11 13:12:56,592 - src.search_agent - INFO - Agent: Searching Google News for 'Dramaten personal'...
+2025-12-11 13:12:56,934 - src.search_agent - INFO - Agent: Found 0 new results for 'Dramaten personal'
+2025-12-11 13:12:56,934 - src.search_agent - INFO - Agent: Searching Google News for 'Kungliga Operan anställda'...
+2025-12-11 13:12:57,326 - src.search_agent - INFO - Agent: Found 0 new results for 'Kungliga Operan anställda'
+2025-12-11 13:12:57,327 - src.search_agent - INFO - Agent: Searching Google News for 'skådespelare frilans'...
+2025-12-11 13:12:57,690 - src.search_agent - INFO - Agent: Found 0 new results for 'skådespelare frilans'
+2025-12-11 13:12:57,691 - src.search_agent - INFO - Agent: Searching Google News for 'dansare karriär'...
+2025-12-11 13:12:58,137 - src.search_agent - INFO - Agent: Found 0 new results for 'dansare karriär'
+2025-12-11 13:12:58,138 - src.search_agent - INFO - Agent: Searching Google News for 'musiker anställning'...
+2025-12-11 13:12:58,571 - src.search_agent - INFO - Agent: Found 0 new results for 'musiker anställning'
+2025-12-11 13:12:58,572 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonstnär'...
+2025-12-11 13:12:58,877 - src.search_agent - INFO - Agent: Found 0 new results for 'scenkonstnär'
+2025-12-11 13:12:58,877 - src.search_agent - INFO - Agent: Searching Google News for 'frilansare kultur'...
+2025-12-11 13:12:59,306 - src.search_agent - INFO - Agent: Found 1 new results for 'frilansare kultur'
+2025-12-11 13:12:59,306 - src.search_agent - INFO - Agent: Searching Google News for 'frilansande skådespelare'...
+2025-12-11 13:12:59,842 - src.search_agent - INFO - Agent: Found 0 new results for 'frilansande skådespelare'
+2025-12-11 13:12:59,843 - src.search_agent - INFO - Agent: Searching Google News for 'ideell sektor arbetsgivare'...
+2025-12-11 13:13:00,214 - src.search_agent - INFO - Agent: Found 0 new results for 'ideell sektor arbetsgivare'
+2025-12-11 13:13:00,215 - src.search_agent - INFO - Agent: Searching Google News for 'civilsamhället anställda'...
+2025-12-11 13:13:00,641 - src.search_agent - INFO - Agent: Found 0 new results for 'civilsamhället anställda'
+2025-12-11 13:13:00,641 - src.search_agent - INFO - Agent: Searching Google News for 'idéburen verksamhet'...
+2025-12-11 13:13:01,029 - src.search_agent - INFO - Agent: Found 0 new results for 'idéburen verksamhet'
+2025-12-11 13:13:01,029 - src.search_agent - INFO - Agent: Searching Google News for 'folkrörelse personal'...
+2025-12-11 13:13:01,339 - src.search_agent - INFO - Agent: Found 0 new results for 'folkrörelse personal'
+2025-12-11 13:13:01,340 - src.search_agent - INFO - Agent: Searching Google News for 'folkhögskola anställda'...
+2025-12-11 13:13:01,754 - src.search_agent - INFO - Agent: Found 0 new results for 'folkhögskola anställda'
+2025-12-11 13:13:01,754 - src.search_agent - INFO - Agent: Searching Google News for 'Fremia'...
+2025-12-11 13:13:02,363 - src.search_agent - INFO - Agent: Found 0 new results for 'Fremia'
+2025-12-11 13:13:02,363 - src.search_agent - INFO - Agent: Searching Google News for 'omställning kultur'...
+2025-12-11 13:13:02,934 - src.search_agent - INFO - Agent: Found 0 new results for 'omställning kultur'
+2025-12-11 13:13:02,934 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstöd'...
+2025-12-11 13:13:07,019 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstöd'
+2025-12-11 13:13:07,020 - src.search_agent - INFO - Agent: Searching Google News for 'karriärväxling'...
+2025-12-11 13:13:07,387 - src.search_agent - INFO - Agent: Found 0 new results for 'karriärväxling'
+2025-12-11 13:13:07,387 - src.search_agent - INFO - Agent: Searching Google News for 'uppsägning teater'...
+2025-12-11 13:13:07,778 - src.search_agent - INFO - Agent: Found 0 new results for 'uppsägning teater'
+2025-12-11 13:13:07,779 - src.search_agent - INFO - Agent: Searching Google News for 'arbetsbrist kultur'...
+2025-12-11 13:13:08,265 - src.search_agent - INFO - Agent: Found 1 new results for 'arbetsbrist kultur'
+2025-12-11 13:13:08,266 - src.search_agent - INFO - Agent: Searching Google News for 'varsel scenkonst'...
+2025-12-11 13:13:08,628 - src.search_agent - INFO - Agent: Found 0 new results for 'varsel scenkonst'
+2025-12-11 13:13:08,629 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstudiestöd'...
+2025-12-11 13:13:09,139 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstudiestöd'
+2025-12-11 13:13:09,139 - src.search_agent - INFO - Agent: Searching Google News for 'kompetensutveckling anställda'...
+2025-12-11 13:13:09,633 - src.search_agent - INFO - Agent: Found 1 new results for 'kompetensutveckling anställda'
+2025-12-11 13:13:09,633 - src.search_agent - INFO - Agent: Searching Google News for 'livslångt lärande'...
+2025-12-11 13:13:10,259 - src.search_agent - INFO - Agent: Found 0 new results for 'livslångt lärande'
+2025-12-11 13:13:10,260 - src.search_agent - INFO - Agent: Searching Google News for 'vidareutbildning yrkesverksam'...
+2025-12-11 13:13:10,619 - src.search_agent - INFO - Agent: Found 0 new results for 'vidareutbildning yrkesverksam'
+2025-12-11 13:13:10,619 - src.search_agent - INFO - Agent: Searching Google News for 'kollektivavtal kultur'...
+2025-12-11 13:13:11,801 - src.search_agent - INFO - Agent: Found 0 new results for 'kollektivavtal kultur'
+2025-12-11 13:13:11,801 - src.search_agent - INFO - Agent: Searching Google News for 'Teaterförbundet'...
+2025-12-11 13:13:12,180 - src.search_agent - INFO - Agent: Found 0 new results for 'Teaterförbundet'
+2025-12-11 13:13:12,180 - src.search_agent - INFO - Agent: Searching Google News for 'Musikerförbundet'...
+2025-12-11 13:13:12,735 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikerförbundet'
+2025-12-11 13:13:12,735 - src.search_agent - INFO - Agent: Searching Google News for 'SYMF'...
+2025-12-11 13:13:13,024 - src.search_agent - INFO - Agent: Found 0 new results for 'SYMF'
+2025-12-11 13:13:13,024 - src.search_agent - INFO - Agent: Searching Google News for 'trygghetsöverenskommelsen'...
+2025-12-11 13:13:13,410 - src.search_agent - INFO - Agent: Found 0 new results for 'trygghetsöverenskommelsen'
+2025-12-11 13:13:13,410 - src.search_agent - INFO - Agent: Searching Google News for 'kulturpolitik'...
+2025-12-11 13:13:13,933 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturpolitik'
+2025-12-11 13:13:13,934 - src.search_agent - INFO - Agent: Searching Google News for 'Kulturrådet bidrag'...
+2025-12-11 13:13:14,560 - src.search_agent - INFO - Agent: Found 1 new results for 'Kulturrådet bidrag'
+2025-12-11 13:13:14,561 - src.search_agent - INFO - Agent: Searching Google News for 'Konstnärsnämnden'...
+2025-12-11 13:13:16,901 - src.search_agent - INFO - Agent: Found 0 new results for 'Konstnärsnämnden'
+2025-12-11 13:13:16,902 - src.search_agent - INFO - Agent: Searching Google News for 'kulturanslag'...
+2025-12-11 13:13:17,118 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturanslag'
+2025-12-11 13:13:17,118 - src.search_agent - INFO - Agent: Searching Google News for 'kultursektorn ekonomi'...
+2025-12-11 13:13:17,600 - src.search_agent - INFO - Agent: Found 0 new results for 'kultursektorn ekonomi'
+2025-12-11 13:13:17,601 - src.search_agent - INFO - Agent: Searching Google News for 'kulturarbetare anställning'...
+2025-12-11 13:13:17,976 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturarbetare anställning'
+2025-12-11 13:13:17,977 - src.search_agent - INFO - Agent: Searching Google News for 'konstnärer arbetsmarknad'...
+2025-12-11 13:13:18,276 - src.search_agent - INFO - Agent: Found 0 new results for 'konstnärer arbetsmarknad'
+2025-12-11 13:13:18,277 - src.search_agent - INFO - Agent: Searching Google News for 'tidsbegränsad anställning kultur'...
+2025-12-11 13:13:18,568 - src.search_agent - INFO - Agent: Found 1 new results for 'tidsbegränsad anställning kultur'
+2025-12-11 13:13:18,568 - src.search_agent - INFO - Agent: Found 9 unique articles via active search.
+2025-12-11 13:13:18,569 - root - INFO - Collected 75 raw articles. Processing...
+2025-12-11 13:13:18,570 - src.deduplicator - INFO - Filtered out 34 articles older than 2 days
+2025-12-11 13:13:18,656 - src.deduplicator - INFO - Deduplication: Reduced 75 to 41 articles.
+2025-12-11 13:13:18,656 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Städerskan Mersudina gick sönder på jobbet – Försä... - Ingen stark signal
+2025-12-11 13:13:18,657 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”Märket ökar löneskillnaderna – vi måste höja kvin... - Ingen stark signal
+2025-12-11 13:13:18,657 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter kongressbeslut – nu ska fackligt aktiva utbi... - Irrelevant sektor: handel
+2025-12-11 13:13:18,658 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Utan politikerna kan vi glömma kortad arbetstid... - Ingen stark signal
+2025-12-11 13:13:18,658 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter granskningen om väktare på LSS-boenden – min... - Irrelevant sektor: kommun
+2025-12-11 13:13:18,659 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”Väktare på arbetsplatserna – en trigger för mer v... - Ingen stark signal
+2025-12-11 13:13:18,659 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter Arbetets avslöjande – IMY vill stoppa olagli... - Irrelevant sektor: myndighet
+2025-12-11 13:13:18,659 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Övertid utan extra lön på SJ och VR – nu rasar per... - Irrelevant sektor: tåg
+2025-12-11 13:13:18,660 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): 100 jobb försvinner i Karlskrona när barnkullarna ... - Irrelevant sektor: kommun
+2025-12-11 13:13:18,660 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Trots nollvision i tolv år – allvarliga olyckorna ... - Irrelevant sektor: livsmedel
+2025-12-11 13:13:18,660 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Medlemmar fick ”glömd” semesterlön i julklapp... - Ingen stark signal
+2025-12-11 13:13:18,661 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Arbetsförmedlingens resebidrag för att söka jobb –... - Ingen stark signal
+2025-12-11 13:13:18,661 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Kammarrätten: Fel att hemlighålla namn på anställd... - Irrelevant sektor: kommun
+2025-12-11 13:13:18,662 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Byggboom i Sjukhussverige – här är regionernas sto... - Irrelevant sektor: region
+2025-12-11 13:13:18,662 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Regiondirektören: Svårt ta ansvar för vad som hänt... - Irrelevant sektor: region
+2025-12-11 13:13:18,662 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Debattsvepet: ”Indelningen i elområden framstår so... - Irrelevant sektor: region
+2025-12-11 13:13:18,663 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Svår valrörelse väntar för splittrad opposition... - Ingen stark signal
+2025-12-11 13:13:18,663 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Striden om friskolorna hårdnar – fler tar kampen t... - Irrelevant sektor: kommun
+2025-12-11 13:13:18,664 - src.categorizer - INFO - ❌ EXKLUDERAD (0.21): ”Regionernas lönepolitik gör kontinuitet omöjlig”... - Sektor: förening
+2025-12-11 13:13:18,664 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”Digitalisering får inte skapa nya klyftor”... - Ingen stark signal
+2025-12-11 13:13:18,664 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Omstridd giftdispens i Eskilstuna satt på paus... - Irrelevant sektor: fabrik
+2025-12-11 13:13:18,665 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): SCB: Små löneskillnader bland lågavlönade i kommun... - Irrelevant sektor: kommun
+2025-12-11 13:13:18,665 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Sveriges kommuner och regioner... - Irrelevant sektor: kommun
+2025-12-11 13:13:18,665 - src.categorizer - INFO - ✅ INKLUDERAD (1.00): Internationella prog... - Sektor: teater, dans, musik
+2025-12-11 13:13:18,666 - src.categorizer - INFO - ✅ INKLUDERAD (0.20): IASPIS publika progr... - Hög förtroendekälla/Low baseline
+2025-12-11 13:13:18,666 - src.categorizer - INFO - ✅ INKLUDERAD (0.20): IASPIS aktuella publ... - Hög förtroendekälla/Low baseline
+2025-12-11 13:13:18,666 - src.categorizer - INFO - ✅ INKLUDERAD (1.00): Internationella prog... - Sektor: teater, musik, scen
+2025-12-11 13:13:18,667 - src.categorizer - INFO - ❌ EXKLUDERAD (0.21): EU vill satsa på el via Bornholms ”energi-ö”... - Sektor: dans
+2025-12-11 13:13:18,667 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efterlysning: En politik för färre regler och fler... - Ingen stark signal
+2025-12-11 13:13:18,667 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): Få väljer naturvetenskap – ingen når målet... - Ämne: omställning
+2025-12-11 13:13:18,668 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Svensk rabatt tillbaka i budgetförslag... - Ingen stark signal
+2025-12-11 13:13:18,668 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Arbetslösheten sjunker – fjärde månaden i rad... - Ingen stark signal
+2025-12-11 13:13:18,668 - src.categorizer - INFO - ✅ INKLUDERAD (0.90): Teateråret 2025 – fr... - Sektor: teater, dans, kultur
+2025-12-11 13:13:18,669 - src.categorizer - INFO - ✅ INKLUDERAD (0.30): Gör ”vild” föreställ... - Sektor: föreställning
+2025-12-11 13:13:18,669 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Kristianstadsblad... - Ingen stark signal
+2025-12-11 13:13:18,669 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Norra Skåne... - Ingen stark signal
+2025-12-11 13:13:18,670 - src.categorizer - INFO - ✅ INKLUDERAD (0.40): Grekiska frilansare ... - Ämne: frilans
+2025-12-11 13:13:18,670 - src.categorizer - INFO - ✅ INKLUDERAD (0.30): Bulgariens budget fö... - Sektor: förening
+2025-12-11 13:13:18,670 - src.categorizer - INFO - ✅ INKLUDERAD (0.40): Kompetensutveckling ... - Ämne: kompetensutveckling
+2025-12-11 13:13:18,670 - src.categorizer - INFO - ✅ INKLUDERAD (0.60): Stöd till projekt in... - Sektor: musik, kultur
+2025-12-11 13:13:18,671 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Vikarierande staff scientist - Umeå universitet... - Ingen stark signal
+2025-12-11 13:13:18,671 - root - INFO - Generating output...
+2025-12-11 13:13:18,686 - src.emailer - INFO - Preview saved to data/preview.html
+2025-12-11 13:13:20,102 - src.emailer - INFO - Email sent successfully to rawaz.karim@trs.se
+2025-12-11 13:13:20,103 - root - INFO - Run completed successfully.
+2025-12-11 15:19:57,728 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-11 15:19:57,729 - root - INFO - Mode: Production
+2025-12-11 15:19:57,729 - root - INFO - Checking source health...
+2025-12-11 15:20:25,155 - root - INFO - Starting RSS collection...
+2025-12-11 15:20:25,156 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-11 15:20:25,556 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-11 15:20:25,827 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-11 15:20:26,170 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-11 15:20:26,430 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-11 15:20:28,693 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-11 15:20:28,900 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-11 15:20:28,901 - root - INFO - Starting Web Scraping...
+2025-12-11 15:20:28,902 - src.scraper - INFO - Starting parallel scraping for 23 sites...
+2025-12-11 15:20:28,907 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-11 15:20:28,909 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-11 15:20:28,910 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-11 15:20:28,916 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-11 15:20:28,918 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-11 15:20:31,705 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-11 15:20:43,731 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-11 15:20:47,644 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-11 15:20:56,879 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-11 15:20:57,259 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-11 15:20:57,326 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-11 15:20:58,844 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-11 15:21:06,549 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-11 15:21:13,637 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-11 15:21:17,144 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-11 15:21:18,542 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-11 15:21:41,902 - src.scraper - WARNING - ⏱️ Konstnärsnämnden: Timeout after 45s - aborting
+2025-12-11 15:21:41,904 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-11 15:21:42,330 - src.scraper - WARNING - ⏱️ Kulturrådet: Timeout after 45s - aborting
+2025-12-11 15:21:42,331 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-11 15:21:43,845 - src.scraper - WARNING - ⏱️ Kulturrådet Arkiv: Timeout after 45s - aborting
+2025-12-11 15:21:43,985 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-11 15:21:58,659 - src.scraper - WARNING - ⏱️ Musikerförbundet: Timeout after 45s - aborting
+2025-12-11 15:21:58,705 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-11 15:22:01,049 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 15:22:03,629 - src.scraper - WARNING - ⏱️ Svenskt Näringsliv: Timeout after 45s - aborting
+2025-12-11 15:22:03,804 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-11 15:22:04,365 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 15:22:09,078 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-11 15:22:13,769 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-11 15:22:27,347 - src.scraper - WARNING - ⏱️ Arbetsmiljöverket: Timeout after 45s - aborting
+2025-12-11 15:22:43,709 - src.scraper - WARNING - ⏱️ Arbetsvärlden: Timeout after 45s - aborting
+2025-12-11 15:22:43,711 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:22:43,712 - src.scraper - INFO - 📊 SCRAPING REPORT (Total: 134.8s)
+2025-12-11 15:22:43,714 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:22:43,716 - src.scraper - INFO - ✅ Success: 23 sites
+2025-12-11 15:22:43,717 - src.scraper - INFO - ❌ Failed:  0 sites
+2025-12-11 15:22:43,718 - src.scraper - INFO - ⏱️ Timeout: 0 sites
+2025-12-11 15:22:43,719 - src.scraper - INFO - ────────────────────────────────────────────────────────────
+2025-12-11 15:22:43,720 - src.scraper - INFO - ✅ Socialforum: 0 arts
+2025-12-11 15:22:43,720 - src.scraper - INFO - ✅ Fremia: 0 arts
+2025-12-11 15:22:43,721 - src.scraper - INFO - ✅ Konstnärsnämnden Mynewsdesk: 0 arts
+2025-12-11 15:22:43,721 - src.scraper - INFO - ✅ Svenskt Näringsliv: 0 arts
+2025-12-11 15:22:43,721 - src.scraper - INFO - ✅ PTK Press: 0 arts
+2025-12-11 15:22:43,722 - src.scraper - INFO - ✅ SKR: 1 arts
+2025-12-11 15:22:43,724 - src.scraper - INFO - ✅ LO Nyheter: 0 arts
+2025-12-11 15:22:43,725 - src.scraper - INFO - ✅ Svensk Scenkonst: 0 arts
+2025-12-11 15:22:43,725 - src.scraper - INFO - ✅ Arbetsmiljöverket: 0 arts
+2025-12-11 15:22:43,726 - src.scraper - INFO - ✅ Publikt: 5 arts
+2025-12-11 15:22:43,727 - src.scraper - INFO - ✅ Konstnärsnämnden: 0 arts
+2025-12-11 15:22:43,727 - src.scraper - INFO - ✅ Famna: 0 arts
+2025-12-11 15:22:43,728 - src.scraper - INFO - ✅ Omstella: 0 arts
+2025-12-11 15:22:43,728 - src.scraper - INFO - ✅ Kulturrådet: 0 arts
+2025-12-11 15:22:43,729 - src.scraper - INFO - ✅ TRR: 0 arts
+2025-12-11 15:22:43,730 - src.scraper - INFO - ✅ Svensk Scenkonst Mynewsdesk: 0 arts
+2025-12-11 15:22:43,731 - src.scraper - INFO - ✅ Musikalliansen: 0 arts
+2025-12-11 15:22:43,731 - src.scraper - INFO - ✅ Arbetsvärlden: 0 arts
+2025-12-11 15:22:43,732 - src.scraper - INFO - ✅ PTK Nyheter: 0 arts
+2025-12-11 15:22:43,732 - src.scraper - INFO - ✅ Kulturrådet Arkiv: 0 arts
+2025-12-11 15:22:43,733 - src.scraper - INFO - ✅ TN (Svenskt Näringsliv): 5 arts
+2025-12-11 15:22:43,734 - src.scraper - INFO - ✅ Musikerförbundet: 0 arts
+2025-12-11 15:22:43,734 - src.scraper - INFO - ✅ Arbetsgivaralliansen: 0 arts
+2025-12-11 15:22:43,735 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:22:43,735 - src.scraper - INFO - Collected 11 valid articles from web scraping.
+2025-12-11 15:22:43,736 - root - INFO - Checking Email (Google Alerts)...
+2025-12-11 15:22:43,736 - root - INFO - Starting Intelligent Search Agent...
+2025-12-11 15:22:43,737 - src.search_agent - INFO - Agent: Starting active search via Google News RSS...
+2025-12-11 15:22:43,737 - src.search_agent - INFO - Agent: Searching Google News for 'Trygghetsrådet TRS'...
+2025-12-11 15:22:44,217 - src.search_agent - INFO - Agent: Found 0 new results for 'Trygghetsrådet TRS'
+2025-12-11 15:22:44,217 - src.search_agent - INFO - Agent: Searching Google News for 'TRS omställning'...
+2025-12-11 15:22:44,623 - src.search_agent - INFO - Agent: Found 0 new results for 'TRS omställning'
+2025-12-11 15:22:44,626 - src.search_agent - INFO - Agent: Searching Google News for 'Arbetsgivaralliansen'...
+2025-12-11 15:22:45,072 - src.search_agent - INFO - Agent: Found 0 new results for 'Arbetsgivaralliansen'
+2025-12-11 15:22:45,073 - src.search_agent - INFO - Agent: Searching Google News for 'Svensk Scenkonst'...
+2025-12-11 15:22:45,662 - src.search_agent - INFO - Agent: Found 0 new results for 'Svensk Scenkonst'
+2025-12-11 15:22:45,663 - src.search_agent - INFO - Agent: Searching Google News for 'PTK omställning'...
+2025-12-11 15:22:46,185 - src.search_agent - INFO - Agent: Found 0 new results for 'PTK omställning'
+2025-12-11 15:22:46,186 - src.search_agent - INFO - Agent: Searching Google News for 'Teateralliansen'...
+2025-12-11 15:22:46,678 - src.search_agent - INFO - Agent: Found 0 new results for 'Teateralliansen'
+2025-12-11 15:22:46,678 - src.search_agent - INFO - Agent: Searching Google News for 'Dansalliansen'...
+2025-12-11 15:22:46,930 - src.search_agent - INFO - Agent: Found 0 new results for 'Dansalliansen'
+2025-12-11 15:22:46,931 - src.search_agent - INFO - Agent: Searching Google News for 'Musikalliansen'...
+2025-12-11 15:22:47,302 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikalliansen'
+2025-12-11 15:22:47,302 - src.search_agent - INFO - Agent: Searching Google News for 'TRR omställning'...
+2025-12-11 15:22:47,831 - src.search_agent - INFO - Agent: Found 0 new results for 'TRR omställning'
+2025-12-11 15:22:47,832 - src.search_agent - INFO - Agent: Searching Google News for 'Omstella'...
+2025-12-11 15:22:48,107 - src.search_agent - INFO - Agent: Found 0 new results for 'Omstella'
+2025-12-11 15:22:48,108 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonst'...
+2025-12-11 15:22:49,169 - src.search_agent - INFO - Agent: Found 2 new results for 'scenkonst'
+2025-12-11 15:22:49,170 - src.search_agent - INFO - Agent: Searching Google News for 'teater anställning'...
+2025-12-11 15:22:49,658 - src.search_agent - INFO - Agent: Found 0 new results for 'teater anställning'
+2025-12-11 15:22:49,659 - src.search_agent - INFO - Agent: Searching Google News for 'orkester nedläggning'...
+2025-12-11 15:22:50,373 - src.search_agent - INFO - Agent: Found 0 new results for 'orkester nedläggning'
+2025-12-11 15:22:50,389 - src.search_agent - INFO - Agent: Searching Google News for 'opera personal'...
+2025-12-11 15:22:50,955 - src.search_agent - INFO - Agent: Found 0 new results for 'opera personal'
+2025-12-11 15:22:50,956 - src.search_agent - INFO - Agent: Searching Google News for 'balett karriär'...
+2025-12-11 15:22:51,667 - src.search_agent - INFO - Agent: Found 1 new results for 'balett karriär'
+2025-12-11 15:22:51,689 - src.search_agent - INFO - Agent: Searching Google News for 'symfoniorkester'...
+2025-12-11 15:22:52,457 - src.search_agent - INFO - Agent: Found 2 new results for 'symfoniorkester'
+2025-12-11 15:22:52,458 - src.search_agent - INFO - Agent: Searching Google News for 'stadsteater varsel'...
+2025-12-11 15:22:52,976 - src.search_agent - INFO - Agent: Found 0 new results for 'stadsteater varsel'
+2025-12-11 15:22:52,977 - src.search_agent - INFO - Agent: Searching Google News for 'regionteater'...
+2025-12-11 15:22:54,175 - src.search_agent - INFO - Agent: Found 0 new results for 'regionteater'
+2025-12-11 15:22:54,175 - src.search_agent - INFO - Agent: Searching Google News for 'Dramaten personal'...
+2025-12-11 15:22:54,818 - src.search_agent - INFO - Agent: Found 0 new results for 'Dramaten personal'
+2025-12-11 15:22:54,819 - src.search_agent - INFO - Agent: Searching Google News for 'Kungliga Operan anställda'...
+2025-12-11 15:22:55,331 - src.search_agent - INFO - Agent: Found 0 new results for 'Kungliga Operan anställda'
+2025-12-11 15:22:55,331 - src.search_agent - INFO - Agent: Searching Google News for 'skådespelare frilans'...
+2025-12-11 15:22:55,852 - src.search_agent - INFO - Agent: Found 0 new results for 'skådespelare frilans'
+2025-12-11 15:22:55,853 - src.search_agent - INFO - Agent: Searching Google News for 'dansare karriär'...
+2025-12-11 15:22:56,434 - src.search_agent - INFO - Agent: Found 0 new results for 'dansare karriär'
+2025-12-11 15:22:56,435 - src.search_agent - INFO - Agent: Searching Google News for 'musiker anställning'...
+2025-12-11 15:22:56,878 - src.search_agent - INFO - Agent: Found 0 new results for 'musiker anställning'
+2025-12-11 15:22:56,879 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonstnär'...
+2025-12-11 15:22:57,256 - src.search_agent - INFO - Agent: Found 0 new results for 'scenkonstnär'
+2025-12-11 15:22:57,256 - src.search_agent - INFO - Agent: Searching Google News for 'frilansare kultur'...
+2025-12-11 15:22:58,023 - src.search_agent - INFO - Agent: Found 0 new results for 'frilansare kultur'
+2025-12-11 15:22:58,024 - src.search_agent - INFO - Agent: Searching Google News for 'frilansande skådespelare'...
+2025-12-11 15:22:58,441 - src.search_agent - INFO - Agent: Found 0 new results for 'frilansande skådespelare'
+2025-12-11 15:22:58,442 - src.search_agent - INFO - Agent: Searching Google News for 'ideell sektor arbetsgivare'...
+2025-12-11 15:22:59,110 - src.search_agent - INFO - Agent: Found 0 new results for 'ideell sektor arbetsgivare'
+2025-12-11 15:22:59,111 - src.search_agent - INFO - Agent: Searching Google News for 'civilsamhället anställda'...
+2025-12-11 15:22:59,703 - src.search_agent - INFO - Agent: Found 0 new results for 'civilsamhället anställda'
+2025-12-11 15:22:59,704 - src.search_agent - INFO - Agent: Searching Google News for 'idéburen verksamhet'...
+2025-12-11 15:23:00,433 - src.search_agent - INFO - Agent: Found 0 new results for 'idéburen verksamhet'
+2025-12-11 15:23:00,434 - src.search_agent - INFO - Agent: Searching Google News for 'folkrörelse personal'...
+2025-12-11 15:23:00,821 - src.search_agent - INFO - Agent: Found 0 new results for 'folkrörelse personal'
+2025-12-11 15:23:00,821 - src.search_agent - INFO - Agent: Searching Google News for 'folkhögskola anställda'...
+2025-12-11 15:23:01,342 - src.search_agent - INFO - Agent: Found 0 new results for 'folkhögskola anställda'
+2025-12-11 15:23:01,343 - src.search_agent - INFO - Agent: Searching Google News for 'Fremia'...
+2025-12-11 15:23:02,203 - src.search_agent - INFO - Agent: Found 0 new results for 'Fremia'
+2025-12-11 15:23:02,203 - src.search_agent - INFO - Agent: Searching Google News for 'omställning kultur'...
+2025-12-11 15:23:02,783 - src.search_agent - INFO - Agent: Found 0 new results for 'omställning kultur'
+2025-12-11 15:23:02,785 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstöd'...
+2025-12-11 15:23:03,587 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstöd'
+2025-12-11 15:23:03,587 - src.search_agent - INFO - Agent: Searching Google News for 'karriärväxling'...
+2025-12-11 15:23:04,002 - src.search_agent - INFO - Agent: Found 0 new results for 'karriärväxling'
+2025-12-11 15:23:04,003 - src.search_agent - INFO - Agent: Searching Google News for 'uppsägning teater'...
+2025-12-11 15:23:04,552 - src.search_agent - INFO - Agent: Found 0 new results for 'uppsägning teater'
+2025-12-11 15:23:04,553 - src.search_agent - INFO - Agent: Searching Google News for 'arbetsbrist kultur'...
+2025-12-11 15:23:05,088 - src.search_agent - INFO - Agent: Found 0 new results for 'arbetsbrist kultur'
+2025-12-11 15:23:05,088 - src.search_agent - INFO - Agent: Searching Google News for 'varsel scenkonst'...
+2025-12-11 15:23:05,473 - src.search_agent - INFO - Agent: Found 0 new results for 'varsel scenkonst'
+2025-12-11 15:23:05,474 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstudiestöd'...
+2025-12-11 15:23:06,192 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstudiestöd'
+2025-12-11 15:23:06,193 - src.search_agent - INFO - Agent: Searching Google News for 'kompetensutveckling anställda'...
+2025-12-11 15:23:06,703 - src.search_agent - INFO - Agent: Found 1 new results for 'kompetensutveckling anställda'
+2025-12-11 15:23:06,718 - src.search_agent - INFO - Agent: Searching Google News for 'livslångt lärande'...
+2025-12-11 15:23:07,643 - src.search_agent - INFO - Agent: Found 0 new results for 'livslångt lärande'
+2025-12-11 15:23:07,644 - src.search_agent - INFO - Agent: Searching Google News for 'vidareutbildning yrkesverksam'...
+2025-12-11 15:23:08,367 - src.search_agent - INFO - Agent: Found 0 new results for 'vidareutbildning yrkesverksam'
+2025-12-11 15:23:08,368 - src.search_agent - INFO - Agent: Searching Google News for 'kollektivavtal kultur'...
+2025-12-11 15:23:08,865 - src.search_agent - INFO - Agent: Found 0 new results for 'kollektivavtal kultur'
+2025-12-11 15:23:08,866 - src.search_agent - INFO - Agent: Searching Google News for 'Teaterförbundet'...
+2025-12-11 15:23:09,482 - src.search_agent - INFO - Agent: Found 0 new results for 'Teaterförbundet'
+2025-12-11 15:23:09,483 - src.search_agent - INFO - Agent: Searching Google News for 'Musikerförbundet'...
+2025-12-11 15:23:10,103 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikerförbundet'
+2025-12-11 15:23:10,105 - src.search_agent - INFO - Agent: Searching Google News for 'SYMF'...
+2025-12-11 15:23:10,590 - src.search_agent - INFO - Agent: Found 0 new results for 'SYMF'
+2025-12-11 15:23:10,590 - src.search_agent - INFO - Agent: Searching Google News for 'trygghetsöverenskommelsen'...
+2025-12-11 15:23:10,883 - src.search_agent - INFO - Agent: Found 0 new results for 'trygghetsöverenskommelsen'
+2025-12-11 15:23:10,884 - src.search_agent - INFO - Agent: Searching Google News for 'kulturpolitik'...
+2025-12-11 15:23:12,049 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturpolitik'
+2025-12-11 15:23:12,050 - src.search_agent - INFO - Agent: Searching Google News for 'Kulturrådet bidrag'...
+2025-12-11 15:23:12,727 - src.search_agent - INFO - Agent: Found 1 new results for 'Kulturrådet bidrag'
+2025-12-11 15:23:12,728 - src.search_agent - INFO - Agent: Searching Google News for 'Konstnärsnämnden'...
+2025-12-11 15:23:13,335 - src.search_agent - INFO - Agent: Found 0 new results for 'Konstnärsnämnden'
+2025-12-11 15:23:13,336 - src.search_agent - INFO - Agent: Searching Google News for 'kulturanslag'...
+2025-12-11 15:23:13,604 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturanslag'
+2025-12-11 15:23:13,605 - src.search_agent - INFO - Agent: Searching Google News for 'kultursektorn ekonomi'...
+2025-12-11 15:23:14,433 - src.search_agent - INFO - Agent: Found 1 new results for 'kultursektorn ekonomi'
+2025-12-11 15:23:14,435 - src.search_agent - INFO - Agent: Searching Google News for 'kulturarbetare anställning'...
+2025-12-11 15:23:14,770 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturarbetare anställning'
+2025-12-11 15:23:14,771 - src.search_agent - INFO - Agent: Searching Google News for 'konstnärer arbetsmarknad'...
+2025-12-11 15:23:15,161 - src.search_agent - INFO - Agent: Found 0 new results for 'konstnärer arbetsmarknad'
+2025-12-11 15:23:15,162 - src.search_agent - INFO - Agent: Searching Google News for 'tidsbegränsad anställning kultur'...
+2025-12-11 15:23:15,745 - src.search_agent - INFO - Agent: Found 1 new results for 'tidsbegränsad anställning kultur'
+2025-12-11 15:23:15,747 - src.search_agent - INFO - Agent: Found 9 unique articles via active search.
+2025-12-11 15:23:15,747 - root - INFO - Collected 76 raw articles. Processing...
+2025-12-11 15:23:15,755 - src.deduplicator - INFO - Filtered out 34 articles older than 2 days
+2025-12-11 15:23:15,950 - src.deduplicator - INFO - Deduplication: Reduced 76 to 37 articles.
+2025-12-11 15:23:15,951 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Skallad fyra gånger av ungdom – nu kan Sis-hemmet ... - Ingen stark signal
+2025-12-11 15:23:15,952 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Städerskan Mersudina gick sönder på jobbet – Försä... - Ingen stark signal
+2025-12-11 15:23:15,953 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): ”Märket ökar löneskillnaderna – vi måste höja kvin... - Ämne: lön
+2025-12-11 15:23:15,954 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter kongressbeslut – nu ska fackligt aktiva utbi... - Irrelevant sektor: handel
+2025-12-11 15:23:15,954 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Utan politikerna kan vi glömma kortad arbetstid... - Ingen stark signal
+2025-12-11 15:23:15,955 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter granskningen om väktare på LSS-boenden – min... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,955 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”Väktare på arbetsplatserna – en trigger för mer v... - Ingen stark signal
+2025-12-11 15:23:15,956 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter Arbetets avslöjande – IMY vill stoppa olagli... - Irrelevant sektor: myndighet
+2025-12-11 15:23:15,956 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Övertid utan extra lön på SJ och VR – nu rasar per... - Irrelevant sektor: tåg
+2025-12-11 15:23:15,957 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): 100 jobb försvinner i Karlskrona när barnkullarna ... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,957 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): Medlemmar fick ”glömd” semesterlön i julklapp... - Ämne: lön
+2025-12-11 15:23:15,958 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): Arbetsförmedlingens resebidrag för att söka jobb –... - Ämne: anställning
+2025-12-11 15:23:15,958 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Lagändring ska underlätta digitala sammanträden... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,959 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Kommunårets största överraskning var…... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,959 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Mellerud drar i nödbromsen –inte redo för AI-schem... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,960 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter stöket: Stockholms stad kickar ut elsparkcyk... - Ingen stark signal
+2025-12-11 15:23:15,960 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Regeringsbråk om skolpeng – L-ministern: Inget är ... - Irrelevant sektor: papper
+2025-12-11 15:23:15,961 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Miljonstöd till SKR – ska stoppa våld mot äldre... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,961 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Kammarrätten: Fel att hemlighålla namn på anställd... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,962 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Byggboom i Sjukhussverige – här är regionernas sto... - Irrelevant sektor: region
+2025-12-11 15:23:15,962 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Regiondirektören: Svårt ta ansvar för vad som hänt... - Irrelevant sektor: region
+2025-12-11 15:23:15,963 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Debattsvepet: ”Indelningen i elområden framstår so... - Irrelevant sektor: region
+2025-12-11 15:23:15,964 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Sveriges kommuner och regioner... - Irrelevant sektor: kommun
+2025-12-11 15:23:15,965 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Varningen: Ryssland lurar företag – sprider farlig... - Ingen stark signal
+2025-12-11 15:23:15,965 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Ny prognos: Så mycket lägger vi på julklappar i år... - Irrelevant sektor: handel
+2025-12-11 15:23:15,966 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Svenska protesten mot EU:s börsplaner: ”Gynnar någ... - Ingen stark signal
+2025-12-11 15:23:15,967 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Debatt: Om hela landet ska utvecklas behövs ett ge... - Ingen stark signal
+2025-12-11 15:23:15,967 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): EU vill satsa på el via Bornholms ”energi-ö”... - Irrelevant geografi (utlandet)
+2025-12-11 15:23:15,968 - src.categorizer - INFO - ✅ INKLUDERAD (0.90): Teateråret 2025 – fr... - Sektor: teater, dans, kultur
+2025-12-11 15:23:15,969 - src.categorizer - INFO - ✅ INKLUDERAD (0.30): Gör ”vild” föreställ... - Sektor: föreställning
+2025-12-11 15:23:15,970 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Mikael Persbrandt – Biografi, Karriär, Filmografi,... - Ingen stark signal
+2025-12-11 15:23:15,970 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Kristianstadsblad... - Ingen stark signal
+2025-12-11 15:23:15,971 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Norra Skåne... - Ingen stark signal
+2025-12-11 15:23:15,972 - src.categorizer - INFO - ✅ INKLUDERAD (0.40): Kompetensutveckling ... - Ämne: kompetensutveckling
+2025-12-11 15:23:15,973 - src.categorizer - INFO - ✅ INKLUDERAD (0.60): Stöd till projekt in... - Sektor: musik, kultur
+2025-12-11 15:23:15,973 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Tara Moshizi: Nobelbanketten började med en katast... - Ingen stark signal
+2025-12-11 15:23:15,974 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Vikarierande staff scientist - Umeå universitet... - Ingen stark signal
+2025-12-11 15:23:15,974 - root - INFO - Generating output...
+2025-12-11 15:23:16,047 - src.emailer - INFO - Preview saved to data/preview.html
+2025-12-11 15:23:17,407 - src.emailer - INFO - Email sent successfully to rawaz.karim@trs.se
+2025-12-11 15:23:17,407 - root - INFO - Run completed successfully.
+2025-12-11 15:43:42,514 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-11 15:43:42,514 - root - INFO - Mode: Production
+2025-12-11 15:43:42,515 - root - INFO - Checking source health...
+2025-12-11 15:43:57,757 - root - INFO - Starting RSS collection...
+2025-12-11 15:43:57,757 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-11 15:43:57,892 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-11 15:43:57,957 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-11 15:43:58,085 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-11 15:43:58,204 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-11 15:43:59,994 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-11 15:44:00,206 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-11 15:44:00,207 - root - INFO - Starting Web Scraping...
+2025-12-11 15:44:00,208 - src.scraper - INFO - Starting parallel scraping for 23 sites...
+2025-12-11 15:44:00,213 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-11 15:44:00,215 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-11 15:44:00,218 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-11 15:44:00,221 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-11 15:44:00,223 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-11 15:44:02,633 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-11 15:44:14,503 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-11 15:44:16,768 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-11 15:44:25,057 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-11 15:44:25,292 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-11 15:44:25,339 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-11 15:44:28,021 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-11 15:44:34,937 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-11 15:44:41,947 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-11 15:44:45,598 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-11 15:44:47,096 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-11 15:45:10,070 - src.scraper - WARNING - ⏱️ Konstnärsnämnden: Timeout after 45s - aborting
+2025-12-11 15:45:10,071 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-11 15:45:10,350 - src.scraper - WARNING - ⏱️ Kulturrådet: Timeout after 45s - aborting
+2025-12-11 15:45:10,351 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-11 15:45:13,051 - src.scraper - WARNING - ⏱️ Kulturrådet Arkiv: Timeout after 45s - aborting
+2025-12-11 15:45:13,057 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-11 15:45:17,301 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 15:45:19,185 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 15:45:21,530 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-11 15:45:24,062 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-11 15:45:25,218 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-11 15:45:26,967 - src.scraper - WARNING - ⏱️ Musikerförbundet: Timeout after 45s - aborting
+2025-12-11 15:45:26,969 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-11 15:45:55,368 - src.scraper - WARNING - ⏱️ Arbetsmiljöverket: Timeout after 45s - aborting
+2025-12-11 15:45:55,371 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:45:55,371 - src.scraper - INFO - 📊 SCRAPING REPORT (Total: 115.2s)
+2025-12-11 15:45:55,371 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:45:55,372 - src.scraper - INFO - ✅ Success: 23 sites
+2025-12-11 15:45:55,372 - src.scraper - INFO - ❌ Failed:  0 sites
+2025-12-11 15:45:55,372 - src.scraper - INFO - ⏱️ Timeout: 0 sites
+2025-12-11 15:45:55,372 - src.scraper - INFO - ────────────────────────────────────────────────────────────
+2025-12-11 15:45:55,372 - src.scraper - INFO - ✅ SKR: 1 arts
+2025-12-11 15:45:55,373 - src.scraper - INFO - ✅ Omstella: 0 arts
+2025-12-11 15:45:55,373 - src.scraper - INFO - ✅ Arbetsgivaralliansen: 0 arts
+2025-12-11 15:45:55,373 - src.scraper - INFO - ✅ Fremia: 0 arts
+2025-12-11 15:45:55,373 - src.scraper - INFO - ✅ Publikt: 5 arts
+2025-12-11 15:45:55,373 - src.scraper - INFO - ✅ Kulturrådet Arkiv: 0 arts
+2025-12-11 15:45:55,373 - src.scraper - INFO - ✅ Socialforum: 0 arts
+2025-12-11 15:45:55,374 - src.scraper - INFO - ✅ Svensk Scenkonst: 0 arts
+2025-12-11 15:45:55,374 - src.scraper - INFO - ✅ Kulturrådet: 0 arts
+2025-12-11 15:45:55,374 - src.scraper - INFO - ✅ TN (Svenskt Näringsliv): 5 arts
+2025-12-11 15:45:55,374 - src.scraper - INFO - ✅ Musikalliansen: 0 arts
+2025-12-11 15:45:55,374 - src.scraper - INFO - ✅ Konstnärsnämnden Mynewsdesk: 0 arts
+2025-12-11 15:45:55,374 - src.scraper - INFO - ✅ Famna: 0 arts
+2025-12-11 15:45:55,375 - src.scraper - INFO - ✅ TRR: 0 arts
+2025-12-11 15:45:55,375 - src.scraper - INFO - ✅ Svensk Scenkonst Mynewsdesk: 0 arts
+2025-12-11 15:45:55,375 - src.scraper - INFO - ✅ PTK Nyheter: 0 arts
+2025-12-11 15:45:55,375 - src.scraper - INFO - ✅ Konstnärsnämnden: 0 arts
+2025-12-11 15:45:55,375 - src.scraper - INFO - ✅ PTK Press: 0 arts
+2025-12-11 15:45:55,376 - src.scraper - INFO - ✅ Musikerförbundet: 0 arts
+2025-12-11 15:45:55,376 - src.scraper - INFO - ✅ LO Nyheter: 0 arts
+2025-12-11 15:45:55,376 - src.scraper - INFO - ✅ Svenskt Näringsliv: 0 arts
+2025-12-11 15:45:55,376 - src.scraper - INFO - ✅ Arbetsvärlden: 5 arts
+2025-12-11 15:45:55,376 - src.scraper - INFO - ✅ Arbetsmiljöverket: 0 arts
+2025-12-11 15:45:55,377 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:45:55,377 - src.scraper - INFO - Collected 16 valid articles from web scraping.
+2025-12-11 15:45:55,377 - root - INFO - Checking Email (Google Alerts)...
+2025-12-11 15:45:55,377 - root - INFO - Starting Intelligent Search Agent...
+2025-12-11 15:45:55,377 - src.search_agent - INFO - Agent: Starting active search via Google News RSS...
+2025-12-11 15:45:55,377 - src.search_agent - INFO - Agent: Searching Google News for 'Trygghetsrådet TRS'...
+2025-12-11 15:45:55,718 - src.search_agent - INFO - Agent: Found 0 new results for 'Trygghetsrådet TRS'
+2025-12-11 15:45:55,718 - src.search_agent - INFO - Agent: Searching Google News for 'TRS omställning'...
+2025-12-11 15:45:55,930 - src.search_agent - INFO - Agent: Found 0 new results for 'TRS omställning'
+2025-12-11 15:45:55,931 - src.search_agent - INFO - Agent: Searching Google News for 'Arbetsgivaralliansen'...
+2025-12-11 15:45:56,292 - src.search_agent - INFO - Agent: Found 0 new results for 'Arbetsgivaralliansen'
+2025-12-11 15:45:56,293 - src.search_agent - INFO - Agent: Searching Google News for 'Svensk Scenkonst'...
+2025-12-11 15:45:56,705 - src.search_agent - INFO - Agent: Found 0 new results for 'Svensk Scenkonst'
+2025-12-11 15:45:56,705 - src.search_agent - INFO - Agent: Searching Google News for 'PTK omställning'...
+2025-12-11 15:45:57,111 - src.search_agent - INFO - Agent: Found 0 new results for 'PTK omställning'
+2025-12-11 15:45:57,112 - src.search_agent - INFO - Agent: Searching Google News for 'Teateralliansen'...
+2025-12-11 15:45:57,397 - src.search_agent - INFO - Agent: Found 0 new results for 'Teateralliansen'
+2025-12-11 15:45:57,398 - src.search_agent - INFO - Agent: Searching Google News for 'Dansalliansen'...
+2025-12-11 15:45:57,711 - src.search_agent - INFO - Agent: Found 0 new results for 'Dansalliansen'
+2025-12-11 15:45:57,712 - src.search_agent - INFO - Agent: Searching Google News for 'Musikalliansen'...
+2025-12-11 15:45:57,936 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikalliansen'
+2025-12-11 15:45:57,937 - src.search_agent - INFO - Agent: Searching Google News for 'TRR omställning'...
+2025-12-11 15:45:58,268 - src.search_agent - INFO - Agent: Found 0 new results for 'TRR omställning'
+2025-12-11 15:45:58,269 - src.search_agent - INFO - Agent: Searching Google News for 'Omstella'...
+2025-12-11 15:45:58,553 - src.search_agent - INFO - Agent: Found 0 new results for 'Omstella'
+2025-12-11 15:45:58,553 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonst'...
+2025-12-11 15:45:59,196 - src.search_agent - INFO - Agent: Found 2 new results for 'scenkonst'
+2025-12-11 15:45:59,196 - src.search_agent - INFO - Agent: Searching Google News for 'teater anställning'...
+2025-12-11 15:45:59,667 - src.search_agent - INFO - Agent: Found 0 new results for 'teater anställning'
+2025-12-11 15:45:59,668 - src.search_agent - INFO - Agent: Searching Google News for 'orkester nedläggning'...
+2025-12-11 15:46:00,068 - src.search_agent - INFO - Agent: Found 0 new results for 'orkester nedläggning'
+2025-12-11 15:46:00,069 - src.search_agent - INFO - Agent: Searching Google News for 'opera personal'...
+2025-12-11 15:46:00,584 - src.search_agent - INFO - Agent: Found 0 new results for 'opera personal'
+2025-12-11 15:46:00,584 - src.search_agent - INFO - Agent: Searching Google News for 'balett karriär'...
+2025-12-11 15:46:01,213 - src.search_agent - INFO - Agent: Found 0 new results for 'balett karriär'
+2025-12-11 15:46:01,213 - src.search_agent - INFO - Agent: Searching Google News for 'symfoniorkester'...
+2025-12-11 15:46:01,816 - src.search_agent - INFO - Agent: Found 2 new results for 'symfoniorkester'
+2025-12-11 15:46:01,816 - src.search_agent - INFO - Agent: Searching Google News for 'stadsteater varsel'...
+2025-12-11 15:46:02,114 - src.search_agent - INFO - Agent: Found 0 new results for 'stadsteater varsel'
+2025-12-11 15:46:02,115 - src.search_agent - INFO - Agent: Searching Google News for 'regionteater'...
+2025-12-11 15:46:02,590 - src.search_agent - INFO - Agent: Found 0 new results for 'regionteater'
+2025-12-11 15:46:02,591 - src.search_agent - INFO - Agent: Searching Google News for 'Dramaten personal'...
+2025-12-11 15:46:02,887 - src.search_agent - INFO - Agent: Found 0 new results for 'Dramaten personal'
+2025-12-11 15:46:02,888 - src.search_agent - INFO - Agent: Searching Google News for 'Kungliga Operan anställda'...
+2025-12-11 15:46:03,282 - src.search_agent - INFO - Agent: Found 0 new results for 'Kungliga Operan anställda'
+2025-12-11 15:46:03,283 - src.search_agent - INFO - Agent: Searching Google News for 'skådespelare frilans'...
+2025-12-11 15:46:03,687 - src.search_agent - INFO - Agent: Found 0 new results for 'skådespelare frilans'
+2025-12-11 15:46:03,687 - src.search_agent - INFO - Agent: Searching Google News for 'dansare karriär'...
+2025-12-11 15:46:04,154 - src.search_agent - INFO - Agent: Found 0 new results for 'dansare karriär'
+2025-12-11 15:46:04,155 - src.search_agent - INFO - Agent: Searching Google News for 'musiker anställning'...
+2025-12-11 15:46:04,499 - src.search_agent - INFO - Agent: Found 0 new results for 'musiker anställning'
+2025-12-11 15:46:04,499 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonstnär'...
+2025-12-11 15:46:04,843 - src.search_agent - INFO - Agent: Found 0 new results for 'scenkonstnär'
+2025-12-11 15:46:04,844 - src.search_agent - INFO - Agent: Searching Google News for 'frilansare kultur'...
+2025-12-11 15:46:05,236 - src.search_agent - INFO - Agent: Found 0 new results for 'frilansare kultur'
+2025-12-11 15:46:05,236 - src.search_agent - INFO - Agent: Searching Google News for 'frilansande skådespelare'...
+2025-12-11 15:46:05,571 - src.search_agent - INFO - Agent: Found 0 new results for 'frilansande skådespelare'
+2025-12-11 15:46:05,572 - src.search_agent - INFO - Agent: Searching Google News for 'ideell sektor arbetsgivare'...
+2025-12-11 15:46:06,016 - src.search_agent - INFO - Agent: Found 0 new results for 'ideell sektor arbetsgivare'
+2025-12-11 15:46:06,016 - src.search_agent - INFO - Agent: Searching Google News for 'civilsamhället anställda'...
+2025-12-11 15:46:06,669 - src.search_agent - INFO - Agent: Found 0 new results for 'civilsamhället anställda'
+2025-12-11 15:46:06,669 - src.search_agent - INFO - Agent: Searching Google News for 'idéburen verksamhet'...
+2025-12-11 15:46:07,059 - src.search_agent - INFO - Agent: Found 0 new results for 'idéburen verksamhet'
+2025-12-11 15:46:07,060 - src.search_agent - INFO - Agent: Searching Google News for 'folkrörelse personal'...
+2025-12-11 15:46:07,500 - src.search_agent - INFO - Agent: Found 0 new results for 'folkrörelse personal'
+2025-12-11 15:46:07,501 - src.search_agent - INFO - Agent: Searching Google News for 'folkhögskola anställda'...
+2025-12-11 15:46:07,837 - src.search_agent - INFO - Agent: Found 0 new results for 'folkhögskola anställda'
+2025-12-11 15:46:07,837 - src.search_agent - INFO - Agent: Searching Google News for 'Fremia'...
+2025-12-11 15:46:08,293 - src.search_agent - INFO - Agent: Found 0 new results for 'Fremia'
+2025-12-11 15:46:08,294 - src.search_agent - INFO - Agent: Searching Google News for 'omställning kultur'...
+2025-12-11 15:46:08,777 - src.search_agent - INFO - Agent: Found 0 new results for 'omställning kultur'
+2025-12-11 15:46:08,777 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstöd'...
+2025-12-11 15:46:09,294 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstöd'
+2025-12-11 15:46:09,294 - src.search_agent - INFO - Agent: Searching Google News for 'karriärväxling'...
+2025-12-11 15:46:09,604 - src.search_agent - INFO - Agent: Found 0 new results for 'karriärväxling'
+2025-12-11 15:46:09,604 - src.search_agent - INFO - Agent: Searching Google News for 'uppsägning teater'...
+2025-12-11 15:46:09,916 - src.search_agent - INFO - Agent: Found 0 new results for 'uppsägning teater'
+2025-12-11 15:46:09,917 - src.search_agent - INFO - Agent: Searching Google News for 'arbetsbrist kultur'...
+2025-12-11 15:46:10,325 - src.search_agent - INFO - Agent: Found 0 new results for 'arbetsbrist kultur'
+2025-12-11 15:46:10,326 - src.search_agent - INFO - Agent: Searching Google News for 'varsel scenkonst'...
+2025-12-11 15:46:10,581 - src.search_agent - INFO - Agent: Found 0 new results for 'varsel scenkonst'
+2025-12-11 15:46:10,582 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstudiestöd'...
+2025-12-11 15:46:11,138 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstudiestöd'
+2025-12-11 15:46:11,139 - src.search_agent - INFO - Agent: Searching Google News for 'kompetensutveckling anställda'...
+2025-12-11 15:46:11,618 - src.search_agent - INFO - Agent: Found 1 new results for 'kompetensutveckling anställda'
+2025-12-11 15:46:11,619 - src.search_agent - INFO - Agent: Searching Google News for 'livslångt lärande'...
+2025-12-11 15:46:12,090 - src.search_agent - INFO - Agent: Found 0 new results for 'livslångt lärande'
+2025-12-11 15:46:12,090 - src.search_agent - INFO - Agent: Searching Google News for 'vidareutbildning yrkesverksam'...
+2025-12-11 15:46:12,548 - src.search_agent - INFO - Agent: Found 0 new results for 'vidareutbildning yrkesverksam'
+2025-12-11 15:46:12,549 - src.search_agent - INFO - Agent: Searching Google News for 'kollektivavtal kultur'...
+2025-12-11 15:46:13,036 - src.search_agent - INFO - Agent: Found 0 new results for 'kollektivavtal kultur'
+2025-12-11 15:46:13,037 - src.search_agent - INFO - Agent: Searching Google News for 'Teaterförbundet'...
+2025-12-11 15:46:13,623 - src.search_agent - INFO - Agent: Found 0 new results for 'Teaterförbundet'
+2025-12-11 15:46:13,623 - src.search_agent - INFO - Agent: Searching Google News for 'Musikerförbundet'...
+2025-12-11 15:46:14,073 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikerförbundet'
+2025-12-11 15:46:14,074 - src.search_agent - INFO - Agent: Searching Google News for 'SYMF'...
+2025-12-11 15:46:14,355 - src.search_agent - INFO - Agent: Found 0 new results for 'SYMF'
+2025-12-11 15:46:14,355 - src.search_agent - INFO - Agent: Searching Google News for 'trygghetsöverenskommelsen'...
+2025-12-11 15:46:14,754 - src.search_agent - INFO - Agent: Found 0 new results for 'trygghetsöverenskommelsen'
+2025-12-11 15:46:14,754 - src.search_agent - INFO - Agent: Searching Google News for 'kulturpolitik'...
+2025-12-11 15:46:15,278 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturpolitik'
+2025-12-11 15:46:15,278 - src.search_agent - INFO - Agent: Searching Google News for 'Kulturrådet bidrag'...
+2025-12-11 15:46:15,730 - src.search_agent - INFO - Agent: Found 1 new results for 'Kulturrådet bidrag'
+2025-12-11 15:46:15,730 - src.search_agent - INFO - Agent: Searching Google News for 'Konstnärsnämnden'...
+2025-12-11 15:46:16,275 - src.search_agent - INFO - Agent: Found 0 new results for 'Konstnärsnämnden'
+2025-12-11 15:46:16,275 - src.search_agent - INFO - Agent: Searching Google News for 'kulturanslag'...
+2025-12-11 15:46:16,464 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturanslag'
+2025-12-11 15:46:16,464 - src.search_agent - INFO - Agent: Searching Google News for 'kultursektorn ekonomi'...
+2025-12-11 15:46:16,883 - src.search_agent - INFO - Agent: Found 1 new results for 'kultursektorn ekonomi'
+2025-12-11 15:46:16,884 - src.search_agent - INFO - Agent: Searching Google News for 'kulturarbetare anställning'...
+2025-12-11 15:46:17,201 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturarbetare anställning'
+2025-12-11 15:46:17,201 - src.search_agent - INFO - Agent: Searching Google News for 'konstnärer arbetsmarknad'...
+2025-12-11 15:46:17,469 - src.search_agent - INFO - Agent: Found 0 new results for 'konstnärer arbetsmarknad'
+2025-12-11 15:46:17,470 - src.search_agent - INFO - Agent: Searching Google News for 'tidsbegränsad anställning kultur'...
+2025-12-11 15:46:17,800 - src.search_agent - INFO - Agent: Found 1 new results for 'tidsbegränsad anställning kultur'
+2025-12-11 15:46:17,801 - src.search_agent - INFO - Agent: Found 8 unique articles via active search.
+2025-12-11 15:46:17,802 - root - INFO - Collected 80 raw articles. Processing...
+2025-12-11 15:46:17,804 - src.deduplicator - INFO - Filtered out 34 articles older than 2 days
+2025-12-11 15:46:17,952 - src.deduplicator - INFO - Deduplication: Reduced 80 to 40 articles.
+2025-12-11 15:46:17,964 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Skallad fyra gånger av ungdom – nu kan Sis-hemmet ... - Ingen stark signal
+2025-12-11 15:46:17,991 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Städerskan Mersudina gick sönder på jobbet – Försä... - Ingen stark signal
+2025-12-11 15:46:17,992 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): ”Märket ökar löneskillnaderna – vi måste höja kvin... - Ämne: lön
+2025-12-11 15:46:17,992 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter kongressbeslut – nu ska fackligt aktiva utbi... - Irrelevant sektor: handel
+2025-12-11 15:46:17,993 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Utan politikerna kan vi glömma kortad arbetstid... - Ingen stark signal
+2025-12-11 15:46:17,994 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter granskningen om väktare på LSS-boenden – min... - Irrelevant sektor: kommun
+2025-12-11 15:46:17,994 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”Väktare på arbetsplatserna – en trigger för mer v... - Ingen stark signal
+2025-12-11 15:46:17,994 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter Arbetets avslöjande – IMY vill stoppa olagli... - Irrelevant sektor: myndighet
+2025-12-11 15:46:17,995 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Övertid utan extra lön på SJ och VR – nu rasar per... - Irrelevant sektor: tåg
+2025-12-11 15:46:17,995 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): 100 jobb försvinner i Karlskrona när barnkullarna ... - Irrelevant sektor: kommun
+2025-12-11 15:46:17,996 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): Medlemmar fick ”glömd” semesterlön i julklapp... - Ämne: lön
+2025-12-11 15:46:17,996 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): Arbetsförmedlingens resebidrag för att söka jobb –... - Ämne: anställning
+2025-12-11 15:46:17,996 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Lagändring ska underlätta digitala sammanträden... - Irrelevant sektor: kommun
+2025-12-11 15:46:17,997 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Kommunårets största överraskning var…... - Irrelevant sektor: kommun
+2025-12-11 15:46:17,997 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Mellerud drar i nödbromsen –inte redo för AI-schem... - Irrelevant sektor: kommun
+2025-12-11 15:46:17,997 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter stöket: Stockholms stad kickar ut elsparkcyk... - Ingen stark signal
+2025-12-11 15:46:17,998 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Regeringsbråk om skolpeng – L-ministern: Inget är ... - Irrelevant sektor: papper
+2025-12-11 15:46:17,998 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Miljonstöd till SKR – ska stoppa våld mot äldre... - Irrelevant sektor: kommun
+2025-12-11 15:46:17,998 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Kammarrätten: Fel att hemlighålla namn på anställd... - Irrelevant sektor: kommun
+2025-12-11 15:46:17,999 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Byggboom i Sjukhussverige – här är regionernas sto... - Irrelevant sektor: region
+2025-12-11 15:46:17,999 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Regiondirektören: Svårt ta ansvar för vad som hänt... - Irrelevant sektor: region
+2025-12-11 15:46:17,999 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Debattsvepet: ”Indelningen i elområden framstår so... - Irrelevant sektor: region
+2025-12-11 15:46:18,000 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Sveriges kommuner och regioner... - Irrelevant sektor: kommun
+2025-12-11 15:46:18,000 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Varningen: Ryssland lurar företag – sprider farlig... - Ingen stark signal
+2025-12-11 15:46:18,001 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Ny prognos: Så mycket lägger vi på julklappar i år... - Irrelevant sektor: handel
+2025-12-11 15:46:18,002 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Svenska protesten mot EU:s börsplaner: ”Gynnar någ... - Ingen stark signal
+2025-12-11 15:46:18,002 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Debatt: Om hela landet ska utvecklas behövs ett ge... - Ingen stark signal
+2025-12-11 15:46:18,002 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): EU vill satsa på el via Bornholms ”energi-ö”... - Irrelevant geografi (utlandet)
+2025-12-11 15:46:18,003 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): OmnibusEU bantar hållbarhetskrav – Volvo hissar, U... - Ingen stark signal
+2025-12-11 15:46:18,003 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Högsta CSN-räntan på 15 år – ”Starka reaktioner bl... - Irrelevant geografi (utlandet)
+2025-12-11 15:46:18,004 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”KrönikaMed tyst kunskap har du makten över AI på ... - Irrelevant sektor: läkare
+2025-12-11 15:46:18,004 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”LedareArbetslösa som gjordes fattigare blev inte ... - Ingen stark signal
+2025-12-11 15:46:18,005 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Teateråret 2025 – från Dödsdans till Das Kapital 1... - Recension/kulturartikel: teateråret
+2025-12-11 15:46:18,005 - src.categorizer - INFO - ✅ INKLUDERAD (0.30): Gör ”vild” föreställ... - Sektor: föreställning
+2025-12-11 15:46:18,006 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Kristianstadsblad... - Ingen stark signal
+2025-12-11 15:46:18,006 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Norra Skåne... - Ingen stark signal
+2025-12-11 15:46:18,006 - src.categorizer - INFO - ✅ INKLUDERAD (0.40): Kompetensutveckling ... - Ämne: kompetensutveckling
+2025-12-11 15:46:18,007 - src.categorizer - INFO - ✅ INKLUDERAD (0.60): Stöd till projekt in... - Sektor: musik, kultur
+2025-12-11 15:46:18,007 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Tara Moshizi: Nobelbanketten började med en katast... - Ingen stark signal
+2025-12-11 15:46:18,007 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Vikarierande staff scientist - Umeå universitet... - Ingen stark signal
+2025-12-11 15:46:18,008 - root - INFO - Generating output...
+2025-12-11 15:46:18,018 - src.emailer - INFO - Preview saved to data/preview.html
+2025-12-11 15:46:18,940 - src.emailer - INFO - Email sent successfully to rawaz.karim@trs.se
+2025-12-11 15:46:18,941 - root - INFO - Run completed successfully.
+2025-12-11 15:50:47,431 - root - INFO - Starting TRS Omvärldsbevakning v2.0.0
+2025-12-11 15:50:47,431 - root - INFO - Mode: Production
+2025-12-11 15:50:47,432 - root - INFO - Checking source health...
+2025-12-11 15:51:06,945 - root - INFO - Starting RSS collection...
+2025-12-11 15:51:06,946 - src.collector - INFO - Fetching RSS feed: Arbetet (https://arbetet.se/feed/)
+2025-12-11 15:51:07,259 - src.collector - INFO - Fetching RSS feed: Kollega (https://www.kollega.se/rss.xml)
+2025-12-11 15:51:07,378 - src.collector - INFO - Fetching RSS feed: Regeringen (https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&rootPageReference=0&filteredContentCategories=2204%2C1335%2C2097%2C1333%2C2540%2C1339%2C2380%2C2294%2C2098%2C1334%2C1341%2C1342%2C2099%2C1324%2C1325%2C1326%2C1327%2C2085%2C1329%2C1330%2C1331%2C1332%2C2367%2C1336%2C1338%2C2214%2C1343%2C1337%2C1344&filteredPoliticalLevelCategories=1012%2C1013&filteredPoliticalAreaCategories=2460%2C2096%2C1213%2C1218%2C2248%2C1238%2C1232%2C2283%2C2655%2C1223%2C1224%2C1235%2C1277%2C2282%2C1237%2C1215%2C1239%2C2092%2C1240%2C1242%2C1243%2C1248%2C1252%2C2435%2C1257%2C2194%2C1262%2C1260%2C2461%2C1274%2C2246%2C1278%2C1279%2C2656&filteredPublisherCategories=1284)
+2025-12-11 15:51:07,713 - src.collector - INFO - Fetching RSS feed: Scensverige (https://scensverige.se/feed/)
+2025-12-11 15:51:07,932 - src.collector - INFO - Fetching RSS feed: NOD (https://nodsverige.se/feed/)
+2025-12-11 15:51:09,187 - src.collector - INFO - Fetching RSS feed: Dagens Samhälle (https://www.dagenssamhalle.se/rss.xml)
+2025-12-11 15:51:09,425 - src.collector - INFO - Collected 56 articles from RSS feeds.
+2025-12-11 15:51:09,426 - root - INFO - Starting Web Scraping...
+2025-12-11 15:51:09,426 - src.scraper - INFO - Starting parallel scraping for 23 sites...
+2025-12-11 15:51:09,434 - src.scraper - INFO - Scraping website: Arbetsgivaralliansen (https://www.arbetsgivaralliansen.se/nyheter/)
+2025-12-11 15:51:09,435 - src.scraper - INFO - Scraping website: PTK Nyheter (https://www.ptk.se/nyheter-och-press/nyheter/)
+2025-12-11 15:51:09,439 - src.scraper - INFO - Scraping website: PTK Press (https://www.ptk.se/nyheter-och-press/press/)
+2025-12-11 15:51:09,445 - src.scraper - INFO - Scraping website: Omstella (https://www.omstella.se/sv/om-oss/nyheter/)
+2025-12-11 15:51:09,446 - src.scraper - INFO - Scraping website: TRR (https://via.tt.se/pressrum/3236174/trr)
+2025-12-11 15:51:11,815 - src.scraper - INFO - Scraping website: Musikalliansen (https://www.musikalliansen.se/nyheterna)
+2025-12-11 15:51:20,909 - src.scraper - INFO - Scraping website: Svensk Scenkonst (https://www.svenskscenkonst.se/aktuellt/nyheter/)
+2025-12-11 15:51:22,516 - src.scraper - INFO - Scraping website: Svensk Scenkonst Mynewsdesk (https://www.mynewsdesk.com/se/svenskscenkonst)
+2025-12-11 15:51:27,670 - src.scraper - INFO - Scraping website: Konstnärsnämnden (https://www.konstnarsnamnden.se/nyheter/)
+2025-12-11 15:51:27,746 - src.scraper - INFO - Scraping website: Konstnärsnämnden Mynewsdesk (https://www.mynewsdesk.com/se/konstnarsnamnden)
+2025-12-11 15:51:27,862 - src.scraper - INFO - Scraping website: Kulturrådet (https://www.kulturradet.se/nyheter)
+2025-12-11 15:51:28,428 - src.scraper - INFO - Scraping website: Kulturrådet Arkiv (https://www.kulturradet.se/om-oss/media/nyhetsarkiv/)
+2025-12-11 15:51:32,296 - src.scraper - INFO - Scraping website: Publikt (https://www.publikt.se/nyhet)
+2025-12-11 15:51:36,446 - src.scraper - INFO - Scraping website: Musikerförbundet (https://www.musikerforbundet.se/#aktuellt)
+2025-12-11 15:51:40,789 - src.scraper - INFO - Scraping website: Fremia (https://www.fremia.se/nyheter/)
+2025-12-11 15:51:41,395 - src.scraper - INFO - Scraping website: Svenskt Näringsliv (https://www.svensktnaringsliv.se/pressrum/)
+2025-12-11 15:52:00,439 - src.scraper - INFO - Scraping website: SKR (https://skr.se/pressrum.1431.html)
+2025-12-11 15:52:12,875 - src.scraper - WARNING - ⏱️ Kulturrådet: Timeout after 45s - aborting
+2025-12-11 15:52:12,876 - src.scraper - INFO - Scraping website: Arbetsmiljöverket (https://www.av.se/nyheter/)
+2025-12-11 15:52:13,439 - src.scraper - WARNING - ⏱️ Kulturrådet Arkiv: Timeout after 45s - aborting
+2025-12-11 15:52:13,440 - src.scraper - INFO - Scraping website: Socialforum (https://socialforum.se/alla-artiklar/)
+2025-12-11 15:52:18,193 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 15:52:20,810 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-12-11 15:52:20,908 - src.scraper - INFO - Scraping website: Arbetsvärlden (https://www.arbetsvarlden.se/)
+2025-12-11 15:52:21,472 - src.scraper - WARNING - ⏱️ Musikerförbundet: Timeout after 45s - aborting
+2025-12-11 15:52:21,486 - src.scraper - INFO - Scraping website: TN (Svenskt Näringsliv) (https://www.tn.se/)
+2025-12-11 15:52:24,368 - src.scraper - INFO - Scraping website: Famna (https://www.famna.org/aktuellt/)
+2025-12-11 15:52:28,677 - src.scraper - INFO - Scraping website: LO Nyheter (https://www.lo.se/start/nyheter)
+2025-12-11 15:52:57,890 - src.scraper - WARNING - ⏱️ Arbetsmiljöverket: Timeout after 45s - aborting
+2025-12-11 15:52:57,891 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:52:57,891 - src.scraper - INFO - 📊 SCRAPING REPORT (Total: 108.5s)
+2025-12-11 15:52:57,891 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:52:57,891 - src.scraper - INFO - ✅ Success: 23 sites
+2025-12-11 15:52:57,891 - src.scraper - INFO - ❌ Failed:  0 sites
+2025-12-11 15:52:57,892 - src.scraper - INFO - ⏱️ Timeout: 0 sites
+2025-12-11 15:52:57,892 - src.scraper - INFO - ────────────────────────────────────────────────────────────
+2025-12-11 15:52:57,892 - src.scraper - INFO - ✅ TRR: 0 arts
+2025-12-11 15:52:57,892 - src.scraper - INFO - ✅ Arbetsgivaralliansen: 0 arts
+2025-12-11 15:52:57,892 - src.scraper - INFO - ✅ Svenskt Näringsliv: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Fremia: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Kulturrådet: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Svensk Scenkonst: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Musikerförbundet: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Konstnärsnämnden Mynewsdesk: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Omstella: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Svensk Scenkonst Mynewsdesk: 0 arts
+2025-12-11 15:52:57,893 - src.scraper - INFO - ✅ Kulturrådet Arkiv: 0 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ LO Nyheter: 0 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ PTK Nyheter: 0 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ Arbetsmiljöverket: 0 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ Publikt: 5 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ Socialforum: 0 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ Konstnärsnämnden: 4 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ PTK Press: 0 arts
+2025-12-11 15:52:57,894 - src.scraper - INFO - ✅ SKR: 1 arts
+2025-12-11 15:52:57,895 - src.scraper - INFO - ✅ Musikalliansen: 0 arts
+2025-12-11 15:52:57,895 - src.scraper - INFO - ✅ TN (Svenskt Näringsliv): 5 arts
+2025-12-11 15:52:57,895 - src.scraper - INFO - ✅ Famna: 0 arts
+2025-12-11 15:52:57,895 - src.scraper - INFO - ✅ Arbetsvärlden: 5 arts
+2025-12-11 15:52:57,895 - src.scraper - INFO - ════════════════════════════════════════════════════════════
+2025-12-11 15:52:57,895 - src.scraper - INFO - Collected 20 valid articles from web scraping.
+2025-12-11 15:52:57,896 - root - INFO - Checking Email (Google Alerts)...
+2025-12-11 15:52:57,896 - root - INFO - Starting Intelligent Search Agent...
+2025-12-11 15:52:57,896 - src.search_agent - INFO - Agent: Starting active search via Google News RSS...
+2025-12-11 15:52:57,896 - src.search_agent - INFO - Agent: Searching Google News for 'Trygghetsrådet TRS'...
+2025-12-11 15:52:58,252 - src.search_agent - INFO - Agent: Found 0 new results for 'Trygghetsrådet TRS'
+2025-12-11 15:52:58,252 - src.search_agent - INFO - Agent: Searching Google News for 'TRS omställning'...
+2025-12-11 15:52:58,535 - src.search_agent - INFO - Agent: Found 0 new results for 'TRS omställning'
+2025-12-11 15:52:58,535 - src.search_agent - INFO - Agent: Searching Google News for 'Arbetsgivaralliansen'...
+2025-12-11 15:52:58,887 - src.search_agent - INFO - Agent: Found 0 new results for 'Arbetsgivaralliansen'
+2025-12-11 15:52:58,887 - src.search_agent - INFO - Agent: Searching Google News for 'Svensk Scenkonst'...
+2025-12-11 15:52:59,387 - src.search_agent - INFO - Agent: Found 0 new results for 'Svensk Scenkonst'
+2025-12-11 15:52:59,387 - src.search_agent - INFO - Agent: Searching Google News for 'PTK omställning'...
+2025-12-11 15:52:59,798 - src.search_agent - INFO - Agent: Found 0 new results for 'PTK omställning'
+2025-12-11 15:52:59,799 - src.search_agent - INFO - Agent: Searching Google News for 'Teateralliansen'...
+2025-12-11 15:53:00,043 - src.search_agent - INFO - Agent: Found 0 new results for 'Teateralliansen'
+2025-12-11 15:53:00,043 - src.search_agent - INFO - Agent: Searching Google News for 'Dansalliansen'...
+2025-12-11 15:53:00,366 - src.search_agent - INFO - Agent: Found 0 new results for 'Dansalliansen'
+2025-12-11 15:53:00,367 - src.search_agent - INFO - Agent: Searching Google News for 'Musikalliansen'...
+2025-12-11 15:53:00,712 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikalliansen'
+2025-12-11 15:53:00,713 - src.search_agent - INFO - Agent: Searching Google News for 'TRR omställning'...
+2025-12-11 15:53:01,096 - src.search_agent - INFO - Agent: Found 0 new results for 'TRR omställning'
+2025-12-11 15:53:01,097 - src.search_agent - INFO - Agent: Searching Google News for 'Omstella'...
+2025-12-11 15:53:01,400 - src.search_agent - INFO - Agent: Found 0 new results for 'Omstella'
+2025-12-11 15:53:01,401 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonst'...
+2025-12-11 15:53:01,981 - src.search_agent - INFO - Agent: Found 2 new results for 'scenkonst'
+2025-12-11 15:53:01,981 - src.search_agent - INFO - Agent: Searching Google News for 'teater anställning'...
+2025-12-11 15:53:02,290 - src.search_agent - INFO - Agent: Found 0 new results for 'teater anställning'
+2025-12-11 15:53:02,291 - src.search_agent - INFO - Agent: Searching Google News for 'orkester nedläggning'...
+2025-12-11 15:53:02,591 - src.search_agent - INFO - Agent: Found 0 new results for 'orkester nedläggning'
+2025-12-11 15:53:02,592 - src.search_agent - INFO - Agent: Searching Google News for 'opera personal'...
+2025-12-11 15:53:02,901 - src.search_agent - INFO - Agent: Found 0 new results for 'opera personal'
+2025-12-11 15:53:02,902 - src.search_agent - INFO - Agent: Searching Google News for 'balett karriär'...
+2025-12-11 15:53:03,306 - src.search_agent - INFO - Agent: Found 0 new results for 'balett karriär'
+2025-12-11 15:53:03,307 - src.search_agent - INFO - Agent: Searching Google News for 'symfoniorkester'...
+2025-12-11 15:53:03,766 - src.search_agent - INFO - Agent: Found 2 new results for 'symfoniorkester'
+2025-12-11 15:53:03,766 - src.search_agent - INFO - Agent: Searching Google News for 'stadsteater varsel'...
+2025-12-11 15:53:04,061 - src.search_agent - INFO - Agent: Found 0 new results for 'stadsteater varsel'
+2025-12-11 15:53:04,062 - src.search_agent - INFO - Agent: Searching Google News for 'regionteater'...
+2025-12-11 15:53:04,720 - src.search_agent - INFO - Agent: Found 0 new results for 'regionteater'
+2025-12-11 15:53:04,720 - src.search_agent - INFO - Agent: Searching Google News for 'Dramaten personal'...
+2025-12-11 15:53:05,019 - src.search_agent - INFO - Agent: Found 0 new results for 'Dramaten personal'
+2025-12-11 15:53:05,019 - src.search_agent - INFO - Agent: Searching Google News for 'Kungliga Operan anställda'...
+2025-12-11 15:53:05,403 - src.search_agent - INFO - Agent: Found 0 new results for 'Kungliga Operan anställda'
+2025-12-11 15:53:05,403 - src.search_agent - INFO - Agent: Searching Google News for 'skådespelare frilans'...
+2025-12-11 15:53:05,869 - src.search_agent - INFO - Agent: Found 0 new results for 'skådespelare frilans'
+2025-12-11 15:53:05,869 - src.search_agent - INFO - Agent: Searching Google News for 'dansare karriär'...
+2025-12-11 15:53:06,235 - src.search_agent - INFO - Agent: Found 0 new results for 'dansare karriär'
+2025-12-11 15:53:06,236 - src.search_agent - INFO - Agent: Searching Google News for 'musiker anställning'...
+2025-12-11 15:53:06,653 - src.search_agent - INFO - Agent: Found 0 new results for 'musiker anställning'
+2025-12-11 15:53:06,653 - src.search_agent - INFO - Agent: Searching Google News for 'scenkonstnär'...
+2025-12-11 15:53:07,101 - src.search_agent - INFO - Agent: Found 0 new results for 'scenkonstnär'
+2025-12-11 15:53:07,101 - src.search_agent - INFO - Agent: Searching Google News for 'frilansare kultur'...
+2025-12-11 15:53:07,397 - src.search_agent - INFO - Agent: Found 0 new results for 'frilansare kultur'
+2025-12-11 15:53:07,397 - src.search_agent - INFO - Agent: Searching Google News for 'frilansande skådespelare'...
+2025-12-11 15:53:07,740 - src.search_agent - INFO - Agent: Found 0 new results for 'frilansande skådespelare'
+2025-12-11 15:53:07,740 - src.search_agent - INFO - Agent: Searching Google News for 'ideell sektor arbetsgivare'...
+2025-12-11 15:53:08,014 - src.search_agent - INFO - Agent: Found 0 new results for 'ideell sektor arbetsgivare'
+2025-12-11 15:53:08,014 - src.search_agent - INFO - Agent: Searching Google News for 'civilsamhället anställda'...
+2025-12-11 15:53:08,434 - src.search_agent - INFO - Agent: Found 0 new results for 'civilsamhället anställda'
+2025-12-11 15:53:08,435 - src.search_agent - INFO - Agent: Searching Google News for 'idéburen verksamhet'...
+2025-12-11 15:53:08,798 - src.search_agent - INFO - Agent: Found 0 new results for 'idéburen verksamhet'
+2025-12-11 15:53:08,799 - src.search_agent - INFO - Agent: Searching Google News for 'folkrörelse personal'...
+2025-12-11 15:53:09,062 - src.search_agent - INFO - Agent: Found 0 new results for 'folkrörelse personal'
+2025-12-11 15:53:09,062 - src.search_agent - INFO - Agent: Searching Google News for 'folkhögskola anställda'...
+2025-12-11 15:53:09,471 - src.search_agent - INFO - Agent: Found 0 new results for 'folkhögskola anställda'
+2025-12-11 15:53:09,472 - src.search_agent - INFO - Agent: Searching Google News for 'Fremia'...
+2025-12-11 15:53:09,929 - src.search_agent - INFO - Agent: Found 0 new results for 'Fremia'
+2025-12-11 15:53:09,936 - src.search_agent - INFO - Agent: Searching Google News for 'omställning kultur'...
+2025-12-11 15:53:10,355 - src.search_agent - INFO - Agent: Found 0 new results for 'omställning kultur'
+2025-12-11 15:53:10,356 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstöd'...
+2025-12-11 15:53:10,826 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstöd'
+2025-12-11 15:53:10,826 - src.search_agent - INFO - Agent: Searching Google News for 'karriärväxling'...
+2025-12-11 15:53:11,200 - src.search_agent - INFO - Agent: Found 0 new results for 'karriärväxling'
+2025-12-11 15:53:11,200 - src.search_agent - INFO - Agent: Searching Google News for 'uppsägning teater'...
+2025-12-11 15:53:11,504 - src.search_agent - INFO - Agent: Found 0 new results for 'uppsägning teater'
+2025-12-11 15:53:11,504 - src.search_agent - INFO - Agent: Searching Google News for 'arbetsbrist kultur'...
+2025-12-11 15:53:11,873 - src.search_agent - INFO - Agent: Found 0 new results for 'arbetsbrist kultur'
+2025-12-11 15:53:11,874 - src.search_agent - INFO - Agent: Searching Google News for 'varsel scenkonst'...
+2025-12-11 15:53:12,142 - src.search_agent - INFO - Agent: Found 0 new results for 'varsel scenkonst'
+2025-12-11 15:53:12,143 - src.search_agent - INFO - Agent: Searching Google News for 'omställningsstudiestöd'...
+2025-12-11 15:53:12,795 - src.search_agent - INFO - Agent: Found 0 new results for 'omställningsstudiestöd'
+2025-12-11 15:53:12,795 - src.search_agent - INFO - Agent: Searching Google News for 'kompetensutveckling anställda'...
+2025-12-11 15:53:13,220 - src.search_agent - INFO - Agent: Found 1 new results for 'kompetensutveckling anställda'
+2025-12-11 15:53:13,220 - src.search_agent - INFO - Agent: Searching Google News for 'livslångt lärande'...
+2025-12-11 15:53:13,693 - src.search_agent - INFO - Agent: Found 0 new results for 'livslångt lärande'
+2025-12-11 15:53:13,694 - src.search_agent - INFO - Agent: Searching Google News for 'vidareutbildning yrkesverksam'...
+2025-12-11 15:53:14,162 - src.search_agent - INFO - Agent: Found 0 new results for 'vidareutbildning yrkesverksam'
+2025-12-11 15:53:14,162 - src.search_agent - INFO - Agent: Searching Google News for 'kollektivavtal kultur'...
+2025-12-11 15:53:14,516 - src.search_agent - INFO - Agent: Found 0 new results for 'kollektivavtal kultur'
+2025-12-11 15:53:14,517 - src.search_agent - INFO - Agent: Searching Google News for 'Teaterförbundet'...
+2025-12-11 15:53:14,930 - src.search_agent - INFO - Agent: Found 0 new results for 'Teaterförbundet'
+2025-12-11 15:53:14,931 - src.search_agent - INFO - Agent: Searching Google News for 'Musikerförbundet'...
+2025-12-11 15:53:15,415 - src.search_agent - INFO - Agent: Found 0 new results for 'Musikerförbundet'
+2025-12-11 15:53:15,416 - src.search_agent - INFO - Agent: Searching Google News for 'SYMF'...
+2025-12-11 15:53:15,791 - src.search_agent - INFO - Agent: Found 0 new results for 'SYMF'
+2025-12-11 15:53:15,791 - src.search_agent - INFO - Agent: Searching Google News for 'trygghetsöverenskommelsen'...
+2025-12-11 15:53:16,228 - src.search_agent - INFO - Agent: Found 0 new results for 'trygghetsöverenskommelsen'
+2025-12-11 15:53:16,251 - src.search_agent - INFO - Agent: Searching Google News for 'kulturpolitik'...
+2025-12-11 15:53:16,784 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturpolitik'
+2025-12-11 15:53:16,785 - src.search_agent - INFO - Agent: Searching Google News for 'Kulturrådet bidrag'...
+2025-12-11 15:53:17,294 - src.search_agent - INFO - Agent: Found 1 new results for 'Kulturrådet bidrag'
+2025-12-11 15:53:17,294 - src.search_agent - INFO - Agent: Searching Google News for 'Konstnärsnämnden'...
+2025-12-11 15:53:17,800 - src.search_agent - INFO - Agent: Found 0 new results for 'Konstnärsnämnden'
+2025-12-11 15:53:17,801 - src.search_agent - INFO - Agent: Searching Google News for 'kulturanslag'...
+2025-12-11 15:53:18,086 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturanslag'
+2025-12-11 15:53:18,087 - src.search_agent - INFO - Agent: Searching Google News for 'kultursektorn ekonomi'...
+2025-12-11 15:53:18,658 - src.search_agent - INFO - Agent: Found 1 new results for 'kultursektorn ekonomi'
+2025-12-11 15:53:18,659 - src.search_agent - INFO - Agent: Searching Google News for 'kulturarbetare anställning'...
+2025-12-11 15:53:18,891 - src.search_agent - INFO - Agent: Found 0 new results for 'kulturarbetare anställning'
+2025-12-11 15:53:18,891 - src.search_agent - INFO - Agent: Searching Google News for 'konstnärer arbetsmarknad'...
+2025-12-11 15:53:19,267 - src.search_agent - INFO - Agent: Found 0 new results for 'konstnärer arbetsmarknad'
+2025-12-11 15:53:19,268 - src.search_agent - INFO - Agent: Searching Google News for 'tidsbegränsad anställning kultur'...
+2025-12-11 15:53:19,625 - src.search_agent - INFO - Agent: Found 1 new results for 'tidsbegränsad anställning kultur'
+2025-12-11 15:53:19,625 - src.search_agent - INFO - Agent: Found 8 unique articles via active search.
+2025-12-11 15:53:19,626 - root - INFO - Collected 84 raw articles. Processing...
+2025-12-11 15:53:19,628 - src.deduplicator - INFO - Filtered out 34 articles older than 2 days
+2025-12-11 15:53:19,737 - src.deduplicator - INFO - Deduplication: Reduced 84 to 44 articles.
+2025-12-11 15:53:19,738 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Skallad fyra gånger av ungdom – nu kan Sis-hemmet ... - Ingen stark signal
+2025-12-11 15:53:19,738 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Städerskan Mersudina gick sönder på jobbet – Försä... - Ingen stark signal
+2025-12-11 15:53:19,739 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): ”Märket ökar löneskillnaderna – vi måste höja kvin... - Ämne: lön
+2025-12-11 15:53:19,770 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter kongressbeslut – nu ska fackligt aktiva utbi... - Irrelevant sektor: handel
+2025-12-11 15:53:19,800 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Utan politikerna kan vi glömma kortad arbetstid... - Ingen stark signal
+2025-12-11 15:53:19,816 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter granskningen om väktare på LSS-boenden – min... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,848 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”Väktare på arbetsplatserna – en trigger för mer v... - Ingen stark signal
+2025-12-11 15:53:19,855 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter Arbetets avslöjande – IMY vill stoppa olagli... - Irrelevant sektor: myndighet
+2025-12-11 15:53:19,856 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Övertid utan extra lön på SJ och VR – nu rasar per... - Irrelevant sektor: tåg
+2025-12-11 15:53:19,856 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): 100 jobb försvinner i Karlskrona när barnkullarna ... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,857 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): Medlemmar fick ”glömd” semesterlön i julklapp... - Ämne: lön
+2025-12-11 15:53:19,857 - src.categorizer - INFO - ❌ EXKLUDERAD (0.28): Arbetsförmedlingens resebidrag för att söka jobb –... - Ämne: anställning
+2025-12-11 15:53:19,858 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Lagändring ska underlätta digitala sammanträden... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,858 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Kommunårets största överraskning var…... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,858 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Mellerud drar i nödbromsen –inte redo för AI-schem... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,859 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Efter stöket: Stockholms stad kickar ut elsparkcyk... - Ingen stark signal
+2025-12-11 15:53:19,860 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Regeringsbråk om skolpeng – L-ministern: Inget är ... - Irrelevant sektor: papper
+2025-12-11 15:53:19,860 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Miljonstöd till SKR – ska stoppa våld mot äldre... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,861 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Kammarrätten: Fel att hemlighålla namn på anställd... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,861 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Byggboom i Sjukhussverige – här är regionernas sto... - Irrelevant sektor: region
+2025-12-11 15:53:19,862 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Regiondirektören: Svårt ta ansvar för vad som hänt... - Irrelevant sektor: region
+2025-12-11 15:53:19,862 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Debattsvepet: ”Indelningen i elområden framstår so... - Irrelevant sektor: region
+2025-12-11 15:53:19,863 - src.categorizer - INFO - ✅ INKLUDERAD (1.00): Internationella prog... - Sektor: teater, dans, musik
+2025-12-11 15:53:19,863 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): IASPIS publika program... - Irrelevant sektor: iaspis
+2025-12-11 15:53:19,864 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): IASPIS aktuella publika program... - Irrelevant sektor: iaspis
+2025-12-11 15:53:19,864 - src.categorizer - INFO - ✅ INKLUDERAD (1.00): Internationella prog... - Sektor: teater, musik, scen
+2025-12-11 15:53:19,864 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Sveriges kommuner och regioner... - Irrelevant sektor: kommun
+2025-12-11 15:53:19,865 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Varningen: Ryssland lurar företag – sprider farlig... - Ingen stark signal
+2025-12-11 15:53:19,865 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Ny prognos: Så mycket lägger vi på julklappar i år... - Irrelevant sektor: handel
+2025-12-11 15:53:19,866 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Svenska protesten mot EU:s börsplaner: ”Gynnar någ... - Ingen stark signal
+2025-12-11 15:53:19,866 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Debatt: Om hela landet ska utvecklas behövs ett ge... - Ingen stark signal
+2025-12-11 15:53:19,866 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): EU vill satsa på el via Bornholms ”energi-ö”... - Irrelevant geografi (utlandet)
+2025-12-11 15:53:19,867 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): OmnibusEU bantar hållbarhetskrav – Volvo hissar, U... - Ingen stark signal
+2025-12-11 15:53:19,867 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Högsta CSN-räntan på 15 år – ”Starka reaktioner bl... - Irrelevant geografi (utlandet)
+2025-12-11 15:53:19,868 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”KrönikaMed tyst kunskap har du makten över AI på ... - Irrelevant sektor: läkare
+2025-12-11 15:53:19,868 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): ”LedareArbetslösa som gjordes fattigare blev inte ... - Ingen stark signal
+2025-12-11 15:53:19,869 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Teateråret 2025 – från Dödsdans till Das Kapital 1... - Recension/kulturartikel: teateråret
+2025-12-11 15:53:19,869 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Gör ”vild” föreställning om ”Folkhemmets mormor” -... - Recension/kulturartikel: föreställning
+2025-12-11 15:53:19,869 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Kristianstadsblad... - Ingen stark signal
+2025-12-11 15:53:19,870 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): MSO firar 100 med jubileumsbok - Norra Skåne... - Ingen stark signal
+2025-12-11 15:53:19,870 - src.categorizer - INFO - ✅ INKLUDERAD (0.40): Kompetensutveckling ... - Ämne: kompetensutveckling
+2025-12-11 15:53:19,870 - src.categorizer - INFO - ✅ INKLUDERAD (0.60): Stöd till projekt in... - Sektor: musik, kultur
+2025-12-11 15:53:19,870 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Tara Moshizi: Nobelbanketten började med en katast... - Ingen stark signal
+2025-12-11 15:53:19,870 - src.categorizer - INFO - ❌ EXKLUDERAD (0.00): Vikarierande staff scientist - Umeå universitet... - Ingen stark signal
+2025-12-11 15:53:19,871 - root - INFO - Generating output...
+2025-12-11 15:53:19,898 - src.emailer - INFO - Preview saved to data/preview.html
+2025-12-11 15:53:21,044 - src.emailer - INFO - Email sent successfully to rawaz.karim@trs.se
+2025-12-11 15:53:21,045 - root - INFO - Run completed successfully.
